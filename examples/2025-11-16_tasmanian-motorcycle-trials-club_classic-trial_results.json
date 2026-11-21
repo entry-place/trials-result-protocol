@@ -1,0 +1,2956 @@
+{
+  "protocol": "trials-result/0.1",
+  "document": {
+    "title": "TMTC Classic Trial",
+    "status": "unknown",
+    "detail_level": "sections",
+    "publisher": "Tasmanian Motorcycle Trials Club Inc",
+    "software": "Trialsport Scoring System - trialsport.com.au",
+    "format": "pdf",
+    "language": "en",
+    "source_url": "https://www.tastrials.org.au/wp-content/uploads/2025/11/TMTC-Classic-Trial-Full.pdf",
+    "source_file": "2025-11-16_tasmanian-motorcycle-trials-club_classic-trial_results.pdf",
+    "retrieved": "2026-11-19",
+    "notes": "Class tables with each rider's four lap rows, lap totals, Total, Pen., Score and counts of 0/1/2/3/5 under the heading 'Penalties'."
+  },
+  "event": {
+    "name": "TMTC Classic Trial",
+    "organiser": "Tasmanian Motorcycle Trials Club Inc",
+    "governing_bodies": [
+      {
+        "name": "Motorcycling Australia",
+        "level": "national"
+      },
+      {
+        "name": "Motorcycling Tasmania",
+        "level": "state"
+      }
+    ],
+    "country": "AU",
+    "region": "TAS",
+    "start_date": "2025-11-16",
+    "discipline": "moto-trial",
+    "notes": "Sheet header reads 'Sunday'. No venue printed."
+  },
+  "rule_sets": [
+    {
+      "id": "ma-trial",
+      "name": "MA Trial rules (GCR 15.12)",
+      "format": "observed",
+      "basis": "marks-lost",
+      "direction": "low",
+      "unit": "marks",
+      "stop_rule": "stop-allowed",
+      "section_scale": {
+        "type": "numeric",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      "penalties": [
+        {
+          "code": "missed-section",
+          "value": 5,
+          "unit": "marks",
+          "per": "section",
+          "as_printed": "Missing a section"
+        },
+        {
+          "code": "late-card",
+          "value": 1,
+          "unit": "marks",
+          "per": "minute",
+          "cap": 30,
+          "then": "exclusion",
+          "as_printed": "Handing in the scorecard after finish time"
+        },
+        {
+          "code": "not-vacating-section",
+          "value": 10,
+          "unit": "marks",
+          "per": "occurrence"
+        },
+        {
+          "code": "arguing-with-official",
+          "value": 10,
+          "unit": "marks",
+          "per": "occurrence"
+        },
+        {
+          "code": "disorderly-conduct",
+          "value": 100,
+          "unit": "marks",
+          "per": "occurrence"
+        }
+      ],
+      "tie_breaks": [
+        "most-cleans",
+        "most-ones",
+        "most-twos",
+        "most-threes",
+        "ride-off"
+      ],
+      "recorded_by": "observer",
+      "source": {
+        "title": "Motorcycling Australia Manual of Motorcycle Sport 2026, chapter 15 Trial",
+        "clause": "15.12.1.1, 15.12.1.3, 15.12.1.7, 15.12.1.8, 15.12.3.2, 15.12.3.3",
+        "file": "rules/2026_motorcycling-australia_manual-of-motorcycle-sport_chapter-15-trial_extract.pdf"
+      },
+      "inferred": true,
+      "notes": "The result sheet states no rules. MoMS 15.12.1.8 makes the standard Trial rules the default unless SRs say otherwise; the 2025 SRs were not available (only the 2026 Melrose Classic SRs). The 2026 rule book is applied to a 2025 event."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "number": 1,
+      "kind": "observed"
+    },
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "observed"
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "observed"
+    },
+    {
+      "id": "s4",
+      "number": 4,
+      "kind": "observed"
+    },
+    {
+      "id": "s5",
+      "number": 5,
+      "kind": "observed"
+    },
+    {
+      "id": "s6",
+      "number": 6,
+      "kind": "observed"
+    }
+  ],
+  "parts": [
+    {
+      "id": "l1",
+      "kind": "lap",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "id": "l2",
+      "kind": "lap",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "id": "l3",
+      "kind": "lap",
+      "order": 3,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "id": "l4",
+      "kind": "lap",
+      "order": 4,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "t2",
+      "name": "Trial 2",
+      "as_printed": "Trial 2",
+      "laps": 4,
+      "sections_per_lap": 6,
+      "rule_set": "ma-trial",
+      "colour": "red"
+    },
+    {
+      "id": "t4",
+      "name": "Trial 4",
+      "as_printed": "Trial 4",
+      "laps": 4,
+      "sections_per_lap": 6,
+      "rule_set": "ma-trial",
+      "colour": "blue"
+    },
+    {
+      "id": "t5",
+      "name": "Trial 5",
+      "as_printed": "Trial 5",
+      "laps": 4,
+      "sections_per_lap": 6,
+      "rule_set": "ma-trial"
+    },
+    {
+      "id": "junior",
+      "name": "Junior",
+      "as_printed": "Junior",
+      "laps": 4,
+      "sections_per_lap": 6,
+      "rule_set": "ma-trial",
+      "dimensions": {
+        "age": "junior"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6dfb2532-6760-4d44-b9b2-24f2b06912fd",
+          "person": {
+            "name": {
+              "given": "Chris",
+              "family": "Bayles",
+              "as_printed": "Chris BAYLES"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "as_printed": "TRS 300"
+      },
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            2,
+            2,
+            2,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 2
+        },
+        {
+          "part": "l2",
+          "total": 1
+        },
+        {
+          "part": "l3",
+          "total": 1
+        },
+        {
+          "part": "l4",
+          "total": 11
+        },
+        {
+          "part": null,
+          "observation": 15,
+          "total": 15,
+          "unit": "marks",
+          "counts": {
+            "0": 16,
+            "1": 4,
+            "2": 3,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "89eae52c-c748-4d5b-9809-97b464c0fd67",
+          "person": {
+            "name": {
+              "given": "Daniel",
+              "family": "Fenton",
+              "as_printed": "Daniel FENTON"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Fantic",
+        "capacity_cc": 250,
+        "model": "K-ROO",
+        "as_printed": "FANTIC K-ROO 250"
+      },
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            2,
+            1,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 7
+        },
+        {
+          "part": "l2",
+          "total": 4
+        },
+        {
+          "part": "l3",
+          "total": 3
+        },
+        {
+          "part": "l4",
+          "total": 5
+        },
+        {
+          "part": null,
+          "observation": 19,
+          "total": 19,
+          "unit": "marks",
+          "counts": {
+            "0": 10,
+            "1": 10,
+            "2": 3,
+            "3": 1,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "d0e5edf5-6bb2-40c0-95fd-732acb218d3e",
+          "person": {
+            "name": {
+              "given": "Kurt",
+              "family": "Pickering",
+              "as_printed": "Kurt PICKERING"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "SWM",
+        "model": "TL320",
+        "as_printed": "SWM TL320"
+      },
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            3,
+            2,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            2,
+            1,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            1,
+            3,
+            0,
+            0,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11
+        },
+        {
+          "part": "l2",
+          "total": 5
+        },
+        {
+          "part": "l3",
+          "total": 6
+        },
+        {
+          "part": "l4",
+          "total": 7
+        },
+        {
+          "part": null,
+          "observation": 29,
+          "total": 29,
+          "unit": "marks",
+          "counts": {
+            "0": 12,
+            "1": 4,
+            "2": 3,
+            "3": 3,
+            "5": 2
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b96ac7d2-e9ab-43aa-8d19-4eb0494b8d36",
+          "person": {
+            "name": {
+              "given": "Will",
+              "family": "Thornbury",
+              "as_printed": "Will THORNBURY"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "model": "TLR250",
+        "as_printed": "TLR250"
+      },
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            5,
+            1,
+            5,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            2,
+            1,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 19
+        },
+        {
+          "part": "l2",
+          "total": 5
+        },
+        {
+          "part": "l3",
+          "total": 1
+        },
+        {
+          "part": "l4",
+          "total": 6
+        },
+        {
+          "part": null,
+          "observation": 31,
+          "total": 31,
+          "unit": "marks",
+          "counts": {
+            "0": 13,
+            "1": 4,
+            "2": 2,
+            "3": 1,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "0c735728-8ea8-403e-9394-df0fb160f4f5",
+          "person": {
+            "name": {
+              "given": "Jack",
+              "family": "Salter",
+              "as_printed": "Jack SALTER"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "capacity_cc": 250,
+        "model": "TLR",
+        "as_printed": "TLR 250"
+      },
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            0,
+            1,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 9
+        },
+        {
+          "part": "l2",
+          "total": 9
+        },
+        {
+          "part": "l3",
+          "total": 8
+        },
+        {
+          "part": "l4",
+          "total": 6
+        },
+        {
+          "part": null,
+          "observation": 32,
+          "total": 32,
+          "unit": "marks",
+          "counts": {
+            "0": 11,
+            "1": 6,
+            "2": 3,
+            "3": 0,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "39344f60-b04d-42e4-bc48-4930485e912d",
+          "person": {
+            "name": {
+              "given": "Ian",
+              "family": "Pickering",
+              "as_printed": "Ian PICKERING"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Fantic",
+        "as_printed": "FANTIC"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 0
+        },
+        {
+          "part": "l2",
+          "total": 1
+        },
+        {
+          "part": "l3",
+          "total": 0
+        },
+        {
+          "part": "l4",
+          "total": 0
+        },
+        {
+          "part": null,
+          "observation": 1,
+          "total": 1,
+          "unit": "marks",
+          "counts": {
+            "0": 23,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "77fc482f-6127-46bb-be8a-bd7176664aa8",
+          "person": {
+            "name": {
+              "given": "Matt",
+              "family": "Stevens",
+              "as_printed": "Matt STEVENS"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Italjet",
+        "capacity_cc": 250,
+        "as_printed": "ITALJET 250"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 2
+        },
+        {
+          "part": "l2",
+          "total": 2
+        },
+        {
+          "part": "l3",
+          "total": 1
+        },
+        {
+          "part": "l4",
+          "total": 0
+        },
+        {
+          "part": null,
+          "observation": 5,
+          "total": 5,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 5,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "4b6fdc4c-2430-4ab4-85b9-f98025eaeffe",
+          "person": {
+            "name": {
+              "given": "Mitchell",
+              "family": "Hurst",
+              "as_printed": "Mitchell HURST"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Honda",
+        "model": "4 STROKE",
+        "as_printed": "HONDA 4 STROKE"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 4
+        },
+        {
+          "part": "l2",
+          "total": 3
+        },
+        {
+          "part": "l3",
+          "total": 2
+        },
+        {
+          "part": "l4",
+          "total": 2
+        },
+        {
+          "part": null,
+          "observation": 11,
+          "total": 11,
+          "unit": "marks",
+          "counts": {
+            "0": 14,
+            "1": 9,
+            "2": 1,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "ff93764c-c956-4712-b659-95c3d5e03a13",
+          "person": {
+            "name": {
+              "given": "Daniel",
+              "family": "Butterworth",
+              "as_printed": "Daniel BUTTERWORTH"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "notes": "No machine printed for this rider.",
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 7
+        },
+        {
+          "part": "l2",
+          "total": 3
+        },
+        {
+          "part": "l3",
+          "total": 2
+        },
+        {
+          "part": "l4",
+          "total": 1
+        },
+        {
+          "part": null,
+          "observation": 13,
+          "total": 13,
+          "unit": "marks",
+          "counts": {
+            "0": 15,
+            "1": 6,
+            "2": 2,
+            "3": 1,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1727fde3-bcb8-4e12-9790-89d3b1b9c1ea",
+          "person": {
+            "name": {
+              "given": "Peter",
+              "family": "Hosking",
+              "as_printed": "Peter HOSKING"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Yamaha",
+        "model": "TY175",
+        "as_printed": "YAMAHA TY175"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            5,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 8
+        },
+        {
+          "part": "l2",
+          "total": 1
+        },
+        {
+          "part": "l3",
+          "total": 0
+        },
+        {
+          "part": "l4",
+          "total": 5
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "total": 14,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 2,
+            "2": 1,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6075ebd8-339e-4880-8a63-c1631f39bbe0",
+          "person": {
+            "name": {
+              "given": "Louis",
+              "family": "Stevens",
+              "as_printed": "Louis STEVENS"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Montesa",
+        "as_printed": "MONTESA"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            5,
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 6
+        },
+        {
+          "part": "l2",
+          "total": 5
+        },
+        {
+          "part": "l3",
+          "total": 0
+        },
+        {
+          "part": "l4",
+          "total": 6
+        },
+        {
+          "part": null,
+          "observation": 17,
+          "total": 17,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "5aade4da-3580-4c5d-8576-00b16e22320b",
+          "person": {
+            "name": {
+              "given": "Nobby",
+              "family": "Gabbedy",
+              "as_printed": "Nobby GABBEDY"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "model": "250RR",
+        "as_printed": "TRS 250RR"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            2,
+            5,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10
+        },
+        {
+          "part": "l2",
+          "total": 6
+        },
+        {
+          "part": "l3",
+          "total": 7
+        },
+        {
+          "part": "l4",
+          "total": 5
+        },
+        {
+          "part": null,
+          "observation": 28,
+          "total": 28,
+          "unit": "marks",
+          "counts": {
+            "0": 15,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "2895340f-e3b3-4a7f-a22e-9539260b2075",
+          "person": {
+            "name": {
+              "given": "Ken",
+              "family": "Hosking",
+              "as_printed": "Ken HOSKING"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "year": 1980,
+        "make": "Fantic",
+        "capacity_cc": 200,
+        "as_printed": "1980 FANTIC 200"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            3,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            0,
+            3,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            5,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10
+        },
+        {
+          "part": "l2",
+          "total": 8
+        },
+        {
+          "part": "l3",
+          "total": 7
+        },
+        {
+          "part": "l4",
+          "total": 6
+        },
+        {
+          "part": null,
+          "observation": 31,
+          "total": 31,
+          "unit": "marks",
+          "counts": {
+            "0": 9,
+            "1": 7,
+            "2": 2,
+            "3": 5,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "8ea43650-410d-4ba4-b551-dfc81911972b",
+          "person": {
+            "name": {
+              "given": "Bryce",
+              "family": "Squibb",
+              "as_printed": "Bryce SQUIBB"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "model": "DT100",
+        "as_printed": "DT100"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            2,
+            1,
+            3,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            3,
+            0,
+            3,
+            0,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 9
+        },
+        {
+          "part": "l2",
+          "total": 10
+        },
+        {
+          "part": "l3",
+          "total": 6
+        },
+        {
+          "part": "l4",
+          "total": 8
+        },
+        {
+          "part": null,
+          "observation": 33,
+          "total": 33,
+          "unit": "marks",
+          "counts": {
+            "0": 11,
+            "1": 2,
+            "2": 4,
+            "3": 6,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "15f2dd5d-2b30-443f-8863-4484ed422de3",
+          "person": {
+            "name": {
+              "given": "Mick",
+              "family": "Luscombe",
+              "as_printed": "Mick LUSCOMBE"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Suzuki",
+        "capacity_cc": 260,
+        "as_printed": "SUZUKI 260CC"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            1,
+            3,
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            1,
+            3,
+            3,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 14
+        },
+        {
+          "part": "l2",
+          "total": 2
+        },
+        {
+          "part": "l3",
+          "total": 10
+        },
+        {
+          "part": "l4",
+          "total": 7
+        },
+        {
+          "part": null,
+          "observation": 33,
+          "total": 33,
+          "unit": "marks",
+          "counts": {
+            "0": 8,
+            "1": 8,
+            "2": 1,
+            "3": 6,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "83b60d24-fe77-4d4a-848c-e758f657299f",
+          "person": {
+            "name": {
+              "given": "Jack",
+              "family": "Costello",
+              "as_printed": "Jack COSTELLO"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Yamaha",
+        "model": "AG100",
+        "as_printed": "YAMAHA AG100"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            1,
+            2,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            3,
+            1,
+            5,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11
+        },
+        {
+          "part": "l2",
+          "total": 15
+        },
+        {
+          "part": "l3",
+          "total": 6
+        },
+        {
+          "part": "l4",
+          "total": 8
+        },
+        {
+          "part": null,
+          "observation": 40,
+          "total": 40,
+          "unit": "marks",
+          "counts": {
+            "0": 9,
+            "1": 6,
+            "2": 1,
+            "3": 4,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a28cc132-de3b-4251-8a5c-49b96e2f77c9",
+          "person": {
+            "name": {
+              "given": "Doc",
+              "family": "Perry",
+              "as_printed": "Doc PERRY"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Honda",
+        "as_printed": "HONDA"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            3,
+            3,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            0,
+            1,
+            0,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 14
+        },
+        {
+          "part": "l2",
+          "total": 14
+        },
+        {
+          "part": "l3",
+          "total": 9
+        },
+        {
+          "part": "l4",
+          "total": 4
+        },
+        {
+          "part": null,
+          "observation": 41,
+          "total": 41,
+          "unit": "marks",
+          "counts": {
+            "0": 7,
+            "1": 8,
+            "2": 2,
+            "3": 3,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "id": "e18",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "463e9960-4fb8-4676-ad8f-236683447dfb",
+          "person": {
+            "name": {
+              "given": "Scott",
+              "family": "Pickering",
+              "as_printed": "Scott PICKERING"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Yamaha",
+        "model": "TY175",
+        "as_printed": "YAMAHA TY175"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            3,
+            2,
+            3,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            3,
+            3,
+            1,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            5,
+            2,
+            5,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 14
+        },
+        {
+          "part": "l2",
+          "total": 20
+        },
+        {
+          "part": "l3",
+          "total": 17
+        },
+        {
+          "part": "l4",
+          "total": 14
+        },
+        {
+          "part": null,
+          "observation": 65,
+          "total": 65,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 4,
+            "2": 2,
+            "3": 9,
+            "5": 6
+          },
+          "status": "classified",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "480575dd-4626-409c-9969-37975e903e77",
+          "person": {
+            "name": {
+              "given": "Harvey",
+              "family": "Wynne",
+              "as_printed": "Harvey WYNNE"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Montesa",
+        "capacity_cc": 175,
+        "as_printed": "MONTESA 175"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            5,
+            3,
+            0,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            3,
+            5,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            2,
+            2,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 16
+        },
+        {
+          "part": "l2",
+          "total": 14
+        },
+        {
+          "part": "l3",
+          "total": 24
+        },
+        {
+          "part": null,
+          "observation": 54,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 4,
+            "1": 0,
+            "2": 2,
+            "3": 5,
+            "5": 7
+          },
+          "status": "dnf",
+          "status_as_printed": "DNF",
+          "note": "The 'Total' column prints 54; the 'Score' column prints DNF."
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f8dc3df1-2451-4d4a-90da-d66a07767c46",
+          "person": {
+            "name": {
+              "given": "Samuel",
+              "family": "Lockhart",
+              "as_printed": "Samuel LOCKHART"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Yamaha",
+        "model": "TY250",
+        "as_printed": "YAMAHA TY250"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            5,
+            3,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 23
+        },
+        {
+          "part": null,
+          "observation": 23,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "5": 4
+          },
+          "status": "dnf",
+          "status_as_printed": "DNF"
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "9ec25d7f-6a18-4527-8900-88150d63457b",
+          "person": {
+            "name": {
+              "given": "Matt",
+              "family": "Bessell",
+              "as_printed": "Matt BESSELL"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "capacity_cc": 250,
+        "as_printed": "BETA 250"
+      },
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 4
+        },
+        {
+          "part": "l2",
+          "total": 5
+        },
+        {
+          "part": "l3",
+          "total": 6
+        },
+        {
+          "part": "l4",
+          "total": 4
+        },
+        {
+          "part": null,
+          "observation": 19,
+          "total": 19,
+          "unit": "marks",
+          "counts": {
+            "0": 16,
+            "1": 2,
+            "2": 1,
+            "3": 5,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "5d771f18-7788-4d65-8f81-25c0a172a3d2",
+          "person": {
+            "name": {
+              "given": "Cooper",
+              "family": "Lockhart",
+              "as_printed": "Cooper LOCKHART"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Mecatecno",
+        "as_printed": "MECATECHNO"
+      },
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            5,
+            3,
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            3,
+            3,
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            2,
+            3,
+            3,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l4",
+          "values": [
+            2,
+            3,
+            3,
+            0,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 16
+        },
+        {
+          "part": "l2",
+          "total": 14
+        },
+        {
+          "part": "l3",
+          "total": 13
+        },
+        {
+          "part": "l4",
+          "total": 18
+        },
+        {
+          "part": null,
+          "observation": 61,
+          "total": 61,
+          "unit": "marks",
+          "counts": {
+            "0": 5,
+            "1": 2,
+            "2": 4,
+            "3": 7,
+            "5": 6
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a25eb367-90ad-43f7-b941-722d07abd71d",
+          "person": {
+            "name": {
+              "given": "Jeffrey",
+              "family": "Wynne",
+              "as_printed": "Jeffrey WYNNE"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Bultaco",
+        "capacity_cc": 250,
+        "model": "SHERPA",
+        "as_printed": "BULTACT SHERPA 250"
+      },
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            5,
+            5,
+            0,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            3,
+            3,
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 25
+        },
+        {
+          "part": "l2",
+          "total": 20
+        },
+        {
+          "part": null,
+          "observation": 45,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 3,
+            "5": 7
+          },
+          "status": "dnf",
+          "status_as_printed": "DNF"
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "798529e1-2021-4c8e-9241-6f981ae1a1d9",
+          "person": {
+            "name": {
+              "given": "Clyde",
+              "family": "S.",
+              "as_printed": "Clyde S."
+            }
+          }
+        }
+      ],
+      "machine": {
+        "capacity_cc": 50,
+        "as_printed": "PEEWEE 50"
+      },
+      "classes": [
+        "junior"
+      ],
+      "standing": {
+        "basis": "non-competitive",
+        "reason": "not-stated",
+        "scores_public": false,
+        "as_printed": "NC"
+      },
+      "notes": "Only rider in Junior. NC is printed in the place column. The page shows name, machine and the 0/1/2/3/5 counts only. The sheet does not say whether NC is due to licence, machine (the Classic SRs make modern machines non-competitive) or class.",
+      "totals": [
+        {
+          "part": null,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 12,
+            "5": 12
+          },
+          "note": "Only the mark counts are visible. The marks, lap totals, Total and Score cells are blank on the page."
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "c-t2",
+      "name": "Trial 2",
+      "kind": "class",
+      "classes": [
+        "t2"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 15,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "value": 19,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e3",
+          "rank": 3,
+          "value": 29,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e4",
+          "rank": 4,
+          "value": 31,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e5",
+          "rank": 5,
+          "value": 32,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "c-t4",
+      "name": "Trial 4",
+      "kind": "class",
+      "classes": [
+        "t4"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e6",
+          "rank": 1,
+          "value": 1,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e7",
+          "rank": 2,
+          "value": 5,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e8",
+          "rank": 3,
+          "value": 11,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e9",
+          "rank": 4,
+          "value": 13,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e10",
+          "rank": 5,
+          "value": 14,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e11",
+          "rank": 6,
+          "value": 17,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e12",
+          "rank": 7,
+          "value": 28,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e13",
+          "rank": 8,
+          "value": 31,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e14",
+          "rank": 9,
+          "value": 33,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "11 cleans",
+            "inferred": true,
+            "detail": "Equal on 33 with Mick LUSCOMBE (8 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e15",
+          "rank": 10,
+          "value": 33,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "8 cleans",
+            "inferred": true,
+            "detail": "Equal on 33 with Bryce SQUIBB (11 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e16",
+          "rank": 11,
+          "value": 40,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e17",
+          "rank": 12,
+          "value": 41,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e18",
+          "rank": 13,
+          "value": 65,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e19",
+          "rank": null,
+          "rank_as_printed": "DNF",
+          "value": null,
+          "status": "dnf",
+          "status_as_printed": "DNF"
+        },
+        {
+          "entry": "e20",
+          "rank": null,
+          "rank_as_printed": "DNF",
+          "value": null,
+          "status": "dnf",
+          "status_as_printed": "DNF"
+        }
+      ]
+    },
+    {
+      "id": "c-t5",
+      "name": "Trial 5",
+      "kind": "class",
+      "classes": [
+        "t5"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e21",
+          "rank": 1,
+          "value": 19,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e22",
+          "rank": 2,
+          "value": 61,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e23",
+          "rank": null,
+          "rank_as_printed": "DNF",
+          "value": null,
+          "status": "dnf",
+          "status_as_printed": "DNF"
+        }
+      ]
+    },
+    {
+      "id": "c-junior",
+      "name": "Junior",
+      "kind": "class",
+      "classes": [
+        "junior"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e24",
+          "rank": null,
+          "rank_as_printed": "NC",
+          "value": null,
+          "eligible": false,
+          "note": "No score is visible; the score cell is blank on the page."
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "source_file": "2025-11-16_tasmanian-motorcycle-trials-club_classic-trial_results.pdf",
+    "trove": "au",
+    "sampled": false,
+    "entries_in_document": 24,
+    "entries_encoded": 24,
+    "features": [
+      "laps",
+      "scale-01235",
+      "section-marks",
+      "part-totals",
+      "mark-counts",
+      "other-penalty-column",
+      "machine-make",
+      "machine-model",
+      "machine-capacity",
+      "machine-year",
+      "name-single-field",
+      "non-competitive-flag",
+      "dnf",
+      "partial-scores-kept",
+      "noncomp-scores-hidden"
+    ],
+    "misfits": [
+      {
+        "what": "Equal totals (33, ranks 9 and 10 in Trial 4) are separated with no printed reason; the reason can only be read off the printed mark counts. row.tie_break has no flag to say the rule was inferred rather than printed.",
+        "where": "classifications[c-t4].rows[e14,e15].tie_break",
+        "severity": "cosmetic",
+        "suggestion": "Add tie_break.inferred (boolean) or tie_break.evidence: printed | derived."
+      },
+      {
+        "what": "NC on a Tasmanian sheet can come from a non-competitive licence (SRs 16.4) or from a modern machine at a Classic (SRs 12.1). The sheet prints only NC, so standing.reason is not-stated, but the candidate reasons are known and cannot be listed.",
+        "where": "entries[e24].standing",
+        "severity": "cosmetic",
+        "suggestion": "Allow standing.possible_reasons[] or a free-text standing.note for 'one of licence or machine'."
+      },
+      {
+        "what": "A DNF row prints its observation total in the 'Total' column and DNF in the 'Score' column, and simply has no row for the laps not ridden. The protocol can hold this (observation set, total null), but nothing says whether a missing part total means 'not reached' or 'not published'.",
+        "where": "entries[e19].totals",
+        "severity": "cosmetic",
+        "suggestion": "Document that an absent part total means the part was not reached, or add total.status 'not-reached'."
+      },
+      {
+        "what": "The NC rider's marks, totals and score are blank on the page but still present in the PDF text layer (hidden text), while the 0/1/2/3/5 counts stay visible. standing.scores_public=false says the scores are not public, but the protocol cannot say that some derived values (counts) were published while the scores were withheld, or that the withheld values are recoverable from the file.",
+        "where": "entries[e24].standing, entries[e24].totals",
+        "severity": "lossy",
+        "suggestion": "Replace scores_public with a published-fields list (e.g. standing.published: ['counts']) and add document-level 'hidden_content' so mappers can record that a file carries values the publisher chose not to show, without copying them."
+      }
+    ],
+    "confidence": "high",
+    "unread": "Nothing unread. Both pages were read through pdftotext and visually (80 dpi render); values hidden in the text layer were not encoded. The 17 riders outside the original sample were added later by parsing the text layer; the parser's output matched all 6 hand-mapped riders with visible scores."
+  }
+}

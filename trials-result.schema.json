@@ -1,0 +1,2317 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://entry.place/schemas/trials-result/0.1",
+  "title": "Trials Result Protocol, draft 0.1",
+  "type": "object",
+  "required": [
+    "protocol",
+    "document",
+    "event",
+    "entries"
+  ],
+  "patternProperties": {
+    "^x_": {}
+  },
+  "additionalProperties": false,
+  "properties": {
+    "protocol": {
+      "const": "trials-result/0.1"
+    },
+    "document": {
+      "$ref": "#/$defs/document"
+    },
+    "event": {
+      "$ref": "#/$defs/event"
+    },
+    "rule_sets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/rule_set"
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/route"
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/part"
+      }
+    },
+    "classes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/class"
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    },
+    "classifications": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/classification"
+      }
+    },
+    "awards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/award"
+      }
+    },
+    "officials": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/official"
+      }
+    },
+    "mapping": {
+      "$ref": "#/$defs/mapping"
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "clause": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "document": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "provisional",
+            "official",
+            "amended",
+            "unknown"
+          ]
+        },
+        "distribution": {
+          "enum": [
+            "public",
+            "internal"
+          ]
+        },
+        "published_at": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "detail_level": {
+          "enum": [
+            "placings",
+            "totals",
+            "parts",
+            "sections",
+            "attempts"
+          ]
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "software": {
+          "type": "string"
+        },
+        "format": {
+          "enum": [
+            "pdf",
+            "pdf-image",
+            "html",
+            "spreadsheet",
+            "csv",
+            "json",
+            "image",
+            "docx",
+            "other"
+          ]
+        },
+        "language": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "source_file": {
+          "type": "string"
+        },
+        "retrieved": {
+          "type": "string"
+        },
+        "discrepancies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "detail_level"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "organiser": {
+          "type": "string"
+        },
+        "governing_bodies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "level": {
+                "enum": [
+                  "international",
+                  "continental",
+                  "national",
+                  "state",
+                  "regional"
+                ]
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "permit": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "venue": {
+          "type": "string"
+        },
+        "start_date": {
+          "type": "string"
+        },
+        "end_date": {
+          "type": "string"
+        },
+        "discipline": {
+          "enum": [
+            "moto-trial",
+            "sidecar-trial",
+            "long-distance-trial",
+            "cycle-trial",
+            "extreme",
+            "other"
+          ]
+        },
+        "series": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "round": {
+                "type": "string"
+              },
+              "counts_for_points": {
+                "type": "boolean"
+              }
+            },
+            "required": [],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "penalty_rule": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "enum": [
+            "marks",
+            "points",
+            "seconds"
+          ]
+        },
+        "per": {
+          "enum": [
+            "once",
+            "section",
+            "minute",
+            "half-minute",
+            "second",
+            "occurrence",
+            "lap"
+          ]
+        },
+        "cap": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "then": {
+          "enum": [
+            "exclusion",
+            "dsq",
+            "retired",
+            "flat-penalty",
+            "none"
+          ]
+        },
+        "as_printed": {
+          "type": "string"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      },
+      "required": [],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "scale_code": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "meaning": {
+          "type": "string"
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "counts": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "rule_set": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "format": {
+          "enum": [
+            "observed",
+            "gate",
+            "time-and-observation",
+            "timed-test",
+            "indoor",
+            "long-distance",
+            "games",
+            "other"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "marks-lost",
+            "points-earned",
+            "time",
+            "award-standard",
+            "placing-points"
+          ]
+        },
+        "direction": {
+          "enum": [
+            "low",
+            "high"
+          ]
+        },
+        "unit": {
+          "enum": [
+            "marks",
+            "points",
+            "seconds"
+          ]
+        },
+        "stop_rule": {
+          "enum": [
+            "stop-allowed",
+            "non-stop",
+            "not-stated",
+            "other"
+          ]
+        },
+        "section_scale": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "enum": [
+                "numeric",
+                "codes",
+                "time"
+              ]
+            },
+            "values": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "min": {
+              "type": "number"
+            },
+            "max": {
+              "type": "number"
+            },
+            "codes": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/scale_code"
+              }
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "penalties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/penalty_rule"
+          }
+        },
+        "time": {
+          "type": "object",
+          "properties": {
+            "scored": {
+              "type": "boolean"
+            },
+            "course_limit_s": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "section_limit_s": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "standard_time": {
+              "enum": [
+                "none",
+                "fixed",
+                "fastest-finisher"
+              ]
+            },
+            "conversion": {
+              "type": "string"
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "gates": {
+          "type": "object",
+          "properties": {
+            "values": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "gate": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "gate",
+                  "value"
+                ],
+                "patternProperties": {
+                  "^x_": {}
+                },
+                "additionalProperties": false
+              }
+            },
+            "entry_value": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "section_max": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "fault_effect": {
+              "enum": [
+                "zero-section",
+                "forfeit-accumulated",
+                "keep-cleared",
+                "deduct",
+                "not-stated"
+              ]
+            },
+            "deduction_per_fault": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "class_restricted": {
+              "type": "boolean"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "adjustments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "enum": [
+                  "rider-handicap",
+                  "class-handicap",
+                  "age-factor",
+                  "machine-age",
+                  "other"
+                ]
+              },
+              "formula": {
+                "type": "string"
+              },
+              "published": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "tie_breaks": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "most-cleans",
+              "most-ones",
+              "most-twos",
+              "most-threes",
+              "most-of-each-value",
+              "furthest-clean",
+              "first-difference",
+              "least-time",
+              "observation-before-time",
+              "ride-off",
+              "start-order-earlier",
+              "start-order-later",
+              "older-rider",
+              "younger-rider",
+              "smaller-capacity",
+              "best-lap",
+              "virtual-lap",
+              "last-part-result",
+              "earlier-part-result",
+              "test-time",
+              "fewest-marks",
+              "fewest-zero-sections",
+              "shared-position",
+              "unresolved",
+              "other"
+            ]
+          }
+        },
+        "completion": {
+          "type": "object",
+          "properties": {
+            "min_fraction_attempted": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "unridden_scored_as": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "recorded_by": {
+          "enum": [
+            "observer",
+            "rider",
+            "group",
+            "peer",
+            "electronic",
+            "unknown"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "inferred": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "basis",
+        "direction"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "route": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "colour": {
+          "type": "string"
+        },
+        "order": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "as_printed": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "section": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "number": {
+          "type": [
+            "integer",
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "observed",
+            "timed-test",
+            "speed",
+            "race",
+            "graded-hill",
+            "restart",
+            "time-control",
+            "games",
+            "other"
+          ]
+        },
+        "part": {
+          "type": "string"
+        },
+        "course": {
+          "type": "string"
+        },
+        "subsections": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "observers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "classes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cancelled": {
+          "type": "object",
+          "properties": {
+            "scope": {
+              "enum": [
+                "all",
+                "classes"
+              ]
+            },
+            "classes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "rule_set": {
+          "type": "string"
+        },
+        "as_printed": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "part": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "parent": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "day",
+            "race",
+            "phase",
+            "qualifying",
+            "round",
+            "heat",
+            "final",
+            "lap",
+            "loop",
+            "group",
+            "test",
+            "run-off",
+            "try"
+          ]
+        },
+        "label": {
+          "type": "string"
+        },
+        "order": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "date": {
+          "type": "string"
+        },
+        "rule_set": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "classes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ranked": {
+          "type": "boolean"
+        },
+        "counts_toward_result": {
+          "type": "boolean"
+        },
+        "starts_from_zero": {
+          "type": "boolean"
+        },
+        "sets_start_order_for": {
+          "type": "string"
+        },
+        "time_allowance_s": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "kind"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "class": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        },
+        "as_printed": {
+          "type": "string"
+        },
+        "colour": {
+          "type": "string"
+        },
+        "dimensions": {
+          "type": "object",
+          "properties": {
+            "ability": {
+              "type": "string"
+            },
+            "age": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "string"
+            },
+            "machine_era": {
+              "type": "string"
+            },
+            "machine_type": {
+              "type": "string"
+            },
+            "capacity": {
+              "type": "string"
+            },
+            "licence": {
+              "type": "string"
+            },
+            "other": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "route": {
+          "type": "string"
+        },
+        "line_choice": {
+          "enum": [
+            "fixed",
+            "per-section-map",
+            "rider-choice",
+            "none"
+          ]
+        },
+        "route_by_section": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "route": {
+                "type": "string"
+              },
+              "sections": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "route"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "laps": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "sections_per_lap": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "rule_set": {
+          "type": "string"
+        },
+        "competitive": {
+          "type": "boolean"
+        },
+        "ranking": {
+          "enum": [
+            "score",
+            "route-then-score",
+            "points",
+            "award",
+            "none"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "person": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "prin": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scheme": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "scheme",
+              "value"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "name": {
+          "type": "object",
+          "properties": {
+            "given": {
+              "type": "string"
+            },
+            "family": {
+              "type": "string"
+            },
+            "display": {
+              "type": "string"
+            },
+            "as_printed": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "gender": {
+          "type": "string"
+        },
+        "birth_year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "age": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "nationality": {
+          "type": "string"
+        },
+        "federation": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "town": {
+          "type": "string"
+        },
+        "club": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "standing": {
+      "type": "object",
+      "properties": {
+        "basis": {
+          "enum": [
+            "competition",
+            "no-award",
+            "non-competitive",
+            "recreation"
+          ]
+        },
+        "reason": {
+          "enum": [
+            "licence",
+            "machine",
+            "choice",
+            "class",
+            "age",
+            "eligibility",
+            "not-stated"
+          ]
+        },
+        "licence_category": {
+          "enum": [
+            "competition",
+            "recreation",
+            "club",
+            "one-event",
+            "social",
+            "other",
+            "not-stated"
+          ]
+        },
+        "scores_public": {
+          "type": "boolean"
+        },
+        "as_printed": {
+          "type": "string"
+        },
+        "inferred": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "basis"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "penalty": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "enum": [
+            "marks",
+            "points",
+            "seconds"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        },
+        "as_printed": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "ride": {
+      "type": "object",
+      "properties": {
+        "part": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "attempt": {
+          "type": "integer"
+        },
+        "route": {
+          "type": "string"
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "enum": [
+            "marks",
+            "points",
+            "seconds"
+          ]
+        },
+        "code": {
+          "type": "string"
+        },
+        "counts": {
+          "type": "boolean"
+        },
+        "state": {
+          "enum": [
+            "ridden",
+            "missed",
+            "not-attempted",
+            "elected-failure",
+            "cancelled",
+            "not-applicable",
+            "not-counted",
+            "time-out",
+            "unknown"
+          ]
+        },
+        "time_s": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "penalty_s": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "faults": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "enum": [
+                  "observation",
+                  "time-tolerance",
+                  "race",
+                  "gate",
+                  "bonus",
+                  "penalty",
+                  "time"
+                ]
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "code": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "gates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "gate": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "cleared": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "gate"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "recorded_by": {
+          "type": "string"
+        },
+        "as_printed": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "section"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "grid": {
+      "type": "object",
+      "properties": {
+        "part": {
+          "type": "string"
+        },
+        "route": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ]
+          }
+        },
+        "layout": {
+          "enum": [
+            "one-value-per-section",
+            "sum-across-laps",
+            "packed-laps"
+          ]
+        },
+        "as_printed": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "values"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "total": {
+      "type": "object",
+      "properties": {
+        "part": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "observation": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "time_marks": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "penalties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/penalty"
+          }
+        },
+        "adjustments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "total": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "enum": [
+            "marks",
+            "points",
+            "seconds"
+          ]
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "sections_ridden": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "time": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "string"
+            },
+            "finish": {
+              "type": "string"
+            },
+            "elapsed_s": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "as_printed": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "status": {
+          "enum": [
+            "classified",
+            "dns",
+            "dnf",
+            "retired",
+            "dsq",
+            "excluded",
+            "over-time",
+            "missed-section",
+            "not-classified",
+            "no-result",
+            "withdrawn",
+            "unknown"
+          ]
+        },
+        "status_as_printed": {
+          "type": "string"
+        },
+        "rank": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "points": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "entry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "number": {
+          "type": [
+            "string",
+            "integer",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "solo",
+            "crew",
+            "pair",
+            "team",
+            "unidentified"
+          ]
+        },
+        "people": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "enum": [
+                  "rider",
+                  "driver",
+                  "passenger",
+                  "partner",
+                  "member",
+                  "minder"
+                ]
+              },
+              "rider_ride_uuid": {
+                "type": "string"
+              },
+              "person": {
+                "$ref": "#/$defs/person"
+              }
+            },
+            "required": [
+              "role",
+              "person"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "machine": {
+          "type": "object",
+          "properties": {
+            "make": {
+              "type": "string"
+            },
+            "model": {
+              "type": "string"
+            },
+            "capacity_cc": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "year": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "era": {
+              "type": "string"
+            },
+            "power": {
+              "enum": [
+                "petrol",
+                "electric",
+                "unknown"
+              ]
+            },
+            "stroke": {
+              "type": "string"
+            },
+            "as_printed": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "team": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "licensed": {
+              "type": "boolean"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "sponsors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "as_printed": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "representing": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "enum": [
+                "club",
+                "region",
+                "nation",
+                "federation",
+                "island",
+                "other"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "code": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "classes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "route": {
+          "type": "string"
+        },
+        "courses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "part": {
+                "type": "string"
+              },
+              "course": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "part",
+              "course"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "standing": {
+          "$ref": "#/$defs/standing"
+        },
+        "eligibility": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scope": {
+                "type": "string"
+              },
+              "eligible": {
+                "type": "boolean"
+              },
+              "as_printed": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "scope",
+              "eligible"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "start": {
+          "type": "object",
+          "properties": {
+            "time": {
+              "type": "string"
+            },
+            "order": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "rides": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ride"
+          }
+        },
+        "grids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/grid"
+          }
+        },
+        "totals": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/total"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "kind"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "row": {
+      "type": "object",
+      "properties": {
+        "entry": {
+          "type": "string"
+        },
+        "rank": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "rank_as_printed": {
+          "type": "string"
+        },
+        "tied": {
+          "type": "boolean"
+        },
+        "value": {
+          "type": [
+            "number",
+            "string",
+            "null"
+          ]
+        },
+        "unit": {
+          "enum": [
+            "marks",
+            "points",
+            "seconds",
+            "award",
+            "placing"
+          ]
+        },
+        "status": {
+          "enum": [
+            "classified",
+            "dns",
+            "dnf",
+            "retired",
+            "dsq",
+            "excluded",
+            "over-time",
+            "missed-section",
+            "not-classified",
+            "no-result",
+            "withdrawn",
+            "unknown"
+          ]
+        },
+        "status_as_printed": {
+          "type": "string"
+        },
+        "eligible": {
+          "type": "boolean"
+        },
+        "tie_break": {
+          "type": "object",
+          "properties": {
+            "rule": {
+              "enum": [
+                "most-cleans",
+                "most-ones",
+                "most-twos",
+                "most-threes",
+                "most-of-each-value",
+                "furthest-clean",
+                "first-difference",
+                "least-time",
+                "observation-before-time",
+                "ride-off",
+                "start-order-earlier",
+                "start-order-later",
+                "older-rider",
+                "younger-rider",
+                "smaller-capacity",
+                "best-lap",
+                "virtual-lap",
+                "last-part-result",
+                "earlier-part-result",
+                "test-time",
+                "fewest-marks",
+                "fewest-zero-sections",
+                "shared-position",
+                "unresolved",
+                "other"
+              ]
+            },
+            "label": {
+              "type": "string"
+            },
+            "inferred": {
+              "type": "boolean"
+            },
+            "detail": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "award": {
+          "type": "object",
+          "properties": {
+            "tier": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "points": {
+          "type": "object",
+          "properties": {
+            "scheme": {
+              "type": "string"
+            },
+            "value": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          },
+          "required": [],
+          "patternProperties": {
+            "^x_": {}
+          },
+          "additionalProperties": false
+        },
+        "qualified": {
+          "type": [
+            "boolean",
+            "string",
+            "null"
+          ]
+        },
+        "source_part": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "entry"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "classification": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "class",
+            "overall",
+            "route",
+            "category",
+            "part",
+            "adjusted",
+            "eligibility",
+            "award-tier",
+            "pair",
+            "team",
+            "other"
+          ]
+        },
+        "part": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "classes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "filter": {
+          "type": "string"
+        },
+        "rule_set": {
+          "type": "string"
+        },
+        "metric": {
+          "enum": [
+            "total",
+            "observation",
+            "time",
+            "points",
+            "award",
+            "adjusted",
+            "placing"
+          ]
+        },
+        "direction": {
+          "enum": [
+            "low",
+            "high"
+          ]
+        },
+        "order_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/row"
+          }
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "as_printed": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "rows"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "award": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "criterion": {
+          "type": "string"
+        },
+        "donor": {
+          "type": "string"
+        },
+        "recipients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "entry": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "not_awarded_reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "official": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "entry": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "role"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    },
+    "mapping": {
+      "type": "object",
+      "properties": {
+        "source_file": {
+          "type": "string"
+        },
+        "trove": {
+          "type": "string"
+        },
+        "sampled": {
+          "type": "boolean"
+        },
+        "entries_in_document": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "entries_encoded": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "multi-day",
+              "laps",
+              "no-laps",
+              "races-or-phases",
+              "heats-or-finals",
+              "timed-tests",
+              "per-class-lap-counts",
+              "per-class-section-counts",
+              "sections-named",
+              "subsections",
+              "cancelled-sections",
+              "class-restricted-sections",
+              "scale-01235",
+              "scale-other-numeric",
+              "scale-codes",
+              "high-wins",
+              "mixed-direction",
+              "gate-points",
+              "time-scored",
+              "time-penalty-column",
+              "other-penalty-column",
+              "missed-section-value",
+              "handicap-or-adjustment",
+              "negative-or-fractional",
+              "award-standard",
+              "placings-only",
+              "totals-only",
+              "part-totals",
+              "section-marks",
+              "section-totals-across-laps",
+              "attempt-detail",
+              "mark-counts",
+              "sections-ridden-count",
+              "start-time",
+              "finish-time",
+              "elapsed-time",
+              "lap-or-race-time",
+              "route-separate-from-class",
+              "class-is-route",
+              "mixed-line-class",
+              "multi-classification",
+              "overall-plus-class",
+              "vertical-ranking",
+              "ranked-by-points",
+              "award-tiers",
+              "attribute-awards",
+              "series-points-printed",
+              "team-rows",
+              "riding-number",
+              "club",
+              "region-or-town",
+              "nationality",
+              "federation",
+              "licence-number",
+              "licence-category",
+              "age-or-birth",
+              "machine-make",
+              "machine-model",
+              "machine-capacity",
+              "machine-year",
+              "sponsor-or-team",
+              "crew-two-plus",
+              "pair",
+              "minder-listed",
+              "name-single-field",
+              "name-split",
+              "non-competitive-flag",
+              "recreation-licence",
+              "no-award",
+              "exhibition-or-open",
+              "non-competitive-class",
+              "noncomp-scores-hidden",
+              "eligibility-flags",
+              "dnf",
+              "dns",
+              "retired",
+              "dsq",
+              "over-time",
+              "not-classified",
+              "status-per-part",
+              "ranked-nonfinisher",
+              "partial-scores-kept",
+              "ties-shared",
+              "ties-unresolved",
+              "tiebreak-printed",
+              "provisional-flag",
+              "publish-timestamp",
+              "permit-number",
+              "officials-listed",
+              "image-only",
+              "data-inconsistency"
+            ]
+          }
+        },
+        "misfits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "what": {
+                "type": "string"
+              },
+              "where": {
+                "type": "string"
+              },
+              "severity": {
+                "enum": [
+                  "blocker",
+                  "lossy",
+                  "awkward",
+                  "cosmetic"
+                ]
+              },
+              "suggestion": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "what",
+              "severity"
+            ],
+            "patternProperties": {
+              "^x_": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "unread": {
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        }
+      },
+      "required": [
+        "source_file",
+        "features",
+        "misfits",
+        "confidence"
+      ],
+      "patternProperties": {
+        "^x_": {}
+      },
+      "additionalProperties": false
+    }
+  }
+}

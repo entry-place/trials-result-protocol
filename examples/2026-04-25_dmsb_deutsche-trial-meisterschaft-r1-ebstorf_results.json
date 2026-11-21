@@ -1,0 +1,8506 @@
+{
+  "protocol": "trials-result/0.1",
+  "document": {
+    "title": "Deutsche Trial-Meisterschaft: ADAC Trial Weekend - 1. Lauf zur Deutschen Trial- Meisterschaft 2026",
+    "status": "unknown",
+    "published_at": "2026-04-26T10:09",
+    "detail_level": "sections",
+    "publisher": "MC Ebstorf e.V. im ADAC",
+    "software": "Trial-Live / Gäu-Software",
+    "format": "pdf",
+    "language": "de",
+    "source_file": "2026-04-25_dmsb_deutsche-trial-meisterschaft-r1-ebstorf_results.pdf",
+    "retrieved": "2026-11-19",
+    "discrepancies": [
+      "The live page (…_trial-live-results.html) lists every starter and ranks them on the day; this PDF lists only riders scoring for the DM and re-ranks them (e.g. MELCHIORI 7th here, 8th on the live page; OSSEVORTH 4th here, 6th on the live page).",
+      "OSSEVORTH Durchschnitt 2.53 here (76/30, marks only); the live page prints Ø 2.60 (78/30, marks plus time penalty)."
+    ],
+    "notes": "Championship version with WP points. Klasse 6 (Open Pokal) is omitted. Zeit is blank for riders whose finish time was not captured; they are still ranked. Footer '26.4.2026 10:09, Seite n'."
+  },
+  "event": {
+    "name": "ADAC Trial Weekend - 1. Lauf zur Deutschen Trial- Meisterschaft 2026",
+    "organiser": "MC Ebstorf e.V. im ADAC",
+    "governing_bodies": [
+      {
+        "name": "Deutscher Motor Sport Bund",
+        "code": "DMSB",
+        "level": "national"
+      }
+    ],
+    "country": "DE",
+    "venue": "Schwemlitz",
+    "start_date": "2026-04-25",
+    "discipline": "moto-trial",
+    "series": [
+      {
+        "name": "Deutsche Trial-Meisterschaft 2026",
+        "round": "1",
+        "counts_for_points": true
+      }
+    ]
+  },
+  "rule_sets": [
+    {
+      "id": "dmsb",
+      "name": "DMSB-Trial-Reglement 2026",
+      "format": "observed",
+      "basis": "marks-lost",
+      "direction": "low",
+      "unit": "marks",
+      "stop_rule": "not-stated",
+      "section_scale": {
+        "type": "numeric",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "notes": "Art. 12.3: 0 clean, 1/2/3 by number of 'Fuß', 5 Scheitern; 'Langer Fuß' adds one more point."
+      },
+      "penalties": [
+        {
+          "code": "late-start",
+          "value": 1,
+          "unit": "marks",
+          "per": "minute",
+          "cap": 20,
+          "then": "dsq",
+          "as_printed": "jede angefangene Minute = 1 Strafpunkt; mehr als 20 Minuten = Disqualifikation",
+          "source": {
+            "title": "DMSB-Trial-Reglement 2026 (HB 3110)",
+            "clause": "12.1",
+            "file": "rules/2026_dmsb_hb-3110-reglement-trial_rules.pdf"
+          }
+        },
+        {
+          "code": "late-finish",
+          "value": 1,
+          "unit": "marks",
+          "per": "minute",
+          "cap": 20,
+          "then": "dsq",
+          "as_printed": "ZP (Zeitpunkte)",
+          "source": {
+            "title": "DMSB-Trial-Reglement 2026 (HB 3110)",
+            "clause": "12.1",
+            "file": "rules/2026_dmsb_hb-3110-reglement-trial_rules.pdf"
+          }
+        },
+        {
+          "code": "missed-section",
+          "value": 10,
+          "unit": "marks",
+          "per": "section",
+          "as_printed": "Auslassen einer Sektion bzw. Nichteinhalten der Sektionsreihenfolge 10 Strafpunkte",
+          "source": {
+            "title": "DMSB-Trial-Reglement 2026 (HB 3110)",
+            "clause": "12.3",
+            "file": "rules/2026_dmsb_hb-3110-reglement-trial_rules.pdf"
+          }
+        },
+        {
+          "code": "assistance",
+          "value": 5,
+          "unit": "marks",
+          "per": "occurrence",
+          "as_printed": "zusätzlich 5 Strafpunkte (Helfer im Korridor u. a.)",
+          "source": {
+            "title": "DMSB-Trial-Reglement 2026 (HB 3110)",
+            "clause": "12.4",
+            "file": "rules/2026_dmsb_hb-3110-reglement-trial_rules.pdf"
+          }
+        },
+        {
+          "code": "other",
+          "value": null,
+          "as_printed": "Pen",
+          "x_note": "Pen column printed, empty for every rider."
+        }
+      ],
+      "time": {
+        "scored": false,
+        "course_limit_s": 21600,
+        "section_limit_s": 90,
+        "standard_time": "fixed",
+        "notes": "'Fahrzeit: 6:00' printed in the page header; section time 90 s (3110 Art. 12)."
+      },
+      "tie_breaks": [
+        "most-cleans",
+        "most-ones",
+        "most-twos",
+        "most-threes",
+        "last-part-result",
+        "shared-position"
+      ],
+      "recorded_by": "observer",
+      "source": {
+        "title": "DMSB-Trial-Reglement 2026 (HB 3110)",
+        "clause": "8, 12, 15",
+        "file": "rules/2026_dmsb_hb-3110-reglement-trial_rules.pdf"
+      },
+      "inferred": false,
+      "notes": "Art. 15: most 0s, then 1s etc., then better last lap, previous lap; still equal = same place, following riders do not move up."
+    }
+  ],
+  "routes": [
+    {
+      "id": "yellow",
+      "name": "Gelb",
+      "colour": "yellow",
+      "order": null,
+      "as_printed": "yellow swatch beside Klasse 1"
+    },
+    {
+      "id": "pink",
+      "name": "Pink",
+      "colour": "pink",
+      "order": null,
+      "as_printed": "pink swatch beside Klasse 1F"
+    },
+    {
+      "id": "white",
+      "name": "Weiß",
+      "colour": "white",
+      "order": null,
+      "as_printed": "white swatch beside Klasse 2"
+    },
+    {
+      "id": "blue",
+      "name": "Blau",
+      "colour": "blue",
+      "order": null,
+      "as_printed": "blue swatch beside Klasse 3"
+    },
+    {
+      "id": "red",
+      "name": "Rot",
+      "colour": "red",
+      "order": null,
+      "as_printed": "red swatch beside Klasse 4"
+    },
+    {
+      "id": "green",
+      "name": "Grün",
+      "colour": "green",
+      "order": null,
+      "as_printed": "green swatch beside Klasse 5 and Klasse 6F"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "number": 1,
+      "kind": "observed"
+    },
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "observed"
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "observed"
+    },
+    {
+      "id": "s4",
+      "number": 4,
+      "kind": "observed"
+    },
+    {
+      "id": "s5",
+      "number": 5,
+      "kind": "observed"
+    },
+    {
+      "id": "s6",
+      "number": 6,
+      "kind": "observed"
+    },
+    {
+      "id": "s7",
+      "number": 7,
+      "kind": "observed"
+    },
+    {
+      "id": "s8",
+      "number": 8,
+      "kind": "observed"
+    },
+    {
+      "id": "s9",
+      "number": 9,
+      "kind": "observed"
+    },
+    {
+      "id": "s10",
+      "number": 10,
+      "kind": "observed"
+    }
+  ],
+  "parts": [
+    {
+      "id": "l1",
+      "kind": "lap",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "id": "l2",
+      "kind": "lap",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "id": "l3",
+      "kind": "lap",
+      "order": 3,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "k1",
+      "name": "Klasse 1",
+      "code": "1",
+      "as_printed": "Klasse 1 - Deutsche Trial-Meisterschaft",
+      "colour": "yellow",
+      "route": "yellow",
+      "line_choice": "fixed",
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "dmsb"
+    },
+    {
+      "id": "k1f",
+      "name": "Klasse 1F",
+      "code": "1F",
+      "as_printed": "Klasse 1F - Deutsche Frauen-Trial-Meisterschaft",
+      "colour": "pink",
+      "route": "pink",
+      "line_choice": "fixed",
+      "dimensions": {
+        "gender": "female"
+      },
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "dmsb"
+    },
+    {
+      "id": "k2",
+      "name": "Klasse 2",
+      "code": "2",
+      "as_printed": "Klasse 2 - Deutscher-Trial-Cup",
+      "colour": "white",
+      "route": "white",
+      "line_choice": "fixed",
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "dmsb"
+    },
+    {
+      "id": "k3",
+      "name": "Klasse 3",
+      "code": "3",
+      "as_printed": "Klasse 3 - Deutscher-Trial-Pokal",
+      "colour": "blue",
+      "route": "blue",
+      "line_choice": "fixed",
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "dmsb"
+    },
+    {
+      "id": "k4",
+      "name": "Klasse 4",
+      "code": "4",
+      "as_printed": "Klasse 4 - Deutscher-Trial-Senioren-Pokal (Ü40)",
+      "colour": "red",
+      "route": "red",
+      "line_choice": "fixed",
+      "dimensions": {
+        "age": "Ü40"
+      },
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "dmsb"
+    },
+    {
+      "id": "k5",
+      "name": "Klasse 5",
+      "code": "5",
+      "as_printed": "Klasse 5 - Deutscher-Trial-Ü50-Senioren-Pokal",
+      "colour": "green",
+      "route": "green",
+      "line_choice": "fixed",
+      "dimensions": {
+        "age": "Ü50"
+      },
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "dmsb"
+    },
+    {
+      "id": "k6f",
+      "name": "Klasse 6F",
+      "code": "6F",
+      "as_printed": "Klasse 6F - Ladies-Open",
+      "colour": "green",
+      "route": "green",
+      "line_choice": "fixed",
+      "dimensions": {
+        "gender": "female"
+      },
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "dmsb"
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "number": 29,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1cf28abc-1fd0-41c5-8e99-97f1322b5697",
+          "person": {
+            "name": {
+              "given": "Jonathan",
+              "family": "HEIDEL",
+              "as_printed": "HEIDEL Jonathan"
+            },
+            "club": "MSC Amtzell e.V.",
+            "x_regional_club": "ADAC Württemberg e. V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 5,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 11,
+          "total": 11,
+          "unit": "marks",
+          "counts": {
+            "0": 27,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 0.37,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "number": 38,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "dfce16db-fb8a-4c1a-a925-3eef49188320",
+          "person": {
+            "name": {
+              "given": "Paul",
+              "family": "REUMSCHÜSSEL",
+              "as_printed": "REUMSCHÜSSEL Paul"
+            },
+            "club": "MC Werratal Heringen e.V. im ADAC",
+            "x_regional_club": "ADAC Hessen-Thüringen e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 5,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "total": 14,
+          "unit": "marks",
+          "counts": {
+            "0": 24,
+            "1": 4,
+            "2": 0,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 0.47,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "number": 31,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a86082da-fbbb-4298-bff5-5dfa172dbe05",
+          "person": {
+            "name": {
+              "given": "Joschka",
+              "family": "KRAFT",
+              "as_printed": "KRAFT Joschka"
+            },
+            "club": "MSC Welschensteinach im ADAC e.V.",
+            "x_regional_club": "ADAC Südbaden e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            5,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 18,
+          "total": 18,
+          "unit": "marks",
+          "counts": {
+            "0": 24,
+            "1": 3,
+            "2": 0,
+            "3": 0,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 0.6,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "number": 32,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "5012c478-8d82-4f1c-b7dd-153afc36373c",
+          "person": {
+            "name": {
+              "given": "Rodney",
+              "family": "BEREITER",
+              "as_printed": "BEREITER Rodney"
+            },
+            "club": "AMC Idstein e.V.",
+            "x_regional_club": "ADAC Hessen-Thüringen e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            5,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 20,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 22,
+          "total": 22,
+          "unit": "marks",
+          "counts": {
+            "0": 25,
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "5": 4
+          },
+          "status": "classified",
+          "x_average": 0.73,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "number": 23,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "729d6ac6-bd63-4671-b61c-c5eb4b43830f",
+          "person": {
+            "name": {
+              "given": "Johannes",
+              "family": "HEIDEL",
+              "as_printed": "HEIDEL Johannes"
+            },
+            "club": "MSC Amtzell e.V.",
+            "x_regional_club": "ADAC Württemberg e. V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            5,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 27,
+          "total": 27,
+          "unit": "marks",
+          "counts": {
+            "0": 23,
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "5": 5
+          },
+          "status": "classified",
+          "x_average": 0.9,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "number": 69,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "9d55addc-06e2-4cb2-bbe3-0a7edaec0be1",
+          "person": {
+            "name": {
+              "given": "Jarmo",
+              "family": "ROBRAHN",
+              "as_printed": "ROBRAHN Jarmo"
+            },
+            "club": "Trialteam Bendestorf",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            1,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            5,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 17,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 32,
+          "total": 32,
+          "unit": "marks",
+          "counts": {
+            "0": 18,
+            "1": 7,
+            "2": 0,
+            "3": 0,
+            "5": 5
+          },
+          "status": "classified",
+          "x_average": 1.07,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "number": 15,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "15b4fa8f-bbe6-4f81-becd-9543229d242f",
+          "person": {
+            "name": {
+              "given": "Florian",
+              "family": "STEPHAN",
+              "as_printed": "STEPHAN Florian"
+            },
+            "club": "MSC Amtzell e.V.",
+            "x_regional_club": "ADAC Württemberg e. V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            1,
+            1,
+            0,
+            5,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 17,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 33,
+          "total": 33,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 5,
+            "2": 0,
+            "3": 1,
+            "5": 5
+          },
+          "status": "classified",
+          "x_average": 1.1,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "number": 58,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "37a83bfa-69f6-4981-b97b-f317cca45057",
+          "person": {
+            "name": {
+              "given": "Marco",
+              "family": "LAURE",
+              "as_printed": "LAURE Marco"
+            },
+            "club": "MC Augsburg e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            5,
+            1,
+            0,
+            0,
+            2,
+            1,
+            5,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            5,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 19,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 40,
+          "total": 40,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 3,
+            "2": 1,
+            "3": 0,
+            "5": 7
+          },
+          "status": "classified",
+          "x_average": 1.33,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "number": 7,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "54badfcf-4f53-422d-b0ff-cb1890abe8a5",
+          "person": {
+            "name": {
+              "given": "Fabio",
+              "family": "SACHT",
+              "as_printed": "SACHT Fabio"
+            },
+            "club": "Heider Motorrad-Club e.V.",
+            "x_regional_club": "ADAC Team Schleswig-Holstein"
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            5,
+            0,
+            3,
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            5,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 23,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 12,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 20,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 55,
+          "total": 55,
+          "unit": "marks",
+          "counts": {
+            "0": 17,
+            "1": 2,
+            "2": 0,
+            "3": 1,
+            "5": 10
+          },
+          "status": "classified",
+          "x_average": 1.83,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "number": 14,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b94a1294-5016-414a-b910-aaf3c9c7903a",
+          "person": {
+            "name": {
+              "given": "Quirin",
+              "family": "ALLGAYER",
+              "as_printed": "ALLGAYER Quirin"
+            },
+            "club": "MSG Sulzberg e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            0,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            1,
+            3,
+            0,
+            0,
+            5,
+            1,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            5,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 21,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 17,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 20,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 58,
+          "total": 58,
+          "unit": "marks",
+          "counts": {
+            "0": 15,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "5": 10
+          },
+          "status": "classified",
+          "x_average": 1.93,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "number": 40,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "2a88b3ce-2468-4825-8391-32d1b79c8c00",
+          "person": {
+            "name": {
+              "given": "Jan",
+              "family": "PETERS",
+              "as_printed": "PETERS Jan"
+            },
+            "club": "AMC Kerzenheim e.V.",
+            "x_regional_club": "ADAC Pfalz e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1"
+      ],
+      "route": "yellow",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            5,
+            5,
+            0,
+            0,
+            5,
+            0,
+            5,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            0,
+            1,
+            0,
+            0,
+            5,
+            0,
+            5,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            0,
+            5,
+            0,
+            0,
+            5,
+            3,
+            5,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 31,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 17,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 23,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 71,
+          "total": 71,
+          "unit": "marks",
+          "counts": {
+            "0": 13,
+            "1": 3,
+            "2": 0,
+            "3": 1,
+            "5": 13
+          },
+          "status": "classified",
+          "x_average": 2.37,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "number": 103,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "2caed6e8-15c3-4ccb-9061-ec4a3ec62e55",
+          "person": {
+            "name": {
+              "given": "Sophia",
+              "family": "REUMSCHÜSSEL",
+              "as_printed": "REUMSCHÜSSEL Sophia"
+            },
+            "club": "MSC Freier Grund e.V.",
+            "x_regional_club": "ADAC Nordbaden e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1f"
+      ],
+      "route": "pink",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 2,
+          "total": 2,
+          "unit": "marks",
+          "counts": {
+            "0": 28,
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.07,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "number": 113,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a56331d2-64d6-47e2-82e8-9dabc03defd5",
+          "person": {
+            "name": {
+              "given": "Vivian",
+              "family": "WACHS",
+              "as_printed": "WACHS Vivian"
+            },
+            "club": "MSF Frammersbach e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1f"
+      ],
+      "route": "pink",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 7,
+          "total": 7,
+          "unit": "marks",
+          "counts": {
+            "0": 24,
+            "1": 5,
+            "2": 1,
+            "3": 0,
+            "5": 0
+          },
+          "time": {
+            "elapsed_s": 19229,
+            "as_printed": "05:20:29"
+          },
+          "status": "classified",
+          "x_average": 0.23
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "number": 111,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "ed626700-02b4-4a78-8fcb-c78eb4fafa88",
+          "person": {
+            "name": {
+              "given": "Jule",
+              "family": "STEINERT",
+              "as_printed": "STEINERT Jule"
+            },
+            "club": "MSC Jura Heideck e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1f"
+      ],
+      "route": "pink",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            5,
+            1,
+            0,
+            0,
+            2,
+            1,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 18,
+          "total": 18,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 7,
+            "2": 3,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 0.6,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "number": 105,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "e12f8fe9-b344-45ae-a9e6-cb98b9b8f7fa",
+          "person": {
+            "name": {
+              "given": "Hannah",
+              "family": "SCHNEIDER",
+              "as_printed": "SCHNEIDER Hannah"
+            },
+            "club": "MSC Freier Grund e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k1f"
+      ],
+      "route": "pink",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 28,
+          "total": 28,
+          "unit": "marks",
+          "counts": {
+            "0": 11,
+            "1": 13,
+            "2": 3,
+            "3": 3,
+            "5": 0
+          },
+          "time": {
+            "elapsed_s": 19780,
+            "as_printed": "05:29:40"
+          },
+          "status": "classified",
+          "x_average": 0.93
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "number": 109,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f3877fef-175f-48b9-b020-87419121e897",
+          "person": {
+            "name": {
+              "given": "Magdalena",
+              "family": "HUBNER",
+              "as_printed": "HUBNER Magdalena"
+            },
+            "club": "TuS Fürstenfeldbruck e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1f"
+      ],
+      "route": "pink",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            5,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            1,
+            3,
+            1,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            1,
+            0,
+            0,
+            2,
+            1,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 31,
+          "total": 31,
+          "unit": "marks",
+          "counts": {
+            "0": 14,
+            "1": 8,
+            "2": 5,
+            "3": 1,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 1.03,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "number": 107,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "3160d9a1-092e-4e05-9bb4-b44ff8e23863",
+          "person": {
+            "name": {
+              "given": "Leonie-Sophie",
+              "family": "POHL",
+              "as_printed": "POHL Leonie-Sophie"
+            },
+            "club": "Heider Motorrad-Club e.V.",
+            "x_regional_club": "ADAC Hessen-Thüringen e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k1f"
+      ],
+      "route": "pink",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            3,
+            5,
+            0,
+            0,
+            5,
+            3,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            5,
+            3,
+            2,
+            1,
+            5,
+            3,
+            5,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            3,
+            2,
+            0,
+            3,
+            3,
+            5,
+            3,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 33,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 27,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 82,
+          "total": 82,
+          "unit": "marks",
+          "counts": {
+            "0": 6,
+            "1": 3,
+            "2": 2,
+            "3": 10,
+            "5": 9
+          },
+          "status": "classified",
+          "x_average": 2.73,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e18",
+      "number": 110,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "4a471dae-b037-44d2-ae46-35e2c822da14",
+          "person": {
+            "name": {
+              "given": "Johanna",
+              "family": "BINDER",
+              "as_printed": "BINDER Johanna"
+            },
+            "club": "MSC Stolberg e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k1f"
+      ],
+      "route": "pink",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            3,
+            3,
+            5,
+            3,
+            2,
+            5,
+            3,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            5,
+            5,
+            3,
+            3,
+            5,
+            5,
+            3,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            3,
+            5,
+            5,
+            5,
+            2,
+            5,
+            5,
+            3,
+            3,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 39,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 42,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 39,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 120,
+          "total": 120,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 0,
+            "2": 2,
+            "3": 12,
+            "5": 16
+          },
+          "status": "classified",
+          "x_average": 4.0,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "number": 210,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "33a6f4c7-146d-40ef-ab17-ddcf18ced53e",
+          "person": {
+            "name": {
+              "given": "Tobias",
+              "family": "JANITSCHKE",
+              "as_printed": "JANITSCHKE Tobias"
+            },
+            "club": "AC Garmisch Partenkirchen e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 6,
+          "total": 6,
+          "unit": "marks",
+          "counts": {
+            "0": 26,
+            "1": 3,
+            "2": 0,
+            "3": 1,
+            "5": 0
+          },
+          "time": {
+            "elapsed_s": 19609,
+            "as_printed": "05:26:49"
+          },
+          "status": "classified",
+          "x_average": 0.2
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "number": 227,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "4b530903-fcbb-4e57-8d1b-d84ccc1d1872",
+          "person": {
+            "name": {
+              "given": "Lennox",
+              "family": "SCHLOSSER",
+              "as_printed": "SCHLOSSER Lennox"
+            },
+            "club": "AMC Kerzenheim e.V.",
+            "x_regional_club": "ADAC Pfalz e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 12,
+          "total": 12,
+          "unit": "marks",
+          "counts": {
+            "0": 23,
+            "1": 5,
+            "2": 1,
+            "3": 0,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 19663,
+            "as_printed": "05:27:43"
+          },
+          "status": "classified",
+          "x_average": 0.4
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "number": 212,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "3ee6072d-f98c-4fa0-9903-ce52d5b6a1c0",
+          "person": {
+            "name": {
+              "given": "Oscar",
+              "family": "WÜNSCH",
+              "as_printed": "WÜNSCH Oscar"
+            },
+            "club": "RMSC Ölbronn e.V.",
+            "x_regional_club": "ADAC Nordbaden e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "total": 14,
+          "unit": "marks",
+          "counts": {
+            "0": 25,
+            "1": 2,
+            "2": 1,
+            "3": 0,
+            "5": 2
+          },
+          "time": {
+            "elapsed_s": 19207,
+            "as_printed": "05:20:07"
+          },
+          "status": "classified",
+          "x_average": 0.47
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "number": 204,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "29902901-bfab-40e9-a013-beda874f43fa",
+          "person": {
+            "name": {
+              "given": "Nino",
+              "family": "STADLER",
+              "as_printed": "STADLER Nino"
+            },
+            "club": "MSC Engelsberg e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 16,
+          "total": 16,
+          "unit": "marks",
+          "counts": {
+            "0": 23,
+            "1": 4,
+            "2": 1,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 0.53,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "number": 201,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "faac6758-b0f6-41d5-98bf-8f0759fe25b7",
+          "person": {
+            "name": {
+              "given": "Joscha",
+              "family": "UNSER",
+              "as_printed": "UNSER Joscha"
+            },
+            "club": "AMC Zirndorf e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 18,
+          "total": 18,
+          "unit": "marks",
+          "counts": {
+            "0": 18,
+            "1": 10,
+            "2": 0,
+            "3": 1,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 19281,
+            "as_printed": "05:21:21"
+          },
+          "status": "classified",
+          "x_average": 0.6
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "number": 221,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "572b8a6f-4be3-47d9-962d-09906179a0ea",
+          "person": {
+            "name": {
+              "given": "Julius",
+              "family": "KESSLER",
+              "as_printed": "KESSLER Julius"
+            },
+            "club": "MSC Marbach e.V.",
+            "x_regional_club": "ADAC Württemberg e. V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            5,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 19,
+          "total": 19,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 7,
+            "2": 2,
+            "3": 1,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 18013,
+            "as_printed": "05:00:13"
+          },
+          "status": "classified",
+          "x_average": 0.63
+        }
+      ]
+    },
+    {
+      "id": "e25",
+      "number": 203,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b34d2123-9a0e-4d6c-9990-8a8fe6487de3",
+          "person": {
+            "name": {
+              "given": "Sandro",
+              "family": "MELCHIORI",
+              "as_printed": "MELCHIORI Sandro"
+            },
+            "club": "MSVg Hammelbach e.V.",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            2,
+            0,
+            0,
+            3,
+            0,
+            5,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 20,
+          "total": 20,
+          "unit": "marks",
+          "counts": {
+            "0": 20,
+            "1": 5,
+            "2": 2,
+            "3": 2,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 20120,
+            "as_printed": "05:35:20"
+          },
+          "status": "classified",
+          "x_average": 0.67
+        }
+      ]
+    },
+    {
+      "id": "e26",
+      "number": 206,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "9bc7d8ec-b25c-414a-986c-ec56c7519f16",
+          "person": {
+            "name": {
+              "given": "Cuba",
+              "family": "SMITH",
+              "as_printed": "SMITH Cuba"
+            },
+            "club": "MC Ruhrtal e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 5,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 21,
+          "total": 21,
+          "unit": "marks",
+          "counts": {
+            "0": 21,
+            "1": 5,
+            "2": 0,
+            "3": 2,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 0.7,
+          "note": "Zeit blank."
+        }
+      ],
+      "notes": "Third row (regional ADAC club) is blank for this rider."
+    },
+    {
+      "id": "e27",
+      "number": 222,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "0e2b7611-5159-48f2-956f-052c625f7380",
+          "person": {
+            "name": {
+              "given": "Tobias",
+              "family": "WULF",
+              "as_printed": "WULF Tobias"
+            },
+            "club": "MC Ebstorf e.V. im ADAC",
+            "x_regional_club": "ADAC Niedersachsen/ Sachsen-Anhalt e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            5,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            3,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 23,
+          "total": 23,
+          "unit": "marks",
+          "counts": {
+            "0": 20,
+            "1": 5,
+            "2": 1,
+            "3": 2,
+            "5": 2
+          },
+          "time": {
+            "elapsed_s": 18710,
+            "as_printed": "05:11:50"
+          },
+          "status": "classified",
+          "x_average": 0.77
+        }
+      ]
+    },
+    {
+      "id": "e28",
+      "number": 216,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "bcd25c77-e4a1-435f-9254-4e19212319c9",
+          "person": {
+            "name": {
+              "given": "Josef",
+              "family": "LEHN",
+              "as_printed": "LEHN Josef"
+            },
+            "club": "RG Allgäu Kempten e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            2,
+            5,
+            0,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            5,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 18,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 31,
+          "total": 31,
+          "unit": "marks",
+          "counts": {
+            "0": 15,
+            "1": 9,
+            "2": 2,
+            "3": 1,
+            "5": 3
+          },
+          "time": {
+            "elapsed_s": 20314,
+            "as_printed": "05:38:34"
+          },
+          "status": "classified",
+          "x_average": 1.03
+        }
+      ]
+    },
+    {
+      "id": "e29",
+      "number": 229,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c2ef5225-7a4f-4089-adb5-fa2ee127a364",
+          "person": {
+            "name": {
+              "given": "Marian",
+              "family": "RISTEVSKI",
+              "as_printed": "RISTEVSKI Marian"
+            },
+            "club": "MC Werratal Heringen e.V. im ADAC",
+            "x_regional_club": "ADAC Hessen-Thüringen e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            0,
+            1,
+            2,
+            0,
+            5,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 16,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 14,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 34,
+          "total": 34,
+          "unit": "marks",
+          "counts": {
+            "0": 17,
+            "1": 5,
+            "2": 3,
+            "3": 1,
+            "5": 4
+          },
+          "time": {
+            "elapsed_s": 19149,
+            "as_printed": "05:19:09"
+          },
+          "status": "classified",
+          "x_average": 1.13
+        }
+      ]
+    },
+    {
+      "id": "e30",
+      "number": 202,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f6677e9b-a399-4e06-9fb0-321c99e690ee",
+          "person": {
+            "name": {
+              "given": "Paskal",
+              "family": "RISTEVSKI",
+              "as_printed": "RISTEVSKI Paskal"
+            },
+            "club": "MC Werratal Heringen e.V. im ADAC",
+            "x_regional_club": "ADAC Hessen-Thüringen e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            5,
+            2,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            5,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 13,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 14,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 35,
+          "total": 35,
+          "unit": "marks",
+          "counts": {
+            "0": 13,
+            "1": 9,
+            "2": 4,
+            "3": 1,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 1.17,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e31",
+      "number": 208,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "5d18b5ee-f179-4f81-a579-73626e9edfc8",
+          "person": {
+            "name": {
+              "given": "Colin",
+              "family": "MÜLLER",
+              "as_printed": "MÜLLER Colin"
+            },
+            "club": "MTC Rüsselsheim e.V. im ADAC",
+            "x_regional_club": "ADAC Hessen-Thüringen e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            3,
+            0,
+            5,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            1,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 16,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 37,
+          "total": 37,
+          "unit": "marks",
+          "counts": {
+            "0": 15,
+            "1": 7,
+            "2": 2,
+            "3": 2,
+            "5": 4
+          },
+          "time": {
+            "elapsed_s": 18954,
+            "as_printed": "05:15:54"
+          },
+          "status": "classified",
+          "x_average": 1.23
+        }
+      ]
+    },
+    {
+      "id": "e32",
+      "number": 213,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "9b901e81-6866-4b89-aef5-b1ff5d4a312d",
+          "person": {
+            "name": {
+              "given": "Paul Kilian",
+              "family": "STAUDIGEL",
+              "as_printed": "STAUDIGEL Paul Kilian"
+            },
+            "club": "MSF Frammersbach e.V.",
+            "x_regional_club": "ADAC Hessen-Thüringen e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            3,
+            1,
+            0,
+            5,
+            1,
+            5,
+            2,
+            5,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            5,
+            1,
+            1,
+            0,
+            0,
+            5,
+            0,
+            2,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 24,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 17,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 52,
+          "total": 52,
+          "unit": "marks",
+          "counts": {
+            "0": 7,
+            "1": 11,
+            "2": 5,
+            "3": 2,
+            "5": 5
+          },
+          "time": {
+            "elapsed_s": 18589,
+            "as_printed": "05:09:49"
+          },
+          "status": "classified",
+          "x_average": 1.73
+        }
+      ]
+    },
+    {
+      "id": "e33",
+      "number": 209,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "d546d74c-1333-42c1-ae32-6f96e315d098",
+          "person": {
+            "name": {
+              "given": "Amaro",
+              "family": "SMITH",
+              "as_printed": "SMITH Amaro"
+            },
+            "club": "MC Ruhrtal e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k2"
+      ],
+      "route": "white",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            2,
+            1,
+            1,
+            5,
+            5,
+            2,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            3,
+            0,
+            5,
+            5,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            2,
+            5,
+            0,
+            1,
+            1,
+            0,
+            5,
+            5,
+            2,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 36,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 24,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 26,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 86,
+          "total": 86,
+          "unit": "marks",
+          "counts": {
+            "0": 6,
+            "1": 5,
+            "2": 4,
+            "3": 1,
+            "5": 14
+          },
+          "status": "classified",
+          "x_average": 2.87,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e34",
+      "number": 311,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f4334f01-be6d-413e-91dd-3271672d15a5",
+          "person": {
+            "name": {
+              "given": "Benjamin",
+              "family": "FRAUEN",
+              "as_printed": "FRAUEN Benjamin"
+            },
+            "club": "Trialteam Bendestorf",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 11,
+          "total": 11,
+          "unit": "marks",
+          "counts": {
+            "0": 25,
+            "1": 3,
+            "2": 0,
+            "3": 1,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 19062,
+            "as_printed": "05:17:42"
+          },
+          "status": "classified",
+          "x_average": 0.37
+        }
+      ]
+    },
+    {
+      "id": "e35",
+      "number": 303,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "d057dc38-9dbb-41bb-9b8e-c19425e4d011",
+          "person": {
+            "name": {
+              "given": "Lars",
+              "family": "WANDEL",
+              "as_printed": "WANDEL Lars"
+            },
+            "club": "MSC Werl e.V.",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 11,
+          "total": 11,
+          "unit": "marks",
+          "counts": {
+            "0": 24,
+            "1": 4,
+            "2": 1,
+            "3": 0,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 18791,
+            "as_printed": "05:13:11"
+          },
+          "status": "classified",
+          "x_average": 0.37
+        }
+      ]
+    },
+    {
+      "id": "e36",
+      "number": 306,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "5965c997-b952-4ceb-91cd-225799ce47cf",
+          "person": {
+            "name": {
+              "given": "Erik",
+              "family": "KELLIG",
+              "as_printed": "KELLIG Erik"
+            },
+            "club": "MSC Thalheim e.V. im ADAC",
+            "x_regional_club": "ADAC Sachsen e. V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            5,
+            0,
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 11,
+          "total": 11,
+          "unit": "marks",
+          "counts": {
+            "0": 23,
+            "1": 6,
+            "2": 0,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 0.37,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e37",
+      "number": 310,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b997ff79-4e44-4af5-a701-bcbd66533a2e",
+          "person": {
+            "name": {
+              "given": "Lenny",
+              "family": "PIEGLER",
+              "as_printed": "PIEGLER Lenny"
+            },
+            "club": "MSC Jura Heideck e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            1,
+            0,
+            0,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 17,
+          "total": 17,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 6,
+            "2": 4,
+            "3": 1,
+            "5": 0
+          },
+          "time": {
+            "elapsed_s": 17988,
+            "as_printed": "04:59:48"
+          },
+          "status": "classified",
+          "x_average": 0.57
+        }
+      ]
+    },
+    {
+      "id": "e38",
+      "number": 307,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6ce12f18-636b-4234-a6d7-71a64731227c",
+          "person": {
+            "name": {
+              "given": "Valentin",
+              "family": "DAUM",
+              "as_printed": "DAUM Valentin"
+            },
+            "club": "IMS Schlierbachtal e.V.",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 5,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 20,
+          "total": 20,
+          "unit": "marks",
+          "counts": {
+            "0": 19,
+            "1": 7,
+            "2": 1,
+            "3": 2,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 0.67,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e39",
+      "number": 302,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "31980145-797c-48a8-b1aa-2b7e52ec050c",
+          "person": {
+            "name": {
+              "given": "Kalle",
+              "family": "LEHMANN",
+              "as_printed": "LEHMANN Kalle"
+            },
+            "club": "MSF Winningen e.V.",
+            "x_regional_club": "ADAC Mittelrhein e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            3,
+            1,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            2,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 27,
+          "total": 27,
+          "unit": "marks",
+          "counts": {
+            "0": 13,
+            "1": 11,
+            "2": 2,
+            "3": 4,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.9,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e40",
+      "number": 313,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "658d067e-f598-457f-aaef-2baefaee61cd",
+          "person": {
+            "name": {
+              "given": "Mats",
+              "family": "BÖHLING",
+              "as_printed": "BÖHLING Mats"
+            },
+            "club": "MSC Leopoldshöhe e.V. im ADAC",
+            "x_regional_club": "ADAC Ostwestfalen-Lippe e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            2,
+            1,
+            3,
+            3,
+            1,
+            0,
+            2,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            2,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 18,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 31,
+          "total": 31,
+          "unit": "marks",
+          "counts": {
+            "0": 13,
+            "1": 7,
+            "2": 6,
+            "3": 4,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 1.03,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e41",
+      "number": 332,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1e631db8-d646-4567-b61e-efa4dddb69b5",
+          "person": {
+            "name": {
+              "given": "Michael",
+              "family": "KREGEL",
+              "as_printed": "KREGEL Michael"
+            },
+            "club": "MSC Wörpetal im ADAC Weser Ems e.V.",
+            "x_regional_club": "ADAC Team Weser-Ems e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            3,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            5,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 13,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 13,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 33,
+          "total": 33,
+          "unit": "marks",
+          "counts": {
+            "0": 14,
+            "1": 10,
+            "2": 1,
+            "3": 2,
+            "5": 3
+          },
+          "time": {
+            "elapsed_s": 18530,
+            "as_printed": "05:08:50"
+          },
+          "status": "classified",
+          "x_average": 1.1
+        }
+      ]
+    },
+    {
+      "id": "e42",
+      "number": 312,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "73b19af0-379e-4a64-a68f-5da341c7156e",
+          "person": {
+            "name": {
+              "given": "Lasse",
+              "family": "FRAUEN",
+              "as_printed": "FRAUEN Lasse"
+            },
+            "club": "Trialteam Bendestorf",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            5,
+            1,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 13,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 14,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 33,
+          "total": 33,
+          "unit": "marks",
+          "counts": {
+            "0": 13,
+            "1": 9,
+            "2": 4,
+            "3": 2,
+            "5": 2
+          },
+          "time": {
+            "elapsed_s": 18519,
+            "as_printed": "05:08:39"
+          },
+          "status": "classified",
+          "x_average": 1.1
+        }
+      ]
+    },
+    {
+      "id": "e43",
+      "number": 327,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "8e07c88a-7836-4a07-ae0f-3c5ba65e2254",
+          "person": {
+            "name": {
+              "given": "Valentin",
+              "family": "MISCHLER",
+              "as_printed": "MISCHLER Valentin"
+            },
+            "club": "MSG Sulzberg e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            5,
+            1,
+            2,
+            0,
+            0,
+            1,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            2,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 24,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 42,
+          "total": 42,
+          "unit": "marks",
+          "counts": {
+            "0": 9,
+            "1": 11,
+            "2": 5,
+            "3": 2,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 1.4,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e44",
+      "number": 336,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "e708e6d0-f64c-495f-be56-e1500481acdd",
+          "person": {
+            "name": {
+              "given": "Luzian",
+              "family": "LAABS",
+              "as_printed": "LAABS Luzian"
+            },
+            "club": "MC Werratal Heringen e.V. im ADAC",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            2,
+            0,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            3,
+            5,
+            5,
+            3,
+            3,
+            1,
+            1,
+            5,
+            1,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 12,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 30,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 52,
+          "total": 52,
+          "unit": "marks",
+          "counts": {
+            "0": 4,
+            "1": 14,
+            "2": 4,
+            "3": 5,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 1.73,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e45",
+      "number": 323,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "88f0c4a5-0b32-4d85-be59-e88c6ea3b5c6",
+          "person": {
+            "name": {
+              "given": "Luca",
+              "family": "UHLIG",
+              "as_printed": "UHLIG Luca"
+            },
+            "club": "1. Münchner Trial Club e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            1,
+            5,
+            5,
+            0,
+            0,
+            5,
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            0,
+            5,
+            5,
+            1,
+            5,
+            0,
+            0,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 23,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 54,
+          "total": 54,
+          "unit": "marks",
+          "counts": {
+            "0": 14,
+            "1": 3,
+            "2": 2,
+            "3": 4,
+            "5": 7
+          },
+          "time": {
+            "elapsed_s": 18324,
+            "as_printed": "05:05:24"
+          },
+          "status": "classified",
+          "x_average": 1.8
+        }
+      ]
+    },
+    {
+      "id": "e46",
+      "number": 321,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "e0a4ebcc-9554-4cef-b089-bb96eb39a887",
+          "person": {
+            "name": {
+              "given": "Max",
+              "family": "HEIBROCK",
+              "as_printed": "HEIBROCK Max"
+            },
+            "club": "MSC Bielefeld-Sieker e.V.",
+            "x_regional_club": "ADAC Ostwestfalen-Lippe e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            1,
+            3,
+            2,
+            0,
+            1,
+            5,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            2,
+            3,
+            0,
+            3,
+            1,
+            1,
+            2,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            3,
+            0,
+            1,
+            3,
+            0,
+            2,
+            1,
+            2,
+            1,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 19,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 16,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 57,
+          "total": 57,
+          "unit": "marks",
+          "counts": {
+            "0": 5,
+            "1": 9,
+            "2": 6,
+            "3": 7,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 1.9,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e47",
+      "number": 322,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6455b649-cc0b-4bbf-967d-c33d7463332b",
+          "person": {
+            "name": {
+              "given": "Levin",
+              "family": "LIFFERS",
+              "as_printed": "LIFFERS Levin"
+            },
+            "club": "Trialteam Bendestorf",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            1,
+            0,
+            2,
+            1,
+            2,
+            3,
+            3,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            3,
+            2,
+            5,
+            1,
+            2,
+            5,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            2,
+            1,
+            0,
+            1,
+            1,
+            2,
+            1,
+            5,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 32,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 18,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 72,
+          "total": 72,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 8,
+            "2": 7,
+            "3": 5,
+            "5": 7
+          },
+          "status": "classified",
+          "x_average": 2.4,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e48",
+      "number": 315,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "09b9f8b3-2f0a-415e-9464-f14190cac88b",
+          "person": {
+            "name": {
+              "given": "Benedikt",
+              "family": "RIEGER",
+              "as_printed": "RIEGER Benedikt"
+            },
+            "club": "AC Garmisch Partenkirchen e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k3"
+      ],
+      "route": "blue",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            3,
+            1,
+            5,
+            3,
+            5,
+            5,
+            5,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            3,
+            3,
+            0,
+            2,
+            5,
+            2,
+            1,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            1,
+            1,
+            2,
+            0,
+            0,
+            1,
+            5,
+            2,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 38,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 25,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 20,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 83,
+          "total": 83,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 6,
+            "2": 4,
+            "3": 8,
+            "5": 9
+          },
+          "time": {
+            "elapsed_s": 17223,
+            "as_printed": "04:47:03"
+          },
+          "status": "classified",
+          "x_average": 2.77
+        }
+      ]
+    },
+    {
+      "id": "e49",
+      "number": 413,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "86007eb1-ec22-482e-8438-34859e325fe8",
+          "person": {
+            "name": {
+              "given": "Norman",
+              "family": "STOLL",
+              "as_printed": "STOLL Norman"
+            },
+            "club": "MSV Preetz e.V. im ADAC",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k4"
+      ],
+      "route": "red",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 8,
+          "total": 8,
+          "unit": "marks",
+          "counts": {
+            "0": 23,
+            "1": 6,
+            "2": 1,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.27,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e50",
+      "number": 401,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "ac411972-9d56-479a-ad23-f515f51ee7ee",
+          "person": {
+            "name": {
+              "given": "Alois",
+              "family": "THOMA",
+              "as_printed": "THOMA Alois"
+            },
+            "club": "TuS Fürstenfeldbruck e.V.",
+            "x_regional_club": "ADAC Württemberg e. V."
+          }
+        }
+      ],
+      "classes": [
+        "k4"
+      ],
+      "route": "red",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            2,
+            1,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            2,
+            5,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 26,
+          "total": 26,
+          "unit": "marks",
+          "counts": {
+            "0": 16,
+            "1": 7,
+            "2": 4,
+            "3": 2,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 0.87,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e51",
+      "number": 403,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f7de8723-e269-404d-8d3b-0bbbb2eae3df",
+          "person": {
+            "name": {
+              "given": "Mathias",
+              "family": "SCHULZ",
+              "as_printed": "SCHULZ Mathias"
+            },
+            "club": "Trialteam Bendestorf",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k4"
+      ],
+      "route": "red",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            0,
+            3,
+            1,
+            0,
+            1,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            5,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 28,
+          "total": 28,
+          "unit": "marks",
+          "counts": {
+            "0": 18,
+            "1": 6,
+            "2": 2,
+            "3": 1,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 0.93,
+          "note": "Zeit blank."
+        }
+      ]
+    },
+    {
+      "id": "e52",
+      "number": 405,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "52ff6840-678e-4064-b93d-fac036d07d12",
+          "person": {
+            "name": {
+              "given": "Timor",
+              "family": "OSSEVORTH",
+              "as_printed": "OSSEVORTH Timor"
+            },
+            "club": "MSC Potsdam e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k4"
+      ],
+      "route": "red",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            2,
+            5,
+            5,
+            2,
+            2,
+            3,
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            5,
+            5,
+            2,
+            0,
+            1,
+            5,
+            5,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            3,
+            3,
+            2,
+            0,
+            5,
+            1,
+            2,
+            1,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 32,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 76,
+          "penalties": [
+            {
+              "code": "late-finish",
+              "value": 2,
+              "unit": "marks",
+              "reason": "Zeit 06:01:23 against Fahrzeit 6:00: two started minutes over.",
+              "as_printed": "ZP 2"
+            }
+          ],
+          "total": 78,
+          "unit": "marks",
+          "counts": {
+            "0": 4,
+            "1": 7,
+            "2": 6,
+            "3": 4,
+            "5": 9
+          },
+          "time": {
+            "elapsed_s": 21683,
+            "as_printed": "06:01:23"
+          },
+          "status": "classified",
+          "x_average": 2.53
+        }
+      ]
+    },
+    {
+      "id": "e53",
+      "number": 514,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c9f156a4-08f1-4203-a715-84548ebda51e",
+          "person": {
+            "name": {
+              "given": "Ulrich",
+              "family": "DAUM",
+              "as_printed": "DAUM Ulrich"
+            },
+            "club": "IMS Schlierbachtal e.V.",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 8,
+          "total": 8,
+          "unit": "marks",
+          "counts": {
+            "0": 22,
+            "1": 8,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "time": {
+            "elapsed_s": 20097,
+            "as_printed": "05:34:57"
+          },
+          "status": "classified",
+          "x_average": 0.27
+        }
+      ]
+    },
+    {
+      "id": "e54",
+      "number": 515,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "61d7c4a6-2082-44c2-b51f-1d388be63764",
+          "person": {
+            "name": {
+              "given": "Armin",
+              "family": "PRUTSCHER",
+              "as_printed": "PRUTSCHER Armin"
+            },
+            "club": "MCH Singen e.V.",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            3,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 5,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 9,
+          "total": 9,
+          "unit": "marks",
+          "counts": {
+            "0": 25,
+            "1": 3,
+            "2": 0,
+            "3": 2,
+            "5": 0
+          },
+          "time": {
+            "elapsed_s": 18977,
+            "as_printed": "05:16:17"
+          },
+          "status": "classified",
+          "x_average": 0.3
+        }
+      ]
+    },
+    {
+      "id": "e55",
+      "number": 506,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "4f76c542-4df2-41d0-bda7-c9e5e390673f",
+          "person": {
+            "name": {
+              "given": "Dirk",
+              "family": "GORAL",
+              "as_printed": "GORAL Dirk"
+            },
+            "club": "Trialteam Bendestorf",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "total": 14,
+          "unit": "marks",
+          "counts": {
+            "0": 23,
+            "1": 4,
+            "2": 1,
+            "3": 1,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 19541,
+            "as_printed": "05:25:41"
+          },
+          "status": "classified",
+          "x_average": 0.47
+        }
+      ]
+    },
+    {
+      "id": "e56",
+      "number": 508,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "abab036f-30e7-4271-911d-a20e05c40b78",
+          "person": {
+            "name": {
+              "given": "Torsten",
+              "family": "SCHUMANN",
+              "as_printed": "SCHUMANN Torsten"
+            },
+            "club": "MSC Weser-Solling e.V.",
+            "x_regional_club": "ADAC Niedersachsen/ Sachsen-Anhalt e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            2,
+            0,
+            0,
+            1,
+            2,
+            1,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            1,
+            3,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 14,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 12,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 35,
+          "total": 35,
+          "unit": "marks",
+          "counts": {
+            "0": 14,
+            "1": 6,
+            "2": 5,
+            "3": 3,
+            "5": 2
+          },
+          "time": {
+            "elapsed_s": 18138,
+            "as_printed": "05:02:18"
+          },
+          "status": "classified",
+          "x_average": 1.17
+        }
+      ]
+    },
+    {
+      "id": "e57",
+      "number": 505,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "199cc7f7-976e-4d5d-b2b0-9568f7a24aa1",
+          "person": {
+            "name": {
+              "given": "Tobias",
+              "family": "STRANGHÖNER",
+              "as_printed": "STRANGHÖNER Tobias"
+            },
+            "club": "MSC Leopoldshöhe e.V. im ADAC",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            2,
+            0,
+            0,
+            0,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            2,
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            0,
+            2,
+            3,
+            0,
+            1,
+            1,
+            2,
+            1,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 18,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 40,
+          "total": 40,
+          "unit": "marks",
+          "counts": {
+            "0": 8,
+            "1": 10,
+            "2": 8,
+            "3": 3,
+            "5": 1
+          },
+          "time": {
+            "elapsed_s": 16105,
+            "as_printed": "04:28:25"
+          },
+          "status": "classified",
+          "x_average": 1.33
+        }
+      ]
+    },
+    {
+      "id": "e58",
+      "number": 503,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "75f37242-c5df-46e7-b70d-1c8fed4bf3c5",
+          "person": {
+            "name": {
+              "given": "Stephan",
+              "family": "SACHSE",
+              "as_printed": "SACHSE Stephan"
+            },
+            "club": "Trialteam Bendestorf",
+            "x_regional_club": "ADAC Ostwestfalen-Lippe e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            0,
+            5,
+            2,
+            5,
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            5,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            1,
+            3,
+            5,
+            0,
+            0,
+            0,
+            1,
+            1,
+            3,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 18,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 17,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 57,
+          "total": 57,
+          "unit": "marks",
+          "counts": {
+            "0": 7,
+            "1": 7,
+            "2": 6,
+            "3": 6,
+            "5": 4
+          },
+          "time": {
+            "elapsed_s": 19614,
+            "as_printed": "05:26:54"
+          },
+          "status": "classified",
+          "x_average": 1.9
+        }
+      ]
+    },
+    {
+      "id": "e59",
+      "number": 507,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "af4840ac-6064-4fa2-9279-1af335ba9e83",
+          "person": {
+            "name": {
+              "given": "Oliver",
+              "family": "WENGLER",
+              "as_printed": "WENGLER Oliver"
+            },
+            "club": "RG Allgäu Kempten e.V.",
+            "x_regional_club": "ADAC Pfalz e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            2,
+            1,
+            5,
+            0,
+            2,
+            3,
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            5,
+            2,
+            1,
+            0,
+            2,
+            3,
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 20,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 16,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 58,
+          "total": 58,
+          "unit": "marks",
+          "counts": {
+            "0": 5,
+            "1": 9,
+            "2": 5,
+            "3": 8,
+            "5": 3
+          },
+          "time": {
+            "elapsed_s": 20263,
+            "as_printed": "05:37:43"
+          },
+          "status": "classified",
+          "x_average": 1.93
+        }
+      ]
+    },
+    {
+      "id": "e60",
+      "number": 501,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c96cd5e1-ccdf-419d-ac2f-9cecff882773",
+          "person": {
+            "name": {
+              "given": "Uwe",
+              "family": "SEIDEL",
+              "as_printed": "SEIDEL Uwe"
+            },
+            "club": "AMC Idstein e.V.",
+            "x_regional_club": "Deutscher Motorsport Verband e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k5"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            1,
+            3,
+            3,
+            0,
+            3,
+            2,
+            3,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            2,
+            2,
+            3,
+            1,
+            2,
+            2,
+            2,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            3,
+            1,
+            1,
+            0,
+            1,
+            3,
+            3,
+            3,
+            3,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 26,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 23,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 23,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 72,
+          "total": 72,
+          "unit": "marks",
+          "counts": {
+            "0": 2,
+            "1": 7,
+            "2": 6,
+            "3": 11,
+            "5": 4
+          },
+          "time": {
+            "elapsed_s": 19098,
+            "as_printed": "05:18:18"
+          },
+          "status": "classified",
+          "x_average": 2.4
+        }
+      ]
+    },
+    {
+      "id": "e61",
+      "number": 642,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "fb43d022-b644-4fe2-b3b6-1d849465ad7e",
+          "person": {
+            "name": {
+              "given": "Lena",
+              "family": "STEPHAN",
+              "as_printed": "STEPHAN Lena"
+            },
+            "club": "MSC Amtzell e.V.",
+            "x_regional_club": "ADAC Württemberg e. V."
+          }
+        }
+      ],
+      "classes": [
+        "k6f"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            3,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            3,
+            0,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            2,
+            5,
+            0,
+            1,
+            3,
+            1,
+            1,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 14,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 23,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 45,
+          "total": 45,
+          "unit": "marks",
+          "counts": {
+            "0": 11,
+            "1": 9,
+            "2": 2,
+            "3": 4,
+            "5": 4
+          },
+          "time": {
+            "elapsed_s": 19481,
+            "as_printed": "05:24:41"
+          },
+          "status": "classified",
+          "x_average": 1.5
+        }
+      ]
+    },
+    {
+      "id": "e62",
+      "number": 640,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "9a0e4100-94c6-4b7c-914a-9af4bc2a86c6",
+          "person": {
+            "name": {
+              "given": "Alexandra",
+              "family": "HUNGER",
+              "as_printed": "HUNGER Alexandra"
+            },
+            "club": "MSC Bielefeld-Sieker e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k6f"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            5,
+            3,
+            1,
+            2,
+            0,
+            3,
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            3,
+            3,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            5,
+            3,
+            0,
+            0,
+            1,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 20,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 18,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 16,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 54,
+          "total": 54,
+          "unit": "marks",
+          "counts": {
+            "0": 9,
+            "1": 7,
+            "2": 3,
+            "3": 7,
+            "5": 4
+          },
+          "time": {
+            "elapsed_s": 21263,
+            "as_printed": "05:54:23"
+          },
+          "status": "classified",
+          "x_average": 1.8
+        }
+      ]
+    },
+    {
+      "id": "e63",
+      "number": 641,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f2c29196-7aba-45c2-a049-d3f7bd3b9b70",
+          "person": {
+            "name": {
+              "given": "Pauline",
+              "family": "PETERS",
+              "as_printed": "PETERS Pauline"
+            },
+            "club": "AMC Kerzenheim e.V.",
+            "x_regional_club": "ADAC Pfalz e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k6f"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            1,
+            3,
+            2,
+            3,
+            2,
+            5,
+            1,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            5,
+            3,
+            1,
+            2,
+            1,
+            5,
+            3,
+            1,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            1,
+            3,
+            0,
+            2,
+            1,
+            3,
+            2,
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 23,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 31,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 76,
+          "total": 76,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 8,
+            "2": 7,
+            "3": 8,
+            "5": 6
+          },
+          "time": {
+            "elapsed_s": 21308,
+            "as_printed": "05:55:08"
+          },
+          "status": "classified",
+          "x_average": 2.53
+        }
+      ]
+    },
+    {
+      "id": "e64",
+      "number": 631,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "ec2f647c-786a-46ea-adac-f0ee0d06ce35",
+          "person": {
+            "name": {
+              "given": "Mona",
+              "family": "PEKAREK",
+              "as_printed": "PEKAREK Mona"
+            },
+            "club": "MSC \"Falke\" Wildberg-Sulz e.V.",
+            "x_regional_club": "ADAC Team Südbayern"
+          }
+        }
+      ],
+      "classes": [
+        "k6f"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            2,
+            3,
+            3,
+            1,
+            3,
+            3,
+            2,
+            2,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            2,
+            1,
+            1,
+            1,
+            3,
+            3,
+            2,
+            1,
+            5,
+            3
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            1,
+            2,
+            1,
+            1,
+            5,
+            5,
+            3,
+            1,
+            5,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 27,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 22,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 27,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 76,
+          "total": 76,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 9,
+            "2": 6,
+            "3": 10,
+            "5": 5
+          },
+          "time": {
+            "elapsed_s": 21253,
+            "as_printed": "05:54:13"
+          },
+          "status": "classified",
+          "x_average": 2.53
+        }
+      ]
+    },
+    {
+      "id": "e65",
+      "number": 633,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "bd3afeec-c247-433e-8f52-cd820a84300b",
+          "person": {
+            "name": {
+              "given": "Maren",
+              "family": "KROGMEIER",
+              "as_printed": "KROGMEIER Maren"
+            },
+            "club": "MSC Bielefeld-Sieker e.V.",
+            "x_regional_club": "ADAC Nordbayern e.V."
+          }
+        }
+      ],
+      "classes": [
+        "k6f"
+      ],
+      "route": "green",
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            3,
+            5,
+            5,
+            3,
+            3,
+            5,
+            3,
+            5,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            3,
+            5,
+            3,
+            5,
+            3,
+            5,
+            3,
+            3,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            2,
+            3,
+            5,
+            3,
+            3,
+            5,
+            3,
+            3,
+            2,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 40,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 40,
+          "unit": "marks"
+        },
+        {
+          "part": "l3",
+          "total": 34,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 114,
+          "total": 114,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 0,
+            "2": 2,
+            "3": 15,
+            "5": 13
+          },
+          "time": {
+            "elapsed_s": 20046,
+            "as_printed": "05:34:06"
+          },
+          "status": "classified",
+          "x_average": 3.8
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "c-k1",
+      "name": "Klasse 1 - Deutsche Trial-Meisterschaft",
+      "kind": "eligibility",
+      "classes": [
+        "k1"
+      ],
+      "filter": "riders scoring for the DM only (wertungsberechtigt); others removed and following riders move up (DMSB 2130 Art. 9)",
+      "rule_set": "dmsb",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 11,
+        "started": 11,
+        "retired": 0,
+        "finished": 11,
+        "scored": 11
+      },
+      "x_counts_as_printed": "Genannt: 11, Gestartet: 11, Ausgefallen: 0, Im Ziel: 11, Gewertet: 11",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 11,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 100
+          }
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "value": 14,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 85
+          }
+        },
+        {
+          "entry": "e3",
+          "rank": 3,
+          "value": 18,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 70
+          }
+        },
+        {
+          "entry": "e4",
+          "rank": 4,
+          "value": 22,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 60
+          }
+        },
+        {
+          "entry": "e5",
+          "rank": 5,
+          "value": 27,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 55
+          }
+        },
+        {
+          "entry": "e6",
+          "rank": 6,
+          "value": 32,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 50
+          }
+        },
+        {
+          "entry": "e7",
+          "rank": 7,
+          "value": 33,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 45
+          }
+        },
+        {
+          "entry": "e8",
+          "rank": 8,
+          "value": 40,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 40
+          }
+        },
+        {
+          "entry": "e9",
+          "rank": 9,
+          "value": 55,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 35
+          }
+        },
+        {
+          "entry": "e10",
+          "rank": 10,
+          "value": 58,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 30
+          }
+        },
+        {
+          "entry": "e11",
+          "rank": 11,
+          "value": 71,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "c-k1f",
+      "name": "Klasse 1F - Deutsche Frauen-Trial-Meisterschaft",
+      "kind": "eligibility",
+      "classes": [
+        "k1f"
+      ],
+      "filter": "riders scoring for the DM only",
+      "rule_set": "dmsb",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 7,
+        "started": 7,
+        "retired": 0,
+        "finished": 7,
+        "scored": 7
+      },
+      "x_counts_as_printed": "Genannt: 7, Gestartet: 7, Ausgefallen: 0, Im Ziel: 7, Gewertet: 7",
+      "rows": [
+        {
+          "entry": "e12",
+          "rank": 1,
+          "value": 2,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 100
+          }
+        },
+        {
+          "entry": "e13",
+          "rank": 2,
+          "value": 7,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 85
+          }
+        },
+        {
+          "entry": "e14",
+          "rank": 3,
+          "value": 18,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 70
+          }
+        },
+        {
+          "entry": "e15",
+          "rank": 4,
+          "value": 28,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 60
+          }
+        },
+        {
+          "entry": "e16",
+          "rank": 5,
+          "value": 31,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 55
+          }
+        },
+        {
+          "entry": "e17",
+          "rank": 6,
+          "value": 82,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 50
+          }
+        },
+        {
+          "entry": "e18",
+          "rank": 7,
+          "value": 120,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "c-k2",
+      "name": "Klasse 2 - Deutscher-Trial-Cup",
+      "kind": "eligibility",
+      "classes": [
+        "k2"
+      ],
+      "filter": "riders scoring for the DM only",
+      "rule_set": "dmsb",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 15,
+        "started": 15,
+        "retired": 0,
+        "finished": 15,
+        "scored": 15
+      },
+      "x_counts_as_printed": "Genannt: 15, Gestartet: 15, Ausgefallen: 0, Im Ziel: 15, Gewertet: 15",
+      "notes": "The live page lists 17 starters in Klasse 2; this sheet counts and ranks only the 15 DM-scoring riders.",
+      "rows": [
+        {
+          "entry": "e19",
+          "rank": 1,
+          "value": 6,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 100
+          }
+        },
+        {
+          "entry": "e20",
+          "rank": 2,
+          "value": 12,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 85
+          }
+        },
+        {
+          "entry": "e21",
+          "rank": 3,
+          "value": 14,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 70
+          }
+        },
+        {
+          "entry": "e22",
+          "rank": 4,
+          "value": 16,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 60
+          }
+        },
+        {
+          "entry": "e23",
+          "rank": 5,
+          "value": 18,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 55
+          }
+        },
+        {
+          "entry": "e24",
+          "rank": 6,
+          "value": 19,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 50
+          }
+        },
+        {
+          "entry": "e25",
+          "rank": 7,
+          "value": 20,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 45
+          },
+          "note": "8th on the day per the live page; GOERTZ (not scoring for DM) removed above him."
+        },
+        {
+          "entry": "e26",
+          "rank": 8,
+          "value": 21,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 40
+          }
+        },
+        {
+          "entry": "e27",
+          "rank": 9,
+          "value": 23,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 35
+          }
+        },
+        {
+          "entry": "e28",
+          "rank": 10,
+          "value": 31,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 30
+          }
+        },
+        {
+          "entry": "e29",
+          "rank": 11,
+          "value": 34,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 25
+          }
+        },
+        {
+          "entry": "e30",
+          "rank": 12,
+          "value": 35,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 22
+          }
+        },
+        {
+          "entry": "e31",
+          "rank": 13,
+          "value": 37,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 20
+          }
+        },
+        {
+          "entry": "e32",
+          "rank": 14,
+          "value": 52,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 18
+          }
+        },
+        {
+          "entry": "e33",
+          "rank": 15,
+          "value": 86,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "c-k3",
+      "name": "Klasse 3 - Deutscher-Trial-Pokal",
+      "kind": "eligibility",
+      "classes": [
+        "k3"
+      ],
+      "filter": "riders scoring for the DM only",
+      "rule_set": "dmsb",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 15,
+        "started": 15,
+        "retired": 0,
+        "finished": 15,
+        "scored": 15
+      },
+      "x_counts_as_printed": "Genannt: 15, Gestartet: 15, Ausgefallen: 0, Im Ziel: 15, Gewertet: 15",
+      "rows": [
+        {
+          "entry": "e34",
+          "rank": 1,
+          "value": 11,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 100
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "25 cleans",
+            "inferred": true,
+            "detail": "Equal on 11 with WANDEL Lars (24 cleans), KELLIG Erik (23 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e35",
+          "rank": 2,
+          "value": 11,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 85
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "24 cleans",
+            "inferred": true,
+            "detail": "Equal on 11 with FRAUEN Benjamin (25 cleans), KELLIG Erik (23 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e36",
+          "rank": 3,
+          "value": 11,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 70
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "23 cleans",
+            "inferred": true,
+            "detail": "Equal on 11 with FRAUEN Benjamin (25 cleans), WANDEL Lars (24 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e37",
+          "rank": 4,
+          "value": 17,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 60
+          }
+        },
+        {
+          "entry": "e38",
+          "rank": 5,
+          "value": 20,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 55
+          }
+        },
+        {
+          "entry": "e39",
+          "rank": 6,
+          "value": 27,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 50
+          }
+        },
+        {
+          "entry": "e40",
+          "rank": 7,
+          "value": 31,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 45
+          }
+        },
+        {
+          "entry": "e41",
+          "rank": 8,
+          "value": 33,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 40
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "14 cleans",
+            "inferred": true,
+            "detail": "Equal on 33 with FRAUEN Lasse (13 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e42",
+          "rank": 9,
+          "value": 33,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 35
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "13 cleans",
+            "inferred": true,
+            "detail": "Equal on 33 with KREGEL Michael (14 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e43",
+          "rank": 10,
+          "value": 42,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 30
+          }
+        },
+        {
+          "entry": "e44",
+          "rank": 11,
+          "value": 52,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 25
+          }
+        },
+        {
+          "entry": "e45",
+          "rank": 12,
+          "value": 54,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 22
+          }
+        },
+        {
+          "entry": "e46",
+          "rank": 13,
+          "value": 57,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 20
+          }
+        },
+        {
+          "entry": "e47",
+          "rank": 14,
+          "value": 72,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 18
+          }
+        },
+        {
+          "entry": "e48",
+          "rank": 15,
+          "value": 83,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "c-k4",
+      "name": "Klasse 4 - Deutscher-Trial-Senioren-Pokal (Ü40)",
+      "kind": "eligibility",
+      "classes": [
+        "k4"
+      ],
+      "filter": "riders scoring for the DM only",
+      "rule_set": "dmsb",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 4,
+        "started": 4,
+        "retired": 0,
+        "finished": 4,
+        "scored": 4
+      },
+      "x_counts_as_printed": "Genannt: 4, Gestartet: 4, Ausgefallen: 0, Im Ziel: 4, Gewertet: 4",
+      "rows": [
+        {
+          "entry": "e49",
+          "rank": 1,
+          "value": 8,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 100
+          }
+        },
+        {
+          "entry": "e50",
+          "rank": 2,
+          "value": 26,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 85
+          }
+        },
+        {
+          "entry": "e51",
+          "rank": 3,
+          "value": 28,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 70
+          }
+        },
+        {
+          "entry": "e52",
+          "rank": 4,
+          "value": 78,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 60
+          },
+          "note": "6th on the day per the live page."
+        }
+      ]
+    },
+    {
+      "id": "c-k5",
+      "name": "Klasse 5 - Deutscher-Trial-Ü50-Senioren-Pokal",
+      "kind": "eligibility",
+      "classes": [
+        "k5"
+      ],
+      "filter": "riders scoring for the DM only",
+      "rule_set": "dmsb",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 8,
+        "started": 8,
+        "retired": 0,
+        "finished": 8,
+        "scored": 8
+      },
+      "x_counts_as_printed": "Genannt: 8, Gestartet: 8, Ausgefallen: 0, Im Ziel: 8, Gewertet: 8",
+      "rows": [
+        {
+          "entry": "e53",
+          "rank": 1,
+          "value": 8,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 100
+          }
+        },
+        {
+          "entry": "e54",
+          "rank": 2,
+          "value": 9,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 85
+          }
+        },
+        {
+          "entry": "e55",
+          "rank": 3,
+          "value": 14,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 70
+          }
+        },
+        {
+          "entry": "e56",
+          "rank": 4,
+          "value": 35,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 60
+          }
+        },
+        {
+          "entry": "e57",
+          "rank": 5,
+          "value": 40,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 55
+          }
+        },
+        {
+          "entry": "e58",
+          "rank": 6,
+          "value": 57,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 50
+          }
+        },
+        {
+          "entry": "e59",
+          "rank": 7,
+          "value": 58,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 45
+          }
+        },
+        {
+          "entry": "e60",
+          "rank": 8,
+          "value": 72,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "c-k6f",
+      "name": "Klasse 6F - Ladies-Open",
+      "kind": "eligibility",
+      "classes": [
+        "k6f"
+      ],
+      "filter": "riders scoring for the DM only",
+      "rule_set": "dmsb",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 5,
+        "started": 5,
+        "retired": 0,
+        "finished": 5,
+        "scored": 5
+      },
+      "x_counts_as_printed": "Genannt: 5, Gestartet: 5, Ausgefallen: 0, Im Ziel: 5, Gewertet: 5",
+      "rows": [
+        {
+          "entry": "e61",
+          "rank": 1,
+          "value": 45,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 100
+          }
+        },
+        {
+          "entry": "e62",
+          "rank": 2,
+          "value": 54,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 85
+          }
+        },
+        {
+          "entry": "e63",
+          "rank": 3,
+          "value": 76,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 70
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "1 clean",
+            "inferred": true,
+            "detail": "Equal on 76 with PEKAREK Mona (0 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e64",
+          "rank": 4,
+          "value": 76,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 60
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "0 cleans",
+            "inferred": true,
+            "detail": "Equal on 76 with PETERS Pauline (1 clean). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e65",
+          "rank": 5,
+          "value": 114,
+          "unit": "marks",
+          "status": "classified",
+          "points": {
+            "scheme": "DM Wertungspunkte (DMSB 2130 Art. 9)",
+            "value": 55
+          }
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "source_file": "2026-04-25_dmsb_deutsche-trial-meisterschaft-r1-ebstorf_results.pdf",
+    "trove": "eu",
+    "sampled": false,
+    "entries_in_document": 65,
+    "entries_encoded": 65,
+    "features": [
+      "laps",
+      "scale-01235",
+      "section-marks",
+      "part-totals",
+      "mark-counts",
+      "time-penalty-column",
+      "other-penalty-column",
+      "elapsed-time",
+      "route-separate-from-class",
+      "series-points-printed",
+      "riding-number",
+      "club",
+      "name-split",
+      "publish-timestamp"
+    ],
+    "misfits": [
+      {
+        "what": "Each rider prints two affiliations: a club and an ADAC regional club (or the DMV). person.club holds one string.",
+        "where": "entries[*].people[0].person.x_regional_club",
+        "severity": "awkward",
+        "suggestion": "Replace person.club with person.affiliations[] {type: club|regional-club|federation, name}."
+      },
+      {
+        "what": "The sheet is a championship-filtered classification: riders not scoring for the DM are left out and the rest re-ranked, so ranks differ from the day result on the live page. The PDF itself does not say so; kind 'eligibility' plus free-text filter is the only place to put it.",
+        "where": "classifications[*]",
+        "severity": "awkward",
+        "suggestion": "Add classification.ineligible_handling: removed-reranked | listed-unranked | listed-ranked, and classification.scope (e.g. 'DM')."
+      },
+      {
+        "what": "classification.counts is typed for mark counts but the header prints entrant counts (Genannt/Gestartet/Ausgefallen/Im Ziel/Gewertet).",
+        "where": "classifications[*].counts",
+        "severity": "awkward",
+        "suggestion": "Add classification.entrant_counts {entered, started, retired, finished, scored}."
+      },
+      {
+        "what": "Equal totals in Klasse 3 (three riders on 11) are ordered with no printed reason; tie_break cannot be marked as inferred.",
+        "where": "classifications[c-k3].rows[*].tie_break",
+        "severity": "awkward",
+        "suggestion": "Add tie_break.inferred (boolean)."
+      },
+      {
+        "what": "Durchschnitt (average mark per section) printed per rider.",
+        "where": "entries[*].totals[part=null].x_average",
+        "severity": "cosmetic",
+        "suggestion": "Add optional total.average or declare it derivable."
+      },
+      {
+        "what": "Lane colour is printed only as a coloured swatch beside the class name; difficulty order of the lanes is not printed, so route.order stays null.",
+        "where": "routes[*].order",
+        "severity": "cosmetic",
+        "suggestion": "Add route.inferred or route.order_source so a mapper can record an order taken from class numbering."
+      }
+    ],
+    "confidence": "high",
+    "unread": "Nothing unread. The 7 sampled riders were mapped by hand; the other 58 were added later by parsing the PDF text layer. Every rider's marks agree with the printed lap sums, mark counts and Punkte, and the parser's output matched the hand-mapped riders. For nos 222 and 508 the regional club wraps into the first three marks in the text layer; their marks were checked against the trial-live page."
+  }
+}

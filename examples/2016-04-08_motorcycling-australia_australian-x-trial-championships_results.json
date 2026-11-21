@@ -1,0 +1,2166 @@
+{
+  "protocol": "trials-result/0.1",
+  "document": {
+    "title": "2016 X Trial Australian Championship",
+    "status": "unknown",
+    "detail_level": "sections",
+    "format": "pdf-image",
+    "language": "en",
+    "source_url": "https://s3.ap-southeast-2.amazonaws.com/trials-australia-craft-dev/postFiles/mattyl01/mattyl01/2016-australian-xtrial-championships_2023-01-28-121850_lefp.pdf",
+    "source_file": "2016-04-08_motorcycling-australia_australian-x-trial-championships_results.pdf",
+    "retrieved": "2026-11-19",
+    "notes": "Three image-only pages. Page 1 (Day 1, 8th April 2016) and page 2 (Day 2, 9th April 2016): four Qualifying Heat blocks and two FINAL Heat blocks, each with two riders ('Rider # n', 'Rider Name - ...'), six section marks, Race, Total, Place; and a 'Day n Results' table with Championship Points. 'Race Win = 0 / Race Second = 1' is printed above the heats. Page 3: 'Championship Results' with Day 1, Day 2 and Total points for the top four only, ties annotated '7 cleans' / '5 cleans'. The 'Rider #' changes from day to day and between qualifying and final, so it is a heat slot, not a riding number; day 2 qualifying slots follow the day 1 result (#1 = day 1 winner)."
+  },
+  "event": {
+    "name": "2016 X Trial Australian Championship",
+    "governing_bodies": [
+      {
+        "name": "Motorcycling Australia",
+        "level": "national"
+      }
+    ],
+    "country": "AU",
+    "start_date": "2016-04-08",
+    "end_date": "2016-04-09",
+    "discipline": "moto-trial",
+    "notes": "Venue and organiser not printed."
+  },
+  "rule_sets": [
+    {
+      "id": "xt",
+      "name": "X Trial heats",
+      "format": "indoor",
+      "basis": "marks-lost",
+      "direction": "low",
+      "unit": "marks",
+      "stop_rule": "not-stated",
+      "section_scale": {
+        "type": "numeric",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      "tie_breaks": [
+        "most-cleans"
+      ],
+      "source": {
+        "title": "Result sheet",
+        "file": "2016-04-08_motorcycling-australia_australian-x-trial-championships_results.pdf"
+      },
+      "inferred": true,
+      "notes": "Heat Total = six section marks + Race. Ties: most cleans, printed as '4 cleans' / '3 cleans' and '7 cleans' / '5 cleans'; a race win counts as a clean. Whether Trial or Super Trial rules (MoMS 15.12.1.7) applied is not stated. Day and championship placings are by championship points (25, 22, 20, 18, then 0)."
+    },
+    {
+      "id": "race",
+      "name": "Head-to-head race in each heat",
+      "format": "other",
+      "basis": "placing-points",
+      "direction": "low",
+      "unit": "marks",
+      "section_scale": {
+        "type": "numeric",
+        "values": [
+          0,
+          1
+        ]
+      },
+      "source": {
+        "title": "Result sheet header",
+        "clause": "Race Win = 0 / Race Second = 1",
+        "file": "2016-04-08_motorcycling-australia_australian-x-trial-championships_results.pdf"
+      },
+      "inferred": false,
+      "notes": "The two riders of a heat race each other; the loser adds 1 to the heat total."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "number": 1,
+      "kind": "observed",
+      "rule_set": "xt"
+    },
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "observed",
+      "rule_set": "xt"
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "observed",
+      "rule_set": "xt"
+    },
+    {
+      "id": "s4",
+      "number": 4,
+      "kind": "observed",
+      "rule_set": "xt"
+    },
+    {
+      "id": "s5",
+      "number": 5,
+      "kind": "observed",
+      "rule_set": "xt"
+    },
+    {
+      "id": "s6",
+      "number": 6,
+      "kind": "observed",
+      "rule_set": "xt"
+    },
+    {
+      "id": "race",
+      "number": null,
+      "name": "Race",
+      "kind": "race",
+      "rule_set": "race",
+      "as_printed": "Race"
+    }
+  ],
+  "parts": [
+    {
+      "id": "d1",
+      "kind": "day",
+      "label": "Day 1",
+      "order": 1,
+      "date": "2016-04-08",
+      "ranked": true,
+      "notes": "Day result: Final positions 1 to 4, then qualifying order for 5 to 8; championship points 25, 22, 20, 18 to the top four, 0 to the rest.",
+      "sets_start_order_for": "d2q"
+    },
+    {
+      "id": "d1q",
+      "parent": "d1",
+      "kind": "qualifying",
+      "label": "Qualifying",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": true
+    },
+    {
+      "id": "d1qh1",
+      "parent": "d1q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 1",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d1qh2",
+      "parent": "d1q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 2",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d1qh3",
+      "parent": "d1q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 3",
+      "order": 3,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d1qh4",
+      "parent": "d1q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 4",
+      "order": 4,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d1f",
+      "parent": "d1",
+      "kind": "final",
+      "label": "FINAL",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": true,
+      "starts_from_zero": true,
+      "notes": "Top four from qualifying (inferred from who rode it). Final totals do not carry qualifying scores."
+    },
+    {
+      "id": "d1fh1",
+      "parent": "d1f",
+      "kind": "heat",
+      "label": "FINAL Heat # 1",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false
+    },
+    {
+      "id": "d1fh2",
+      "parent": "d1f",
+      "kind": "heat",
+      "label": "FINAL Heat # 2",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false
+    },
+    {
+      "id": "d2",
+      "kind": "day",
+      "label": "Day 2",
+      "order": 2,
+      "date": "2016-04-09",
+      "ranked": true,
+      "notes": "Day result: Final positions 1 to 4, then qualifying order for 5 to 8; championship points 25, 22, 20, 18 to the top four, 0 to the rest."
+    },
+    {
+      "id": "d2q",
+      "parent": "d2",
+      "kind": "qualifying",
+      "label": "Qualifying",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": true
+    },
+    {
+      "id": "d2qh1",
+      "parent": "d2q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 1",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d2qh2",
+      "parent": "d2q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 2",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d2qh3",
+      "parent": "d2q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 3",
+      "order": 3,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d2qh4",
+      "parent": "d2q",
+      "kind": "heat",
+      "label": "Qualifying Heat # 4",
+      "order": 4,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false,
+      "notes": "Two riders ride the six sections head to head; the Place column in the block is the qualifying rank."
+    },
+    {
+      "id": "d2f",
+      "parent": "d2",
+      "kind": "final",
+      "label": "FINAL",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": true,
+      "starts_from_zero": true,
+      "notes": "Top four from qualifying (inferred from who rode it). Final totals do not carry qualifying scores. Cancelled: 'Electrical storm forced the cancellation of the Final'. Heat 1 riders had ridden section 1 (both 5); heat 2 had not started. The day result follows the qualifying order.",
+      "counts_toward_result": false,
+      "x_cancelled": {
+        "reason": "Electrical storm forced the cancellation of the Final",
+        "after": "section 1 of heat 1"
+      }
+    },
+    {
+      "id": "d2fh1",
+      "parent": "d2f",
+      "kind": "heat",
+      "label": "FINAL Heat # 1",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false
+    },
+    {
+      "id": "d2fh2",
+      "parent": "d2f",
+      "kind": "heat",
+      "label": "FINAL Heat # 2",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "race"
+      ],
+      "ranked": false
+    }
+  ],
+  "classes": [
+    {
+      "id": "xt",
+      "name": "X Trial Australian Championship",
+      "rule_set": "xt",
+      "notes": "One field of eight; no class is printed."
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "20ef1622-0ebf-417b-a1ce-21814a126b48",
+          "person": {
+            "name": {
+              "given": "Kyle",
+              "family": "Middleton",
+              "as_printed": "Kyle Middleton"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh3",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d1fh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2qh4",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2fh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "as_printed": "Electrical storm forced the cancellation of the Final"
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh3",
+          "observation": 5,
+          "total": 6,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 3"
+        },
+        {
+          "part": "d1fh2",
+          "observation": 12,
+          "total": 12,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 3"
+        },
+        {
+          "part": "d2qh4",
+          "observation": 5,
+          "total": 5,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 1"
+        },
+        {
+          "part": "d2fh2",
+          "total": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "x_rider_no_as_printed": "Rider # 3"
+        },
+        {
+          "part": "d1",
+          "rank": 1,
+          "points": 25
+        },
+        {
+          "part": "d2",
+          "rank": 1,
+          "points": 25
+        },
+        {
+          "part": null,
+          "total": 50,
+          "unit": "points",
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "df2c58ba-b3f7-4408-a538-de63c0a34b55",
+          "person": {
+            "name": {
+              "given": "Neil",
+              "family": "Price",
+              "as_printed": "Neil Price"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh3",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d1fh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            0,
+            5,
+            5,
+            5,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "d2qh3",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2fh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "as_printed": "5 Electrical storm forced the cancellation of the Final"
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh3",
+          "observation": 7,
+          "total": 7,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 4"
+        },
+        {
+          "part": "d1fh2",
+          "observation": 25,
+          "total": 26,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 4"
+        },
+        {
+          "part": "d2qh3",
+          "observation": 11,
+          "total": 11,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 4"
+        },
+        {
+          "part": "d2fh1",
+          "total": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "x_rider_no_as_printed": "Rider # 4"
+        },
+        {
+          "part": "d1",
+          "rank": 4,
+          "points": 18
+        },
+        {
+          "part": "d2",
+          "rank": 4,
+          "points": 18
+        },
+        {
+          "part": null,
+          "total": 36,
+          "unit": "points",
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "04e3e8be-8647-4fde-b53a-a92b3d9f4a12",
+          "person": {
+            "name": {
+              "given": "Colin",
+              "family": "Zarczynski",
+              "as_printed": "Colin Zarczynski"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "d1fh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            1,
+            1,
+            5,
+            5,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "d2qh4",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            2,
+            1,
+            0,
+            5,
+            5,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh2",
+          "observation": 7,
+          "total": 8,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 5"
+        },
+        {
+          "part": "d1fh1",
+          "observation": 22,
+          "total": 23,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 5"
+        },
+        {
+          "part": "d2qh4",
+          "observation": 13,
+          "total": 14,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 2"
+        },
+        {
+          "part": "d1",
+          "rank": 2,
+          "points": 22
+        },
+        {
+          "part": "d2",
+          "rank": 5,
+          "points": 0
+        },
+        {
+          "part": null,
+          "total": 22,
+          "unit": "points",
+          "status": "classified",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c71be11d-0475-4059-963f-39b3296f36ca",
+          "person": {
+            "name": {
+              "given": "Kevin",
+              "family": "Zarczynski",
+              "as_printed": "Kevin Zarczynski"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d1fh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            0,
+            5,
+            5,
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2qh3",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            1,
+            3,
+            5,
+            0,
+            5,
+            5,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh2",
+          "observation": 8,
+          "total": 8,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 6"
+        },
+        {
+          "part": "d1fh1",
+          "observation": 25,
+          "total": 25,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 6"
+        },
+        {
+          "part": "d2qh3",
+          "observation": 19,
+          "total": 20,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 3"
+        },
+        {
+          "part": "d1",
+          "rank": 3,
+          "points": 20
+        },
+        {
+          "part": "d2",
+          "rank": 6,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "0831dc6f-0735-4391-b1dd-ca203c320331",
+          "person": {
+            "name": {
+              "given": "Chris",
+              "family": "Bayles",
+              "as_printed": "Chris Bayles"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh4",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            3,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "d2qh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "d2fh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "as_printed": "5 Electrical storm forced the cancellation of the Final"
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh4",
+          "observation": 9,
+          "total": 10,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 2"
+        },
+        {
+          "part": "d2qh2",
+          "observation": 7,
+          "total": 8,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 5",
+          "counts": {
+            "0": 3
+          },
+          "note": "'3 cleans' printed under the total; equals the three section marks of 0 (no race win)."
+        },
+        {
+          "part": "d2fh1",
+          "total": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "x_rider_no_as_printed": "Rider # 5"
+        },
+        {
+          "part": "d1",
+          "rank": 5,
+          "points": 0
+        },
+        {
+          "part": "d2",
+          "rank": 3,
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "74ab921c-a118-4dca-b28f-ad1388e1ebfc",
+          "person": {
+            "name": {
+              "given": "Tim",
+              "family": "Coleman",
+              "as_printed": "Tim Coleman"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh4",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            1,
+            0,
+            0,
+            1,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2qh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2fh2",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "as_printed": "Electrical storm forced the cancellation of the Final"
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh4",
+          "observation": 12,
+          "total": 12,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 1"
+        },
+        {
+          "part": "d2qh2",
+          "observation": 8,
+          "total": 8,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 6",
+          "counts": {
+            "0": 4
+          },
+          "note": "'4 cleans' printed under the total. The count includes the race win (Race = 0) as a clean: only three section marks are 0."
+        },
+        {
+          "part": "d2fh2",
+          "total": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "x_rider_no_as_printed": "Rider # 6"
+        },
+        {
+          "part": "d1",
+          "rank": 6,
+          "points": 0
+        },
+        {
+          "part": "d2",
+          "rank": 2,
+          "points": 22
+        },
+        {
+          "part": null,
+          "total": 22,
+          "unit": "points",
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "e0c91eed-7526-4063-9e92-06bb3d959d36",
+          "person": {
+            "name": {
+              "given": "Craig",
+              "family": "Austin",
+              "as_printed": "Craig Austin"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            2,
+            3,
+            5,
+            5,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "d2qh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            2,
+            1,
+            5,
+            5,
+            3,
+            5,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh1",
+          "observation": 25,
+          "total": 26,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 8"
+        },
+        {
+          "part": "d2qh1",
+          "observation": 21,
+          "total": 21,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 7"
+        },
+        {
+          "part": "d1",
+          "rank": 7,
+          "points": 0
+        },
+        {
+          "part": "d2",
+          "rank": 7,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "aabff461-3b77-4c09-9dd8-4f39e34cfe3a",
+          "person": {
+            "name": {
+              "given": "Kristie",
+              "family": "Mckinnon",
+              "as_printed": "Kristie Mckinnon"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "xt"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1qh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            3,
+            5,
+            5,
+            5,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2qh1",
+          "sections": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "race"
+          ],
+          "values": [
+            5,
+            2,
+            5,
+            5,
+            5,
+            5,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1qh1",
+          "observation": 28,
+          "total": 28,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 7"
+        },
+        {
+          "part": "d2qh1",
+          "observation": 27,
+          "total": 28,
+          "unit": "marks",
+          "x_rider_no_as_printed": "Rider # 8"
+        },
+        {
+          "part": "d1",
+          "rank": 8,
+          "points": 0
+        },
+        {
+          "part": "d2",
+          "rank": 8,
+          "points": 0
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "c-d1q",
+      "name": "Day 1 qualifying",
+      "kind": "part",
+      "part": "d1q",
+      "rule_set": "xt",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "rank_as_printed": "1st",
+          "value": 6,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh3",
+          "qualified": true
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "rank_as_printed": "2nd",
+          "value": 7,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh3",
+          "qualified": true
+        },
+        {
+          "entry": "e4",
+          "rank": 3,
+          "rank_as_printed": "3rd",
+          "value": 8,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh2",
+          "qualified": true,
+          "tie_break": {
+            "rule": "most-cleans",
+            "detail": "Equal on 8 with Colin Zarczynski; no reason printed. Section cleans are 3 each; counting the race win as a clean (as on day 2) gives 4 v 3, which matches the order.",
+            "label": "4 cleans",
+            "inferred": true
+          }
+        },
+        {
+          "entry": "e3",
+          "rank": 4,
+          "rank_as_printed": "4th",
+          "value": 8,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh2",
+          "qualified": true,
+          "tie_break": {
+            "rule": "most-cleans",
+            "detail": "Equal on 8 with Kevin Zarczynski; no reason printed (3 cleans, no race win).",
+            "label": "3 cleans",
+            "inferred": true
+          }
+        },
+        {
+          "entry": "e5",
+          "rank": 5,
+          "rank_as_printed": "5th",
+          "value": 10,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh4",
+          "qualified": false
+        },
+        {
+          "entry": "e6",
+          "rank": 6,
+          "rank_as_printed": "6th",
+          "value": 12,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh4",
+          "qualified": false
+        },
+        {
+          "entry": "e7",
+          "rank": 7,
+          "rank_as_printed": "7th",
+          "value": 26,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh1",
+          "qualified": false
+        },
+        {
+          "entry": "e8",
+          "rank": 8,
+          "rank_as_printed": "8th",
+          "value": 28,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1qh1",
+          "qualified": false
+        }
+      ],
+      "notes": "Assembled from the Place column of each Qualifying Heat block; there is no separate qualifying table. 'qualified' is inferred from who rode the final."
+    },
+    {
+      "id": "c-d1f",
+      "name": "Day 1 Final",
+      "kind": "part",
+      "part": "d1f",
+      "rule_set": "xt",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "rank_as_printed": "1st",
+          "value": 12,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1fh2"
+        },
+        {
+          "entry": "e3",
+          "rank": 2,
+          "rank_as_printed": "2nd",
+          "value": 23,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1fh1"
+        },
+        {
+          "entry": "e4",
+          "rank": 3,
+          "rank_as_printed": "3rd",
+          "value": 25,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1fh1"
+        },
+        {
+          "entry": "e2",
+          "rank": 4,
+          "rank_as_printed": "4th",
+          "value": 26,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d1fh2"
+        }
+      ]
+    },
+    {
+      "id": "c-d1",
+      "name": "Day 1 Results",
+      "as_printed": "Day 1 Results",
+      "kind": "part",
+      "part": "d1",
+      "metric": "placing",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 25,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 25
+          },
+          "source_part": "d1f"
+        },
+        {
+          "entry": "e3",
+          "rank": 2,
+          "value": 22,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 22
+          },
+          "source_part": "d1f"
+        },
+        {
+          "entry": "e4",
+          "rank": 3,
+          "value": 20,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 20
+          },
+          "source_part": "d1f"
+        },
+        {
+          "entry": "e2",
+          "rank": 4,
+          "value": 18,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 18
+          },
+          "source_part": "d1f"
+        },
+        {
+          "entry": "e5",
+          "rank": 5,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d1q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "5th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Tim Coleman, Craig Austin and Kristie Mckinnon. Riders who did not ride the final are placed in qualifying order."
+          }
+        },
+        {
+          "entry": "e6",
+          "rank": 6,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d1q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "6th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Chris Bayles, Craig Austin and Kristie Mckinnon. Riders who did not ride the final are placed in qualifying order."
+          }
+        },
+        {
+          "entry": "e7",
+          "rank": 7,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d1q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "7th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Chris Bayles, Tim Coleman and Kristie Mckinnon. Riders who did not ride the final are placed in qualifying order."
+          }
+        },
+        {
+          "entry": "e8",
+          "rank": 8,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d1q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "8th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Chris Bayles, Tim Coleman and Craig Austin. Riders who did not ride the final are placed in qualifying order."
+          }
+        }
+      ],
+      "notes": "Position plus Championship Points. Positions 1 to 4 from the Final, 5 to 8 from qualifying."
+    },
+    {
+      "id": "c-d2q",
+      "name": "Day 2 qualifying",
+      "kind": "part",
+      "part": "d2q",
+      "rule_set": "xt",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "rank_as_printed": "1st",
+          "value": 5,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh4",
+          "qualified": true
+        },
+        {
+          "entry": "e6",
+          "rank": 2,
+          "rank_as_printed": "2nd",
+          "value": 8,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh2",
+          "qualified": true,
+          "tie_break": {
+            "rule": "most-cleans",
+            "detail": "Equal on 8 with Chris Bayles; '4 cleans' v '3 cleans' printed. The race win (Race = 0) is counted as a clean.",
+            "label": "4 cleans",
+            "inferred": false
+          }
+        },
+        {
+          "entry": "e5",
+          "rank": 3,
+          "rank_as_printed": "3rd",
+          "value": 8,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh2",
+          "qualified": true,
+          "tie_break": {
+            "rule": "most-cleans",
+            "detail": "Equal on 8 with Tim Coleman; '3 cleans' v '4 cleans' printed.",
+            "label": "3 cleans",
+            "inferred": false
+          }
+        },
+        {
+          "entry": "e2",
+          "rank": 4,
+          "rank_as_printed": "4th",
+          "value": 11,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh3",
+          "qualified": true
+        },
+        {
+          "entry": "e3",
+          "rank": 5,
+          "rank_as_printed": "5th",
+          "value": 14,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh4",
+          "qualified": false
+        },
+        {
+          "entry": "e4",
+          "rank": 6,
+          "rank_as_printed": "6th",
+          "value": 20,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh3",
+          "qualified": false
+        },
+        {
+          "entry": "e7",
+          "rank": 7,
+          "rank_as_printed": "7th",
+          "value": 21,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh1",
+          "qualified": false
+        },
+        {
+          "entry": "e8",
+          "rank": 8,
+          "rank_as_printed": "8th",
+          "value": 28,
+          "unit": "marks",
+          "status": "classified",
+          "source_part": "d2qh1",
+          "qualified": false
+        }
+      ],
+      "notes": "Assembled from the Place column of each Qualifying Heat block."
+    },
+    {
+      "id": "c-d2f",
+      "name": "Day 2 Final (cancelled)",
+      "kind": "part",
+      "part": "d2f",
+      "rule_set": "xt",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e2",
+          "rank": null,
+          "value": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "source_part": "d2fh1"
+        },
+        {
+          "entry": "e5",
+          "rank": null,
+          "value": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "source_part": "d2fh1"
+        },
+        {
+          "entry": "e6",
+          "rank": null,
+          "value": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "source_part": "d2fh2"
+        },
+        {
+          "entry": "e1",
+          "rank": null,
+          "value": null,
+          "status": "no-result",
+          "status_as_printed": "Electrical storm forced the cancellation of the Final",
+          "source_part": "d2fh2"
+        }
+      ],
+      "notes": "Printed with the storm note in place of marks and empty Total and Place cells."
+    },
+    {
+      "id": "c-d2",
+      "name": "Day 2 Results",
+      "as_printed": "Day 2 Results",
+      "kind": "part",
+      "part": "d2",
+      "metric": "placing",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 25,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 25
+          },
+          "source_part": "d2q"
+        },
+        {
+          "entry": "e6",
+          "rank": 2,
+          "value": 22,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 22
+          },
+          "source_part": "d2q"
+        },
+        {
+          "entry": "e5",
+          "rank": 3,
+          "value": 20,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 20
+          },
+          "source_part": "d2q"
+        },
+        {
+          "entry": "e2",
+          "rank": 4,
+          "value": 18,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 18
+          },
+          "source_part": "d2q"
+        },
+        {
+          "entry": "e3",
+          "rank": 5,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d2q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "5th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Kevin Zarczynski, Craig Austin and Kristie Mckinnon. Riders who did not ride the final are placed in qualifying order."
+          }
+        },
+        {
+          "entry": "e4",
+          "rank": 6,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d2q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "6th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Colin Zarczynski, Craig Austin and Kristie Mckinnon. Riders who did not ride the final are placed in qualifying order."
+          }
+        },
+        {
+          "entry": "e7",
+          "rank": 7,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d2q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "7th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Colin Zarczynski, Kevin Zarczynski and Kristie Mckinnon. Riders who did not ride the final are placed in qualifying order."
+          }
+        },
+        {
+          "entry": "e8",
+          "rank": 8,
+          "value": 0,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 0
+          },
+          "source_part": "d2q",
+          "tie_break": {
+            "rule": "earlier-part-result",
+            "label": "8th in qualifying",
+            "inferred": true,
+            "detail": "Equal on 0 points with Colin Zarczynski, Kevin Zarczynski and Craig Austin. Riders who did not ride the final are placed in qualifying order."
+          }
+        }
+      ],
+      "notes": "Final cancelled, so all eight positions follow the qualifying order."
+    },
+    {
+      "id": "c-champ",
+      "name": "Championship Results",
+      "as_printed": "Championship Results",
+      "kind": "overall",
+      "metric": "points",
+      "direction": "high",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 50,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 50
+          },
+          "x_day_points": {
+            "d1": 25,
+            "d2": 25
+          }
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "value": 36,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 36
+          },
+          "x_day_points": {
+            "d1": 18,
+            "d2": 18
+          }
+        },
+        {
+          "entry": "e6",
+          "rank": 3,
+          "value": 22,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 22
+          },
+          "x_day_points": {
+            "d1": 0,
+            "d2": 22
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "detail": "Equal on 22 points; '7 cleans' printed beside the total. The counts cover each rider's qualifying and final heats over both days and include race wins as cleans (Tim Coleman 3 + 4 = 7, Colin Zarczynski 3 + 0 + 2 = 5).",
+            "label": "7 cleans",
+            "inferred": false
+          }
+        },
+        {
+          "entry": "e3",
+          "rank": 4,
+          "value": 22,
+          "unit": "points",
+          "points": {
+            "scheme": "X Trial championship",
+            "value": 22
+          },
+          "x_day_points": {
+            "d1": 22,
+            "d2": 0
+          },
+          "tie_break": {
+            "rule": "most-cleans",
+            "detail": "Equal on 22 points; '5 cleans' printed beside the total. The counts cover each rider's qualifying and final heats over both days and include race wins as cleans (Tim Coleman 3 + 4 = 7, Colin Zarczynski 3 + 0 + 2 = 5).",
+            "label": "5 cleans",
+            "inferred": false
+          }
+        }
+      ],
+      "notes": "Only the top four are printed, although Kevin Zarczynski (20 on day 1) and Chris Bayles (20 on day 2) also scored points."
+    }
+  ],
+  "mapping": {
+    "source_file": "2016-04-08_motorcycling-australia_australian-x-trial-championships_results.pdf",
+    "trove": "au",
+    "sampled": false,
+    "entries_in_document": 8,
+    "entries_encoded": 8,
+    "features": [
+      "multi-day",
+      "races-or-phases",
+      "heats-or-finals",
+      "scale-01235",
+      "section-marks",
+      "part-totals",
+      "mark-counts",
+      "multi-classification",
+      "ranked-by-points",
+      "name-single-field",
+      "status-per-part",
+      "partial-scores-kept",
+      "cancelled-sections",
+      "tiebreak-printed",
+      "image-only"
+    ],
+    "misfits": [
+      {
+        "what": "The day 2 Final was cancelled after one section of heat 1 ('Electrical storm forced the cancellation of the Final'). Sections have a 'cancelled' object but parts do not, so the cancellation sits in part.x_cancelled plus counts_toward_result=false; the per-rider heat status uses 'no-result' with the storm text as status_as_printed.",
+        "where": "parts[d2f], entries[e1,e2,e5,e6].totals",
+        "severity": "lossy",
+        "suggestion": "Add part.cancelled {scope, reason, after} mirroring section.cancelled, and a status 'cancelled' for totals and rows."
+      },
+      {
+        "what": "The head-to-head Race point is a per-heat value, not a section. It is encoded as a 'race' section (kind race, own rule_set with values 0/1) so it sits in the grid beside the six marks; ride components or total.penalties would also work. The guide does not say which to use, so two mappers will encode it differently.",
+        "where": "sections[race], entries[].grids",
+        "severity": "awkward",
+        "suggestion": "Pick one encoding in the guide (part-level component such as total.components[{type: race}] is the most natural) and drop the others."
+      },
+      {
+        "what": "Printed clean counts include a race win (Race = 0) as a clean ('4 cleans' with three section zeros). total.counts is keyed by mark value only, so '0': 4 silently mixes section cleans and race wins.",
+        "where": "entries[e6].totals[d2qh2].counts",
+        "severity": "awkward",
+        "suggestion": "Allow counts to name what they count (counts_scope: sections | sections+race) or key counts by section kind."
+      },
+      {
+        "what": "'Rider #' is a heat slot that changes between days and between qualifying and final (day 2 slots follow the day 1 result). entry.number and entry.start are entry-wide, so the slot is kept in x_rider_no_as_printed on each heat total.",
+        "where": "entries[].totals[].x_rider_no_as_printed",
+        "severity": "lossy",
+        "suggestion": "Add a per-part start record (total.start_slot or parts[].start_order[] of entry ids)."
+      },
+      {
+        "what": "The qualifying ranking is not printed as a table: each heat block's Place column gives the rider's rank across all heats. The protocol needs a classification object, so one was assembled per day; it is printed data, but scattered.",
+        "where": "classifications[c-d1q, c-d2q]",
+        "severity": "cosmetic",
+        "suggestion": "Allow a classification to declare 'assembled from part rows' (as_printed: 'Place column in heat blocks')."
+      },
+      {
+        "what": "The Championship Results table prints only the top four although two more riders scored points. A classification has no way to say the printed list is truncated.",
+        "where": "classifications[c-champ]",
+        "severity": "cosmetic",
+        "suggestion": "Add classification.printed_rows (count) or truncated: true."
+      },
+      {
+        "what": "Championship results carry a Day 1 and Day 2 points column per row. row.points holds one value, so the per-day points went into x_day_points (they also sit on the day classifications).",
+        "where": "classifications[c-champ].rows[].x_day_points",
+        "severity": "cosmetic",
+        "suggestion": "Allow row.components[] {part, value} for totals built from part results."
+      },
+      {
+        "what": "Day results mix sources: positions 1 to 4 from the Final, 5 to 8 from qualifying (day 1), and all from qualifying when the Final was cancelled (day 2). row.source_part expresses this well; noted as a fit, not a gap.",
+        "where": "classifications[c-d1, c-d2].rows[].source_part",
+        "severity": "cosmetic",
+        "suggestion": "Document source_part in the guide with this X-Trial example."
+      }
+    ],
+    "confidence": "high",
+    "unread": "Nothing unread. All three pages were read visually at 170 dpi; every heat total equals its six marks plus Race."
+  }
+}

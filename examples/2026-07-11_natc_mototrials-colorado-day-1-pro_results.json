@@ -1,0 +1,925 @@
+{
+  "protocol": "trials-result/0.1",
+  "document": {
+    "title": "2026 NATC MotoTrials Event Results, Colorado - 20260711, PRO",
+    "status": "unknown",
+    "detail_level": "sections",
+    "publisher": "AMA/NATC MotoTrials",
+    "software": "DabTracker",
+    "format": "html",
+    "language": "en",
+    "source_file": "2026-07-11_natc_mototrials-colorado-day-1-pro_results.html",
+    "retrieved": "2026-11-19",
+    "notes": "Each section cell prints the three loop marks separated by spaces (e.g. '0 0 5'); they are split into one grid per loop. Cleans = count of 0 marks. Loops 'a/b/c' = loop totals. The class menu, the site footer (NATC president, website/scoring contact) and navigation are not encoded. Every Pro rider has 5 on every section of loop 3 (60); the page does not say why."
+  },
+  "event": {
+    "name": "AMA/NATC MotoTrials National, Colorado, day 1",
+    "organiser": "AMA/NATC MotoTrials",
+    "governing_bodies": [
+      {
+        "name": "AMA",
+        "level": "national"
+      },
+      {
+        "name": "North American Trials Council",
+        "code": "NATC"
+      }
+    ],
+    "country": "US",
+    "region": "Colorado",
+    "start_date": "2026-07-11",
+    "end_date": "2026-07-11",
+    "discipline": "moto-trial",
+    "series": [
+      {
+        "name": "2026 AMA/NATC MotoTrials National Championship"
+      }
+    ]
+  },
+  "rule_sets": [
+    {
+      "id": "natc",
+      "name": "AMA/NATC MotoTrials national championship",
+      "format": "observed",
+      "basis": "marks-lost",
+      "direction": "low",
+      "unit": "marks",
+      "stop_rule": "stop-allowed",
+      "section_scale": {
+        "type": "numeric",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "notes": "0 faults 0, 1 fault 1, 2 faults 2, more than 2 faults 3, failure 5 (7, scoring table). Foot rotation 1, sliding a foot 3, both feet down 2 (7.A.2-4). Only the greatest penalty counts (7.B.19)."
+      },
+      "penalties": [
+        {
+          "code": "missed-section",
+          "value": 10,
+          "unit": "marks",
+          "per": "section",
+          "as_printed": "Missing a Section (no punch) 10 Points",
+          "source": {
+            "title": "2026 AMA/NATC MotoTrials Supplemental Riding Rules v2",
+            "file": "rules/2026_natc_supplemental-riding-rules-v2_rules.pdf",
+            "clause": "7 scoring table; 7.C.2"
+          }
+        },
+        {
+          "code": "section-ridden-twice",
+          "value": 10,
+          "unit": "marks",
+          "per": "occurrence",
+          "source": {
+            "title": "2026 AMA/NATC MotoTrials Supplemental Riding Rules v2",
+            "file": "rules/2026_natc_supplemental-riding-rules-v2_rules.pdf",
+            "clause": "7.C.5"
+          }
+        },
+        {
+          "code": "late-finish",
+          "value": 0.5,
+          "unit": "marks",
+          "per": "minute",
+          "cap": 15,
+          "then": "dsq",
+          "as_printed": "one half-point per minute ... later than 30 minutes ... disqualified",
+          "source": {
+            "title": "2026 AMA/NATC MotoTrials Supplemental Riding Rules v2",
+            "file": "rules/2026_natc_supplemental-riding-rules-v2_rules.pdf",
+            "clause": "6.A"
+          }
+        },
+        {
+          "code": "late-start",
+          "value": 0.5,
+          "unit": "marks",
+          "per": "minute",
+          "source": {
+            "title": "2026 AMA/NATC MotoTrials Supplemental Riding Rules v2",
+            "file": "rules/2026_natc_supplemental-riding-rules-v2_rules.pdf",
+            "clause": "7.C.9"
+          }
+        },
+        {
+          "code": "speeding",
+          "value": 5,
+          "unit": "marks",
+          "per": "occurrence",
+          "source": {
+            "title": "2026 AMA/NATC MotoTrials Supplemental Riding Rules v2",
+            "file": "rules/2026_natc_supplemental-riding-rules-v2_rules.pdf",
+            "clause": "7.C.8"
+          }
+        },
+        {
+          "code": "unsportsmanlike-conduct",
+          "value": null,
+          "unit": "marks",
+          "per": "occurrence",
+          "as_printed": "5 to 25 points, or 100 points with a written report",
+          "source": {
+            "title": "2026 AMA/NATC MotoTrials Supplemental Riding Rules v2",
+            "file": "rules/2026_natc_supplemental-riding-rules-v2_rules.pdf",
+            "clause": "7.C.7"
+          }
+        }
+      ],
+      "time": {
+        "scored": false,
+        "course_limit_s": 23400,
+        "section_limit_s": 90,
+        "standard_time": "fixed",
+        "notes": "Start 9:00; 6.5 hours plus 30 minutes of penalty time (6.A). Section time limit 90 s, exceeding it is a failure (7.B.5)."
+      },
+      "tie_breaks": [
+        "observation-before-time",
+        "most-cleans",
+        "most-ones",
+        "most-twos",
+        "most-threes",
+        "first-difference",
+        "ride-off"
+      ],
+      "completion": {
+        "min_fraction_attempted": 0.9,
+        "notes": "7.C.3: blank or unmarked spaces on more than 10% of designated rides make the rider a non-finisher."
+      },
+      "recorded_by": "observer",
+      "source": {
+        "title": "2026 AMA/NATC MotoTrials Supplemental Riding Rules v2",
+        "file": "rules/2026_natc_supplemental-riding-rules-v2_rules.pdf",
+        "clause": "6, 7, 8"
+      },
+      "notes": "Tie-break order (8) applies only to Pro down to 5th place and to podium places in other classes; the protocol has no field for that scope. stop_rule inferred: stopping is not in the failure list (7.B)."
+    }
+  ],
+  "routes": [
+    {
+      "id": "black",
+      "name": "Pro line",
+      "colour": "black",
+      "order": 1
+    },
+    {
+      "id": "red",
+      "name": "Expert line",
+      "colour": "red",
+      "order": 2
+    },
+    {
+      "id": "blue",
+      "name": "Expert Sportsman line",
+      "colour": "blue",
+      "order": 3
+    },
+    {
+      "id": "white",
+      "name": "Sportsman (Support) line",
+      "colour": "white",
+      "order": 4
+    },
+    {
+      "id": "green",
+      "name": "Clubman line",
+      "colour": "green",
+      "order": 5
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "number": 1,
+      "kind": "observed"
+    },
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "observed"
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "observed"
+    },
+    {
+      "id": "s4",
+      "number": 4,
+      "kind": "observed"
+    },
+    {
+      "id": "s5",
+      "number": 5,
+      "kind": "observed"
+    },
+    {
+      "id": "s6",
+      "number": 6,
+      "kind": "observed"
+    },
+    {
+      "id": "s7",
+      "number": 7,
+      "kind": "observed"
+    },
+    {
+      "id": "s8",
+      "number": 8,
+      "kind": "observed"
+    },
+    {
+      "id": "s9",
+      "number": 9,
+      "kind": "observed"
+    },
+    {
+      "id": "s10",
+      "number": 10,
+      "kind": "observed"
+    },
+    {
+      "id": "s11",
+      "number": 11,
+      "kind": "observed"
+    },
+    {
+      "id": "s12",
+      "number": 12,
+      "kind": "observed"
+    }
+  ],
+  "parts": [
+    {
+      "id": "l1",
+      "kind": "lap",
+      "label": "Loop 1",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "id": "l2",
+      "kind": "lap",
+      "label": "Loop 2",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "id": "l3",
+      "kind": "lap",
+      "label": "Loop 3",
+      "order": 3,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s12"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "pro",
+      "name": "Pro",
+      "code": "PRO",
+      "as_printed": "PRO",
+      "route": "black",
+      "line_choice": "fixed",
+      "laps": 3,
+      "sections_per_lap": 12,
+      "rule_set": "natc",
+      "ranking": "score"
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "27e54db6-8a28-472b-9353-93344f51536e",
+          "person": {
+            "name": {
+              "as_printed": "JORGE CASALES"
+            },
+            "region": "MO"
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "TRS",
+        "make": "TRS"
+      },
+      "classes": [
+        "pro"
+      ],
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 2
+        },
+        {
+          "part": "l2",
+          "total": 0
+        },
+        {
+          "part": "l3",
+          "total": 60
+        },
+        {
+          "part": null,
+          "total": 62,
+          "unit": "marks",
+          "counts": {
+            "0": 22
+          },
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b63fd405-c8f6-45e2-84b5-e671d4bacaff",
+          "person": {
+            "name": {
+              "as_printed": "SONDRE HAGA"
+            },
+            "region": "AZ"
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "GASGAS",
+        "make": "GASGAS"
+      },
+      "classes": [
+        "pro"
+      ],
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 5
+        },
+        {
+          "part": "l2",
+          "total": 4
+        },
+        {
+          "part": "l3",
+          "total": 60
+        },
+        {
+          "part": null,
+          "total": 69,
+          "unit": "marks",
+          "counts": {
+            "0": 16
+          },
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "def0b25e-67bf-4cc6-8978-8707767b8c1d",
+          "person": {
+            "name": {
+              "as_printed": "JOSH ROPER"
+            },
+            "region": "AZ"
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "BETA",
+        "make": "BETA"
+      },
+      "classes": [
+        "pro"
+      ],
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            5,
+            1,
+            2,
+            0,
+            1,
+            5,
+            5,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10
+        },
+        {
+          "part": "l2",
+          "total": 20
+        },
+        {
+          "part": "l3",
+          "total": 60
+        },
+        {
+          "part": null,
+          "total": 90,
+          "unit": "marks",
+          "counts": {
+            "0": 12
+          },
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "9e33654a-9388-46e7-9f9c-a5779073ede0",
+          "person": {
+            "name": {
+              "as_printed": "MURPHY AARON"
+            },
+            "region": "CA"
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "GASGAS",
+        "make": "GASGAS"
+      },
+      "classes": [
+        "pro"
+      ],
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            1,
+            0,
+            1,
+            5,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 20
+        },
+        {
+          "part": "l2",
+          "total": 12
+        },
+        {
+          "part": "l3",
+          "total": 60
+        },
+        {
+          "part": null,
+          "total": 92,
+          "unit": "marks",
+          "counts": {
+            "0": 11
+          },
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a290442a-87de-4c03-8781-9fa6b96eef15",
+          "person": {
+            "name": {
+              "as_printed": "ALEXANDER NIEDERER"
+            },
+            "region": "FLORIDA"
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "BETA",
+        "make": "BETA"
+      },
+      "classes": [
+        "pro"
+      ],
+      "grids": [
+        {
+          "part": "l1",
+          "values": [
+            0,
+            5,
+            5,
+            5,
+            0,
+            5,
+            5,
+            1,
+            1,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "values": [
+            0,
+            1,
+            5,
+            5,
+            0,
+            0,
+            2,
+            0,
+            0,
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l3",
+          "values": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 42
+        },
+        {
+          "part": "l2",
+          "total": 20
+        },
+        {
+          "part": "l3",
+          "total": 60
+        },
+        {
+          "part": null,
+          "total": 122,
+          "unit": "marks",
+          "counts": {
+            "0": 8
+          },
+          "status": "classified"
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "cl-pro",
+      "name": "PRO",
+      "kind": "class",
+      "classes": [
+        "pro"
+      ],
+      "metric": "total",
+      "direction": "low",
+      "order_by": [
+        "total",
+        "most-cleans"
+      ],
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 62,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "value": 69,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e3",
+          "rank": 3,
+          "value": 90,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e4",
+          "rank": 4,
+          "value": 92,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e5",
+          "rank": 5,
+          "value": 122,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "source_file": "2026-07-11_natc_mototrials-colorado-day-1-pro_results.html",
+    "trove": "na",
+    "sampled": false,
+    "entries_in_document": 5,
+    "entries_encoded": 5,
+    "features": [
+      "laps",
+      "scale-01235",
+      "section-marks",
+      "part-totals",
+      "mark-counts",
+      "region-or-town",
+      "machine-make",
+      "name-single-field"
+    ],
+    "misfits": [
+      {
+        "what": "The page is one class of an 18-class national (the class menu lists PRO ... EXHIBITION); each class is a separate URL and a separate document. The protocol cannot say that a document covers only part of the event's results, so merging the class pages into one event depends on the event id in the URL.",
+        "where": "document",
+        "severity": "awkward",
+        "suggestion": "Add document.scope (classes or parts covered) and document.event_id so per-class pages of one event can be joined."
+      },
+      {
+        "what": "NATC tie-breaks apply only to Pro down to 5th and to podium places in other classes (rule 8); tie_breaks has no scope, so the rule set over-claims for lower places.",
+        "where": "rule_sets[natc].tie_breaks",
+        "severity": "awkward",
+        "suggestion": "Add rule_set.tie_break_scope (classes, ranks) or allow tie_breaks entries to carry applies_to."
+      },
+      {
+        "what": "Rider Name is one upper-case field and the order is not consistent ('MURPHY AARON' appears family-first, the rest given-first), so given/family cannot be split with certainty.",
+        "where": "entries[].people[].person.name",
+        "severity": "cosmetic",
+        "suggestion": "None needed; as_printed carries it. A name.order_uncertain flag would help consumers."
+      },
+      {
+        "what": "Every Pro rider has 5 on all 12 sections of loop 3 (loop total 60) and the page gives no reason. If this was an official decision (loop abandoned and scored 5 for all), the protocol has no part-level way to say the marks were imposed rather than ridden.",
+        "where": "entries[].grids[part=l3]",
+        "severity": "lossy",
+        "suggestion": "Add part.scoring_note or ride.state 'imposed' / part.imposed_value so a decision that scores a whole loop is distinguishable from ridden 5s."
+      }
+    ],
+    "confidence": "high"
+  }
+}

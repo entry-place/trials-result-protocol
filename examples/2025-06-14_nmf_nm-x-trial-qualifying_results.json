@@ -1,0 +1,2521 @@
+{
+  "protocol": "trials-result/0.1",
+  "document": {
+    "title": "NM X-Trial Inviduelt: X-Trial XQ - Kvalifisering, X-Trial Kvinner XQ - Kvalifisering",
+    "status": "unknown",
+    "published_at": "2025-06-14T15:46",
+    "detail_level": "sections",
+    "publisher": "Riska Motorsykkelklubb",
+    "software": "Trial-Live / Gäu-Software",
+    "format": "pdf",
+    "language": "no",
+    "source_url": "https://trial-live.eu/norway/archiv/2025/comp/250614W5XSMW/250614_XQ-XKQ_0_2_day.pdf",
+    "source_file": "2025-06-14_nmf_nm-x-trial-qualifying_results.pdf",
+    "retrieved": "2026-11-19",
+    "notes": "Page footer '14.6.2025 15:46, Side 1'. Heading prints 'Inviduelt' (sic, for Individuelt). Only the qualifying sheet is published; the finals are not in this file."
+  },
+  "event": {
+    "name": "NM X-Trial",
+    "organiser": "Riska Motorsykkelklubb",
+    "governing_bodies": [
+      {
+        "name": "Norges Motorsportforbund",
+        "code": "NMF",
+        "level": "national"
+      }
+    ],
+    "country": "NO",
+    "venue": "Stavanger sentrum",
+    "start_date": "2025-06-14",
+    "discipline": "moto-trial",
+    "series": [
+      {
+        "name": "NM X-Trial (individual)"
+      }
+    ],
+    "notes": "Indoor/urban X-Trial format; only the qualifying phase is in this document."
+  },
+  "rule_sets": [
+    {
+      "id": "xq",
+      "name": "X-Trial qualifying",
+      "format": "indoor",
+      "basis": "marks-lost",
+      "direction": "low",
+      "unit": "marks",
+      "stop_rule": "not-stated",
+      "section_scale": {
+        "type": "numeric",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "notes": "Feilstatistikk columns 0, 1, 2, 3, 5 printed on the sheet."
+      },
+      "penalties": [
+        {
+          "code": "late-finish",
+          "value": null,
+          "as_printed": "TP",
+          "x_note": "TP column printed but empty for every rider; rule not on disk."
+        },
+        {
+          "code": "other",
+          "value": null,
+          "unit": "marks",
+          "as_printed": "Straff",
+          "x_note": "Straff of 1 appears for several riders; the reason is not printed and NMF X-Trial rules are not in the trove."
+        }
+      ],
+      "tie_breaks": [
+        "most-cleans",
+        "most-ones",
+        "most-twos",
+        "most-threes",
+        "shared-position"
+      ],
+      "inferred": true,
+      "notes": "No NMF rules in the trove. Scale from the count columns. Tie-break order inferred: riders with identical counts share a place (1, 1, 3, 3) and the equal-27 pair at 16/17 is split in line with most-twos."
+    }
+  ],
+  "sections": [
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "observed",
+      "classes": [
+        "xkq"
+      ],
+      "as_printed": "S2"
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "observed",
+      "as_printed": "S3"
+    },
+    {
+      "id": "s4",
+      "number": 4,
+      "kind": "observed",
+      "as_printed": "S4"
+    },
+    {
+      "id": "s5",
+      "number": 5,
+      "kind": "observed",
+      "classes": [
+        "xq"
+      ],
+      "as_printed": "S5"
+    }
+  ],
+  "parts": [
+    {
+      "id": "q",
+      "kind": "qualifying",
+      "label": "Kvalifisering",
+      "order": 1,
+      "rule_set": "xq",
+      "ranked": true
+    },
+    {
+      "id": "l1",
+      "parent": "q",
+      "kind": "lap",
+      "order": 1,
+      "sections": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "id": "l2",
+      "parent": "q",
+      "kind": "lap",
+      "order": 2,
+      "sections": [
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "xq",
+      "name": "X-Trial XQ",
+      "as_printed": "X-Trial XQ - Kvalifisering",
+      "laps": 2,
+      "sections_per_lap": 3,
+      "rule_set": "xq",
+      "notes": "Rides S3, S4, S5."
+    },
+    {
+      "id": "xkq",
+      "name": "X-Trial Kvinner XQ",
+      "as_printed": "X-Trial Kvinner XQ - Kvalifisering",
+      "dimensions": {
+        "gender": "female"
+      },
+      "laps": 2,
+      "sections_per_lap": 3,
+      "rule_set": "xq",
+      "notes": "Rides S2, S3, S4."
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "number": 99,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "880048ae-5467-498d-8821-3eed5fddb4de",
+          "person": {
+            "name": {
+              "given": "Sondre Gilje",
+              "family": "HAGA",
+              "as_printed": "HAGA Sondre Gilje"
+            },
+            "club": "Riska Motorsykkelklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 0,
+          "total": 0,
+          "unit": "marks",
+          "counts": {
+            "0": 6,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.0
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "number": 280,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b3adb1e2-3723-435d-b597-6f9d9b484e36",
+          "person": {
+            "name": {
+              "given": "Jone",
+              "family": "SANDVIK",
+              "as_printed": "SANDVIK Jone"
+            },
+            "club": "Vaulali Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 0,
+          "total": 0,
+          "unit": "marks",
+          "counts": {
+            "0": 6,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.0
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "number": 225,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "083679f9-5ead-421e-b285-f14da41ffb41",
+          "person": {
+            "name": {
+              "given": "Jarand-Matias Vold",
+              "family": "GUNVALDSEN",
+              "as_printed": "GUNVALDSEN Jarand-Matias Vold"
+            },
+            "club": "Grimstad Trialklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 0,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 1,
+          "unit": "marks",
+          "counts": {
+            "0": 6,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.0
+        }
+      ],
+      "notes": "Name wraps over two printed lines."
+    },
+    {
+      "id": "e4",
+      "number": 811,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "52c14bf5-c062-48f2-95c0-2f2519157ec1",
+          "person": {
+            "name": {
+              "given": "Sander",
+              "family": "BJORAA",
+              "as_printed": "BJORAA Sander"
+            },
+            "club": "Kristiansand Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 0,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 1,
+          "unit": "marks",
+          "counts": {
+            "0": 6,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.0
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "number": 218,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "53725eb5-9aa3-4251-b31e-8e4d1f6a0f3b",
+          "person": {
+            "name": {
+              "given": "Jonas",
+              "family": "JØRGENSEN",
+              "as_printed": "JØRGENSEN Jonas"
+            },
+            "club": "Grimstad Trialklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 0,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 1,
+          "total": 1,
+          "unit": "marks",
+          "counts": {
+            "0": 5,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.17
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "number": 263,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "4ce1ceca-9b8e-450b-8101-4758aca99391",
+          "person": {
+            "name": {
+              "given": "Patrick Bjørnland",
+              "family": "LARSEN",
+              "as_printed": "LARSEN Patrick Bjørnland"
+            },
+            "club": "Skodje Trialklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 4,
+          "total": 4,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 2,
+            "2": 1,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.67
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "number": 977,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "80cb3fc8-e2d5-45d6-a22a-a4ece9dc7af6",
+          "person": {
+            "name": {
+              "given": "Petter",
+              "family": "GOVERTSEN",
+              "as_printed": "GOVERTSEN Petter"
+            },
+            "club": "Søgne Trialklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            2,
+            1,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 10,
+          "total": 10,
+          "unit": "marks",
+          "counts": {
+            "0": 2,
+            "1": 1,
+            "2": 2,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 1.67
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "number": 11,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "fd5aa9c2-7a85-44a4-bbf6-ecda7be70b3d",
+          "person": {
+            "name": {
+              "given": "Rikhard",
+              "family": "HEGREBERG",
+              "as_printed": "HEGREBERG Rikhard"
+            },
+            "club": "Randaberg Motorsykkelklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            2,
+            0,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 10,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 11,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 1.67
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "number": 169,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c68349cd-6948-468b-ac90-f7e8934eebbd",
+          "person": {
+            "name": {
+              "given": "Henrik Berge",
+              "family": "ASLAKSEN",
+              "as_printed": "ASLAKSEN Henrik Berge"
+            },
+            "club": "Grimstad Trialklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 11,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 12,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 1.83
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "number": 13,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "97db09f0-b892-4087-bac9-8e811726c813",
+          "person": {
+            "name": {
+              "given": "Mads",
+              "family": "LEXANDER",
+              "as_printed": "LEXANDER Mads"
+            },
+            "club": "Vestkant Trial"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            2,
+            2,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 5,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 9,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "total": 14,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 0,
+            "2": 3,
+            "3": 1,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 2.33
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "number": 812,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "0c22252e-1fc3-4cf9-a5fc-953b1133cef0",
+          "person": {
+            "name": {
+              "given": "Patrick",
+              "family": "ØDEGAARDEN",
+              "as_printed": "ØDEGAARDEN Patrick"
+            },
+            "club": "Heistad Trialklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            2,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 5,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 12,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 17,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 18,
+          "unit": "marks",
+          "counts": {
+            "0": 2,
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 2.83
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "number": 285,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f9ad416f-29a5-41ce-84c7-78ffd5ee10fc",
+          "person": {
+            "name": {
+              "given": "Henrik Hodnemyr",
+              "family": "HORVE",
+              "as_printed": "HORVE Henrik Hodnemyr"
+            },
+            "club": "Kristiansand Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            2,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 12,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 18,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 19,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "5": 3
+          },
+          "status": "classified",
+          "x_average": 3.0
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "number": 228,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6186902b-eed7-4d5e-a6ac-a776877ec7cf",
+          "person": {
+            "name": {
+              "given": "William Høgheim",
+              "family": "THYGESEN",
+              "as_printed": "THYGESEN William Høgheim"
+            },
+            "club": "Grimstad Trialklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 23,
+          "total": 23,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "5": 4
+          },
+          "status": "classified",
+          "x_average": 3.83
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "number": 273,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1e7e4e71-90a5-446b-99f3-b1e646a0f644",
+          "person": {
+            "name": {
+              "given": "Martin Senumstad",
+              "family": "SKAAR",
+              "as_printed": "SKAAR Martin Senumstad"
+            },
+            "club": "Kristiansand Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 23,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 24,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "5": 4
+          },
+          "status": "classified",
+          "x_average": 3.83
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "number": 275,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "7a154b83-df7e-4c0e-8901-e478dceb1859",
+          "person": {
+            "name": {
+              "given": "Thomas August",
+              "family": "ELEFSEN",
+              "as_printed": "ELEFSEN Thomas August"
+            },
+            "club": "Kristiansand Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            0,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 25,
+          "total": 25,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 5
+          },
+          "status": "classified",
+          "x_average": 4.17
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "number": 555,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "3e63cfdc-b550-412d-a5c3-f4bd72901034",
+          "person": {
+            "name": {
+              "given": "Brian Kristoffer",
+              "family": "OPPEDAL",
+              "as_printed": "OPPEDAL Brian Kristoffer"
+            },
+            "club": "Vestkant Trial"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 12,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 27,
+          "total": 27,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "5": 5
+          },
+          "status": "classified",
+          "x_average": 4.5
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "number": 725,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c59e09bc-8757-4ced-b02e-87a57273c1dc",
+          "person": {
+            "name": {
+              "given": "Noah Clive Tveit",
+              "family": "KANNELØNNING",
+              "as_printed": "KANNELØNNING Noah Clive Tveit"
+            },
+            "club": "Bergen Trial Team"
+          }
+        }
+      ],
+      "classes": [
+        "xq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            3,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s3",
+            "s4",
+            "s5"
+          ],
+          "values": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 26,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 27,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "5": 4
+          },
+          "status": "classified",
+          "x_average": 4.33
+        }
+      ]
+    },
+    {
+      "id": "e18",
+      "number": 1,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "fa105f6d-051d-4472-ac16-8b4cba87c96e",
+          "person": {
+            "name": {
+              "given": "Huldeborg",
+              "family": "BARKVED",
+              "as_printed": "BARKVED Huldeborg"
+            },
+            "club": "Vaulali Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xkq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 2,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 3,
+          "total": 3,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 3,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 0.5
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "number": 462,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b1621559-cbb1-44db-a394-968f8b354d60",
+          "person": {
+            "name": {
+              "given": "Wilde Selander",
+              "family": "MOI",
+              "as_printed": "MOI Wilde Selander"
+            },
+            "club": "Kristiansand Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xkq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 1,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 7,
+          "total": 7,
+          "unit": "marks",
+          "counts": {
+            "0": 3,
+            "1": 1,
+            "2": 0,
+            "3": 2,
+            "5": 0
+          },
+          "status": "classified",
+          "x_average": 1.17
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "number": 460,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "e5a9b388-a594-4910-a151-36b5161636e6",
+          "person": {
+            "name": {
+              "given": "Maria",
+              "family": "ERSLAND",
+              "as_printed": "ERSLAND Maria"
+            },
+            "club": "Karmøy Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xkq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            5,
+            2
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 3,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 7,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 10,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 11,
+          "unit": "marks",
+          "counts": {
+            "0": 2,
+            "1": 1,
+            "2": 2,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "x_average": 1.67
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "number": 423,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "76b0d6b1-df33-4ba9-b916-fe88bdac21ea",
+          "person": {
+            "name": {
+              "given": "Seline",
+              "family": "MELING",
+              "as_printed": "MELING Seline"
+            },
+            "club": "Riska Motorsykkelklubb"
+          }
+        }
+      ],
+      "classes": [
+        "xkq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            5,
+            1
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            1,
+            2,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 8,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "total": 14,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 2,
+            "2": 1,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 2.33
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "number": 712,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "48372571-de6f-48a1-b3de-74094110f0de",
+          "person": {
+            "name": {
+              "given": "Nora Marie Hodnemyr",
+              "family": "HORVE",
+              "as_printed": "HORVE Nora Marie Hodnemyr"
+            },
+            "club": "Kristiansand Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xkq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 4,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 10,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 15,
+          "unit": "marks",
+          "counts": {
+            "0": 2,
+            "1": 0,
+            "2": 2,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 2.33
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "number": 323,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "3d7b00bc-7679-4431-bd48-de5c8a909257",
+          "person": {
+            "name": {
+              "given": "Sara Vik",
+              "family": "NYMO",
+              "as_printed": "NYMO Sara Vik"
+            },
+            "club": "Vaulali Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xkq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            0,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            1,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 6,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 11,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 17,
+          "total": 17,
+          "unit": "marks",
+          "counts": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 2,
+            "5": 2
+          },
+          "status": "classified",
+          "x_average": 2.83
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "number": 242,
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f1991d4a-5d34-4387-8544-82e699be410e",
+          "person": {
+            "name": {
+              "given": "Rebekka",
+              "family": "SANDVIK",
+              "as_printed": "SANDVIK Rebekka"
+            },
+            "club": "Vaulali Trial Klubb"
+          }
+        }
+      ],
+      "classes": [
+        "xkq"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "l1",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "l2",
+          "sections": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "values": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "l1",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": "l2",
+          "total": 15,
+          "unit": "marks"
+        },
+        {
+          "part": null,
+          "observation": 30,
+          "penalties": [
+            {
+              "code": "other",
+              "value": 1,
+              "unit": "marks",
+              "as_printed": "Straff 1"
+            }
+          ],
+          "total": 31,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 6
+          },
+          "status": "classified",
+          "x_average": 5.0
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "c-xq",
+      "name": "X-Trial XQ - Kvalifisering",
+      "kind": "class",
+      "part": "q",
+      "classes": [
+        "xq"
+      ],
+      "rule_set": "xq",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 17,
+        "started": 17,
+        "retired": 0,
+        "finished": 17,
+        "scored": 17
+      },
+      "x_counts_as_printed": "Registrert: 17, Startet: 17, Fullførte ikke: 0, Ferdig: 17, Poengsum: 17",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "tied": true,
+          "value": 0,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Identical score and counts with #280; both printed 1."
+          }
+        },
+        {
+          "entry": "e2",
+          "rank": 1,
+          "tied": true,
+          "value": 0,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shares 1st with #99 HAGA Sondre Gilje: identical score and counts."
+          }
+        },
+        {
+          "entry": "e3",
+          "rank": 3,
+          "tied": true,
+          "value": 1,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "6 cleans",
+            "inferred": true,
+            "detail": "Equal on 1 with BJORAA Sander (6 cleans), JØRGENSEN Jonas (5 cleans). The sheet prints no reason; the printed mark counts give this order. Shares 3rd with BJORAA Sander: identical score and counts."
+          }
+        },
+        {
+          "entry": "e4",
+          "rank": 3,
+          "value": 1,
+          "unit": "marks",
+          "status": "classified",
+          "tied": true,
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "6 cleans",
+            "inferred": true,
+            "detail": "Equal on 1 with GUNVALDSEN Jarand-Matias Vold (6 cleans), JØRGENSEN Jonas (5 cleans). The sheet prints no reason; the printed mark counts give this order. Shares 3rd with GUNVALDSEN Jarand-Matias Vold: identical score and counts."
+          }
+        },
+        {
+          "entry": "e5",
+          "rank": 5,
+          "value": 1,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "5 cleans",
+            "inferred": true,
+            "detail": "Equal on 1 with GUNVALDSEN Jarand-Matias Vold (6 cleans), BJORAA Sander (6 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e6",
+          "rank": 6,
+          "value": 4,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e7",
+          "rank": 7,
+          "value": 10,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e8",
+          "rank": 8,
+          "value": 11,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e9",
+          "rank": 9,
+          "value": 12,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e10",
+          "rank": 10,
+          "value": 14,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e11",
+          "rank": 11,
+          "value": 18,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e12",
+          "rank": 12,
+          "value": 19,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e13",
+          "rank": 13,
+          "value": 23,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e14",
+          "rank": 14,
+          "value": 24,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e15",
+          "rank": 15,
+          "value": 25,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e16",
+          "rank": 16,
+          "value": 27,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-twos",
+            "label": "0 cleans, 0 ones, 1 two",
+            "inferred": true,
+            "detail": "Equal on 27 with KANNELØNNING Noah Clive Tveit (0 cleans, 0 ones, 0 twos). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e17",
+          "rank": 17,
+          "value": 27,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-twos",
+            "label": "0 cleans, 0 ones, 0 twos",
+            "inferred": true,
+            "detail": "Equal on 27 with OPPEDAL Brian Kristoffer (0 cleans, 0 ones, 1 two). The sheet prints no reason; the printed mark counts give this order."
+          }
+        }
+      ]
+    },
+    {
+      "id": "c-xkq",
+      "name": "X-Trial Kvinner XQ - Kvalifisering",
+      "kind": "class",
+      "part": "q",
+      "classes": [
+        "xkq"
+      ],
+      "rule_set": "xq",
+      "metric": "total",
+      "direction": "low",
+      "counts": {
+        "entered": 7,
+        "started": 7,
+        "retired": 0,
+        "finished": 7,
+        "scored": 7
+      },
+      "x_counts_as_printed": "Registrert: 7, Startet: 7, Fullførte ikke: 0, Ferdig: 7, Poengsum: 7",
+      "rows": [
+        {
+          "entry": "e18",
+          "rank": 1,
+          "value": 3,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e19",
+          "rank": 2,
+          "value": 7,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e20",
+          "rank": 3,
+          "value": 11,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e21",
+          "rank": 4,
+          "value": 14,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e22",
+          "rank": 5,
+          "value": 15,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e23",
+          "rank": 6,
+          "value": 17,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e24",
+          "rank": 7,
+          "value": 31,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "source_file": "2025-06-14_nmf_nm-x-trial-qualifying_results.pdf",
+    "trove": "eu",
+    "sampled": false,
+    "entries_in_document": 24,
+    "entries_encoded": 24,
+    "features": [
+      "laps",
+      "races-or-phases",
+      "class-restricted-sections",
+      "scale-01235",
+      "section-marks",
+      "part-totals",
+      "mark-counts",
+      "time-penalty-column",
+      "other-penalty-column",
+      "riding-number",
+      "club",
+      "name-split",
+      "ties-shared",
+      "publish-timestamp"
+    ],
+    "misfits": [
+      {
+        "what": "Per-rider average mark per section (Gjennomsnitt) printed; no protocol field.",
+        "where": "entries[*].totals[part=null].x_average",
+        "severity": "cosmetic",
+        "suggestion": "Add total.average (derived, optional) or declare averages derivable and not stored."
+      },
+      {
+        "what": "classification.counts is typed for mark counts but the header prints entrant counts (Registrert/Startet/Fullførte ikke/Ferdig/Poengsum). Keys entered/started/retired/finished/scored are a local convention.",
+        "where": "classifications[*].counts",
+        "severity": "awkward",
+        "suggestion": "Add classification.entrant_counts {entered, started, retired, finished, scored} with fixed keys, separate from mark counts."
+      },
+      {
+        "what": "The 16th/17th split on equal 27 is not explained on the sheet; tie_break has no way to say the rule is inferred by the mapper.",
+        "where": "classifications[c-xq].rows[e16,e17].tie_break",
+        "severity": "awkward",
+        "suggestion": "Add tie_break.inferred (boolean) like standing.inferred."
+      },
+      {
+        "what": "Straff (1 mark for several riders) has no stated reason; penalty code vocabulary is open so 'other' carries it.",
+        "where": "entries[e3,e17].totals.penalties",
+        "severity": "cosmetic",
+        "suggestion": "Publish a penalty code list (late-finish, missed-section, yellow-card, outside-assistance, other) so codes are comparable."
+      },
+      {
+        "what": "Section sets differ by class (men S3-S5, women S2-S4) inside one qualifying part; part.sections can only list the union, the per-class set lives on section.classes and grid.sections.",
+        "where": "parts[l1,l2].sections, sections[s2,s5].classes",
+        "severity": "awkward",
+        "suggestion": "Allow part.sections_by_class or class.sections so a part can state which sections each class rides."
+      }
+    ],
+    "confidence": "high",
+    "unread": "Nothing unread. The 6 sampled riders were mapped by hand; the other 18 were added later by parsing the PDF text layer. Every rider's marks agree with the printed lap sums, mark counts and Poeng, and the parser's output matched the hand-mapped riders."
+  }
+}

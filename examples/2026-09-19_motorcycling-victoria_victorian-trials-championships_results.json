@@ -1,0 +1,9945 @@
+{
+  "protocol": "trials-result/0.1",
+  "document": {
+    "title": "Victorian State Titles, Trials Club of Victoria, 19/20 September 2026",
+    "status": "unknown",
+    "detail_level": "sections",
+    "publisher": "Trials Club of Victoria",
+    "software": "Trialsport Scoring System - trialsport.com.au",
+    "format": "pdf",
+    "language": "en",
+    "source_url": "https://s3.ap-southeast-2.amazonaws.com/trials-australia-craft-dev/postFiles/BradCunningham/BradCunningham/2026-09-19-Victorian-Titles.pdf",
+    "source_file": "2026-09-19_motorcycling-victoria_victorian-trials-championships_results.pdf",
+    "retrieved": "2026-11-19",
+    "notes": "Five landscape pages, 10 classes. Every NC row shows only place 'NC', name, machine (if any) and the 0/1/2/3/5 counts; its marks, totals and Score are blank on the page but present in the PDF text layer as white text. The 'Pen.' column is printed but empty for every rider."
+  },
+  "event": {
+    "name": "Victorian State Titles",
+    "organiser": "Trials Club of Victoria",
+    "governing_bodies": [
+      {
+        "name": "Motorcycling Australia",
+        "level": "national"
+      },
+      {
+        "name": "Motorcycling Victoria",
+        "level": "state"
+      }
+    ],
+    "country": "AU",
+    "region": "VIC",
+    "venue": "Ravenswood, VIC",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-20",
+    "discipline": "moto-trial",
+    "notes": "Venue from the Entry Place event ('Vic Titles and VTS Presentation'), not printed on the sheet."
+  },
+  "rule_sets": [
+    {
+      "id": "ma-trial",
+      "name": "MA Trial rules (GCR 15.12)",
+      "format": "observed",
+      "basis": "marks-lost",
+      "direction": "low",
+      "unit": "marks",
+      "stop_rule": "stop-allowed",
+      "section_scale": {
+        "type": "numeric",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      "penalties": [
+        {
+          "code": "missed-section",
+          "value": 5,
+          "unit": "marks",
+          "per": "section",
+          "as_printed": "Missing a section"
+        },
+        {
+          "code": "late-card",
+          "value": 1,
+          "unit": "marks",
+          "per": "minute",
+          "cap": 30,
+          "then": "exclusion",
+          "as_printed": "Handing in the scorecard after finish time"
+        },
+        {
+          "code": "not-vacating-section",
+          "value": 10,
+          "unit": "marks",
+          "per": "occurrence"
+        },
+        {
+          "code": "disorderly-conduct",
+          "value": 100,
+          "unit": "marks",
+          "per": "occurrence"
+        }
+      ],
+      "tie_breaks": [
+        "most-cleans",
+        "most-ones",
+        "most-twos",
+        "most-threes",
+        "ride-off"
+      ],
+      "recorded_by": "observer",
+      "source": {
+        "title": "Motorcycling Australia Manual of Motorcycle Sport 2026, chapter 15 Trial",
+        "clause": "15.12.1.1, 15.12.1.3, 15.12.1.8, 15.12.3.2, 15.12.3.3, 15.12.3.5",
+        "file": "rules/2026_motorcycling-australia_manual-of-motorcycle-sport_chapter-15-trial_extract.pdf"
+      },
+      "inferred": true,
+      "notes": "The sheet states no rules; the SRs were not available. The 2026 MoMS is used for every year.",
+      "time": {
+        "scored": false,
+        "section_limit_s": 90,
+        "notes": "MoMS 15.12.3.5: 90 s per section at state championship rounds; over time is a 5."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "number": 1,
+      "kind": "observed"
+    },
+    {
+      "id": "s2",
+      "number": 2,
+      "kind": "observed"
+    },
+    {
+      "id": "s3",
+      "number": 3,
+      "kind": "observed"
+    },
+    {
+      "id": "s4",
+      "number": 4,
+      "kind": "observed"
+    },
+    {
+      "id": "s5",
+      "number": 5,
+      "kind": "observed"
+    },
+    {
+      "id": "s6",
+      "number": 6,
+      "kind": "observed"
+    },
+    {
+      "id": "s7",
+      "number": 7,
+      "kind": "observed"
+    },
+    {
+      "id": "s8",
+      "number": 8,
+      "kind": "observed"
+    },
+    {
+      "id": "s9",
+      "number": 9,
+      "kind": "observed"
+    },
+    {
+      "id": "s10",
+      "number": 10,
+      "kind": "observed"
+    }
+  ],
+  "parts": [
+    {
+      "id": "d1",
+      "kind": "day",
+      "order": 1,
+      "label": "Saturday",
+      "date": "2026-09-19"
+    },
+    {
+      "id": "d1l1",
+      "kind": "lap",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d1"
+    },
+    {
+      "id": "d1l2",
+      "kind": "lap",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d1"
+    },
+    {
+      "id": "d1l3",
+      "kind": "lap",
+      "order": 3,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d1",
+      "classes": [
+        "t2",
+        "t3",
+        "t4p",
+        "t4",
+        "t5",
+        "masters",
+        "v40",
+        "v55",
+        "twinshock"
+      ]
+    },
+    {
+      "id": "d1l4",
+      "kind": "lap",
+      "order": 4,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d1",
+      "classes": [
+        "t3",
+        "t4p",
+        "t4",
+        "t5",
+        "masters",
+        "v40",
+        "v55",
+        "twinshock"
+      ]
+    },
+    {
+      "id": "d2",
+      "kind": "day",
+      "order": 2,
+      "label": "Sunday",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "d2l1",
+      "kind": "lap",
+      "order": 1,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d2"
+    },
+    {
+      "id": "d2l2",
+      "kind": "lap",
+      "order": 2,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d2"
+    },
+    {
+      "id": "d2l3",
+      "kind": "lap",
+      "order": 3,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d2",
+      "classes": [
+        "t2",
+        "t3",
+        "t4p",
+        "t4",
+        "t5",
+        "masters",
+        "v40",
+        "v55",
+        "twinshock"
+      ]
+    },
+    {
+      "id": "d2l4",
+      "kind": "lap",
+      "order": 4,
+      "sections": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10"
+      ],
+      "parent": "d2",
+      "classes": [
+        "t3",
+        "t4p",
+        "t4",
+        "t5",
+        "masters",
+        "v40",
+        "v55",
+        "twinshock"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "t2",
+      "name": "Trial 2",
+      "as_printed": "Trial 2",
+      "colour": "red",
+      "laps": 3,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial"
+    },
+    {
+      "id": "t3",
+      "name": "Trial 3",
+      "as_printed": "Trial 3",
+      "colour": "yellow",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial"
+    },
+    {
+      "id": "t4p",
+      "name": "Trial 4 Plus",
+      "as_printed": "Trial 4 Plus",
+      "colour": "blue",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial"
+    },
+    {
+      "id": "t4",
+      "name": "Trial 4",
+      "as_printed": "Trial 4",
+      "colour": "blue",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial"
+    },
+    {
+      "id": "t5",
+      "name": "Trial 5",
+      "as_printed": "Trial 5",
+      "colour": "white",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial"
+    },
+    {
+      "id": "masters",
+      "name": "Masters",
+      "as_printed": "Masters",
+      "colour": "yellow",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial",
+      "dimensions": {
+        "age": "masters"
+      }
+    },
+    {
+      "id": "v40",
+      "name": "Veterans 40 to 55",
+      "as_printed": "Veterans 40 to 55",
+      "colour": "blue",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial",
+      "dimensions": {
+        "age": "40 to 55"
+      }
+    },
+    {
+      "id": "v55",
+      "name": "Veterans 55 Plus",
+      "as_printed": "Veterans 55 Plus",
+      "colour": "light blue",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial",
+      "dimensions": {
+        "age": "55 plus"
+      }
+    },
+    {
+      "id": "twinshock",
+      "name": "Twinshock",
+      "as_printed": "Twinshock",
+      "colour": "lavender",
+      "laps": 4,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial",
+      "dimensions": {
+        "machine_era": "twinshock"
+      }
+    },
+    {
+      "id": "subjunior",
+      "name": "Sub Junior",
+      "as_printed": "Sub Junior",
+      "colour": "orange",
+      "laps": 2,
+      "sections_per_lap": 10,
+      "rule_set": "ma-trial",
+      "dimensions": {
+        "age": "sub junior"
+      },
+      "notes": "Lap count worked out from the printed mark counts: no marks are visible for this class. Every rider is printed NC. The sheet does not say the class itself is non-competitive."
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "33e63cf6-952e-5704-8024-b3b4c8d42d06",
+          "person": {
+            "name": {
+              "given": "Zac",
+              "family": "Mularczyk",
+              "as_printed": "Zac MULARCZYK"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            5,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 4
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 5
+        },
+        {
+          "part": "d1",
+          "total": 9
+        },
+        {
+          "part": "d2l1",
+          "total": 6
+        },
+        {
+          "part": "d2l2",
+          "total": 7
+        },
+        {
+          "part": "d2l3",
+          "total": 7
+        },
+        {
+          "part": "d2",
+          "total": 20
+        },
+        {
+          "part": null,
+          "observation": 29,
+          "total": 29,
+          "unit": "marks",
+          "counts": {
+            "0": 43,
+            "1": 13,
+            "2": 0,
+            "3": 2,
+            "5": 2
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "130d721d-bd36-592b-904e-778375a6ec77",
+          "person": {
+            "name": {
+              "given": "Adrian",
+              "family": "Harry",
+              "as_printed": "Adrian HARRY"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "capacity_cc": 300,
+        "as_printed": "MONTESSA 300"
+      },
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            5,
+            0,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 4
+        },
+        {
+          "part": "d1l2",
+          "total": 6
+        },
+        {
+          "part": "d1l3",
+          "total": 3
+        },
+        {
+          "part": "d1",
+          "total": 13
+        },
+        {
+          "part": "d2l1",
+          "total": 8
+        },
+        {
+          "part": "d2l2",
+          "total": 11
+        },
+        {
+          "part": "d2l3",
+          "total": 4
+        },
+        {
+          "part": "d2",
+          "total": 23
+        },
+        {
+          "part": null,
+          "observation": 36,
+          "total": 36,
+          "unit": "marks",
+          "counts": {
+            "0": 40,
+            "1": 13,
+            "2": 2,
+            "3": 3,
+            "5": 2
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "486a6e63-6021-57f3-8f49-4b20ceb9304e",
+          "person": {
+            "name": {
+              "given": "Joshua",
+              "family": "Coleman",
+              "as_printed": "Joshua COLEMAN"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Vertigo",
+        "as_printed": "VERTIGO"
+      },
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            3,
+            3,
+            5,
+            0,
+            0,
+            3,
+            0,
+            5,
+            2
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            2,
+            1,
+            5,
+            0,
+            0,
+            1,
+            0,
+            5,
+            2
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            5,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 2
+        },
+        {
+          "part": "d1l2",
+          "total": 4
+        },
+        {
+          "part": "d1l3",
+          "total": 5
+        },
+        {
+          "part": "d1",
+          "total": 11
+        },
+        {
+          "part": "d2l1",
+          "total": 21
+        },
+        {
+          "part": "d2l2",
+          "total": 16
+        },
+        {
+          "part": "d2l3",
+          "total": 9
+        },
+        {
+          "part": "d2",
+          "total": 46
+        },
+        {
+          "part": null,
+          "observation": 57,
+          "total": 57,
+          "unit": "marks",
+          "counts": {
+            "0": 37,
+            "1": 8,
+            "2": 6,
+            "3": 4,
+            "5": 5
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b5a327c8-3b18-570d-93b9-b6db871d1027",
+          "person": {
+            "name": {
+              "given": "Alisha",
+              "family": "Harry",
+              "as_printed": "Alisha HARRY"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "capacity_cc": 125,
+        "as_printed": "BETA 125"
+      },
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 3
+        },
+        {
+          "part": "d1l3",
+          "total": 1
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 6
+        },
+        {
+          "part": "d2l1",
+          "total": 2
+        },
+        {
+          "part": "d2l2",
+          "total": 3
+        },
+        {
+          "part": "d2l3",
+          "total": 2
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 7
+        },
+        {
+          "part": null,
+          "observation": 13,
+          "total": 13,
+          "unit": "marks",
+          "counts": {
+            "0": 72,
+            "1": 5,
+            "2": 1,
+            "3": 2,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "919571ee-aaa7-5983-98ea-0f269bd6c6b7",
+          "person": {
+            "name": {
+              "given": "Tim",
+              "family": "Lewis",
+              "as_printed": "Tim LEWIS"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "capacity_cc": 300,
+        "as_printed": "BETA 300 2T FACTORY"
+      },
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            5,
+            0,
+            3,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 5
+        },
+        {
+          "part": "d1l2",
+          "total": 3
+        },
+        {
+          "part": "d1l3",
+          "total": 3
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 12
+        },
+        {
+          "part": "d2l1",
+          "total": 9
+        },
+        {
+          "part": "d2l2",
+          "total": 7
+        },
+        {
+          "part": "d2l3",
+          "total": 3
+        },
+        {
+          "part": "d2l4",
+          "total": 5
+        },
+        {
+          "part": "d2",
+          "total": 24
+        },
+        {
+          "part": null,
+          "observation": 36,
+          "total": 36,
+          "unit": "marks",
+          "counts": {
+            "0": 64,
+            "1": 7,
+            "2": 4,
+            "3": 2,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "154e4e94-99f4-57ee-bcc5-aaa0fab5bf1a",
+          "person": {
+            "name": {
+              "given": "Tom",
+              "family": "Linnane",
+              "as_printed": "Tom LINNANE"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "capacity_cc": 300,
+        "as_printed": "BETA EVO 300"
+      },
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            5,
+            0,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            5,
+            5,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            5,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 0
+        },
+        {
+          "part": "d1l2",
+          "total": 7
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 10
+        },
+        {
+          "part": "d1",
+          "total": 17
+        },
+        {
+          "part": "d2l1",
+          "total": 15
+        },
+        {
+          "part": "d2l2",
+          "total": 5
+        },
+        {
+          "part": "d2l3",
+          "total": 2
+        },
+        {
+          "part": "d2l4",
+          "total": 7
+        },
+        {
+          "part": "d2",
+          "total": 29
+        },
+        {
+          "part": null,
+          "observation": 46,
+          "total": 46,
+          "unit": "marks",
+          "counts": {
+            "0": 57,
+            "1": 14,
+            "2": 3,
+            "3": 2,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a4c72528-49a1-508f-9c21-43d024e301a8",
+          "person": {
+            "name": {
+              "given": "Matthew",
+              "family": "Isherwood",
+              "as_printed": "Matthew ISHERWOOD"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "capacity_cc": 300,
+        "as_printed": "BETS 300"
+      },
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            5,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            5,
+            5,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            1,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            3,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 8
+        },
+        {
+          "part": "d1l2",
+          "total": 5
+        },
+        {
+          "part": "d1l3",
+          "total": 13
+        },
+        {
+          "part": "d1l4",
+          "total": 4
+        },
+        {
+          "part": "d1",
+          "total": 30
+        },
+        {
+          "part": "d2l1",
+          "total": 9
+        },
+        {
+          "part": "d2l2",
+          "total": 9
+        },
+        {
+          "part": "d2l3",
+          "total": 9
+        },
+        {
+          "part": "d2l4",
+          "total": 9
+        },
+        {
+          "part": "d2",
+          "total": 36
+        },
+        {
+          "part": null,
+          "observation": 66,
+          "total": 66,
+          "unit": "marks",
+          "counts": {
+            "0": 50,
+            "1": 14,
+            "2": 6,
+            "3": 5,
+            "5": 5
+          },
+          "status": "classified",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "af2079fc-c4f3-5222-ad6b-7eb015a8f458",
+          "person": {
+            "name": {
+              "given": "Harry",
+              "family": "Scott",
+              "as_printed": "Harry SCOTT"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "GasGas",
+        "capacity_cc": 125,
+        "as_printed": "GASGAS 125"
+      },
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            2,
+            0,
+            0,
+            2,
+            1,
+            2,
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            1,
+            3,
+            1,
+            3,
+            2,
+            2,
+            5,
+            2
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            5,
+            0,
+            1,
+            3,
+            0,
+            2,
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            5,
+            0,
+            5,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            5,
+            2,
+            5,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            2,
+            0,
+            5,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            2,
+            0,
+            1,
+            2,
+            0,
+            0,
+            5,
+            0,
+            3,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 10
+        },
+        {
+          "part": "d1l2",
+          "total": 7
+        },
+        {
+          "part": "d1l3",
+          "total": 19
+        },
+        {
+          "part": "d1l4",
+          "total": 14
+        },
+        {
+          "part": "d1",
+          "total": 50
+        },
+        {
+          "part": "d2l1",
+          "total": 16
+        },
+        {
+          "part": "d2l2",
+          "total": 24
+        },
+        {
+          "part": "d2l3",
+          "total": 15
+        },
+        {
+          "part": "d2l4",
+          "total": 16
+        },
+        {
+          "part": "d2",
+          "total": 71
+        },
+        {
+          "part": null,
+          "observation": 121,
+          "total": 121,
+          "unit": "marks",
+          "counts": {
+            "0": 27,
+            "1": 19,
+            "2": 18,
+            "3": 7,
+            "5": 9
+          },
+          "status": "classified",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "352bb1ba-f507-5cbb-b55a-a5ccc358a035",
+          "person": {
+            "name": {
+              "given": "Kieran",
+              "family": "Clay",
+              "as_printed": "Kieran CLAY"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            3,
+            0,
+            2,
+            1,
+            5,
+            5,
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            3,
+            0,
+            3,
+            1,
+            3,
+            5,
+            5,
+            0,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            2,
+            0,
+            5,
+            2,
+            2,
+            5,
+            1,
+            0,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            5,
+            0,
+            2,
+            0,
+            0,
+            5,
+            5,
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            5,
+            0,
+            5,
+            2,
+            5,
+            5,
+            5,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            2,
+            3,
+            1,
+            1,
+            3,
+            0,
+            5,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            3,
+            3,
+            5,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            2,
+            1,
+            5,
+            2,
+            2,
+            0,
+            5,
+            1,
+            5,
+            5
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 22
+        },
+        {
+          "part": "d1l2",
+          "total": 26
+        },
+        {
+          "part": "d1l3",
+          "total": 21
+        },
+        {
+          "part": "d1l4",
+          "total": 24
+        },
+        {
+          "part": "d1",
+          "total": 93
+        },
+        {
+          "part": "d2l1",
+          "total": 29
+        },
+        {
+          "part": "d2l2",
+          "total": 21
+        },
+        {
+          "part": "d2l3",
+          "total": 14
+        },
+        {
+          "part": "d2l4",
+          "total": 28
+        },
+        {
+          "part": "d2",
+          "total": 92
+        },
+        {
+          "part": null,
+          "observation": 185,
+          "total": 185,
+          "unit": "marks",
+          "counts": {
+            "0": 18,
+            "1": 14,
+            "2": 15,
+            "3": 12,
+            "5": 21
+          },
+          "status": "classified",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "98ee4a0c-1f04-4f2e-8ac7-720989cb0fd4",
+          "person": {
+            "name": {
+              "given": "Matthew",
+              "family": "Hannaford",
+              "as_printed": "Matthew HANNAFORD"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "capacity_cc": 250,
+        "as_printed": "TLR 250"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            5,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 1
+        },
+        {
+          "part": "d2l1",
+          "total": 4
+        },
+        {
+          "part": "d2l2",
+          "total": 1
+        },
+        {
+          "part": "d2l3",
+          "total": 1
+        },
+        {
+          "part": "d2l4",
+          "total": 6
+        },
+        {
+          "part": "d2",
+          "total": 12
+        },
+        {
+          "part": null,
+          "observation": 13,
+          "total": 13,
+          "unit": "marks",
+          "counts": {
+            "0": 73,
+            "1": 4,
+            "2": 2,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c6bb7aff-188a-4b85-a850-853da3307bed",
+          "person": {
+            "name": {
+              "given": "Peter",
+              "family": "Wines",
+              "as_printed": "Peter WINES"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "as_printed": "TRS"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 0
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 0
+        },
+        {
+          "part": "d2l1",
+          "total": 2
+        },
+        {
+          "part": "d2l2",
+          "total": 7
+        },
+        {
+          "part": "d2l3",
+          "total": 1
+        },
+        {
+          "part": "d2l4",
+          "total": 3
+        },
+        {
+          "part": "d2",
+          "total": 13
+        },
+        {
+          "part": null,
+          "observation": 13,
+          "total": 13,
+          "unit": "marks",
+          "counts": {
+            "0": 72,
+            "1": 6,
+            "2": 1,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1773ae5f-ba2d-5de7-a0f2-c025b3715af2",
+          "person": {
+            "name": {
+              "given": "Johnny",
+              "family": "Moore",
+              "as_printed": "Johnny MOORE"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Vertigo",
+        "as_printed": "VERTIGO"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 1
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 2
+        },
+        {
+          "part": "d2l1",
+          "total": 5
+        },
+        {
+          "part": "d2l2",
+          "total": 2
+        },
+        {
+          "part": "d2l3",
+          "total": 6
+        },
+        {
+          "part": "d2l4",
+          "total": 1
+        },
+        {
+          "part": "d2",
+          "total": 14
+        },
+        {
+          "part": null,
+          "observation": 16,
+          "total": 16,
+          "unit": "marks",
+          "counts": {
+            "0": 70,
+            "1": 8,
+            "2": 0,
+            "3": 1,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "efe0c010-f7d4-5d4d-ad49-656516ced139",
+          "person": {
+            "name": {
+              "given": "Wes",
+              "family": "Scott",
+              "as_printed": "Wes SCOTT"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "capacity_cc": 250,
+        "as_printed": "GASSER 250"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 2
+        },
+        {
+          "part": "d1l2",
+          "total": 2
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 5
+        },
+        {
+          "part": "d2l1",
+          "total": 4
+        },
+        {
+          "part": "d2l2",
+          "total": 5
+        },
+        {
+          "part": "d2l3",
+          "total": 1
+        },
+        {
+          "part": "d2l4",
+          "total": 2
+        },
+        {
+          "part": "d2",
+          "total": 12
+        },
+        {
+          "part": null,
+          "observation": 17,
+          "total": 17,
+          "unit": "marks",
+          "counts": {
+            "0": 69,
+            "1": 7,
+            "2": 2,
+            "3": 2,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "b2c51844-b6a4-553b-a3db-b5e7cc438663",
+          "person": {
+            "name": {
+              "given": "David",
+              "family": "Grice",
+              "as_printed": "David GRICE"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            1,
+            5,
+            5,
+            0,
+            3,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 1
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 3
+        },
+        {
+          "part": "d2l1",
+          "total": 15
+        },
+        {
+          "part": "d2l2",
+          "total": 5
+        },
+        {
+          "part": "d2l3",
+          "total": 6
+        },
+        {
+          "part": "d2l4",
+          "total": 6
+        },
+        {
+          "part": "d2",
+          "total": 32
+        },
+        {
+          "part": null,
+          "observation": 35,
+          "total": 35,
+          "unit": "marks",
+          "counts": {
+            "0": 65,
+            "1": 8,
+            "2": 2,
+            "3": 1,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "05d8b349-7142-536e-8492-5df49e35014e",
+          "person": {
+            "name": {
+              "given": "Bruce",
+              "family": "Bickford",
+              "as_printed": "Bruce BICKFORD"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "GasGas",
+        "capacity_cc": 280,
+        "as_printed": "GAS GAS 280"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            5,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            5,
+            5
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            2,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 8
+        },
+        {
+          "part": "d1l2",
+          "total": 3
+        },
+        {
+          "part": "d1l3",
+          "total": 1
+        },
+        {
+          "part": "d1l4",
+          "total": 3
+        },
+        {
+          "part": "d1",
+          "total": 15
+        },
+        {
+          "part": "d2l1",
+          "total": 9
+        },
+        {
+          "part": "d2l2",
+          "total": 13
+        },
+        {
+          "part": "d2l3",
+          "total": 8
+        },
+        {
+          "part": "d2l4",
+          "total": 5
+        },
+        {
+          "part": "d2",
+          "total": 35
+        },
+        {
+          "part": null,
+          "observation": 50,
+          "total": 50,
+          "unit": "marks",
+          "counts": {
+            "0": 56,
+            "1": 13,
+            "2": 4,
+            "3": 3,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f525eaff-9376-5972-b95a-01bc9372ae21",
+          "person": {
+            "name": {
+              "given": "Zach",
+              "family": "Borgas",
+              "as_printed": "Zach BORGAS"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "capacity_cc": 250,
+        "as_printed": "TXT 250"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            3,
+            1,
+            0,
+            0,
+            3,
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 5
+        },
+        {
+          "part": "d1l2",
+          "total": 3
+        },
+        {
+          "part": "d1l3",
+          "total": 2
+        },
+        {
+          "part": "d1l4",
+          "total": 5
+        },
+        {
+          "part": "d1",
+          "total": 15
+        },
+        {
+          "part": "d2l1",
+          "total": 14
+        },
+        {
+          "part": "d2l2",
+          "total": 5
+        },
+        {
+          "part": "d2l3",
+          "total": 10
+        },
+        {
+          "part": "d2l4",
+          "total": 7
+        },
+        {
+          "part": "d2",
+          "total": 36
+        },
+        {
+          "part": null,
+          "observation": 51,
+          "total": 51,
+          "unit": "marks",
+          "counts": {
+            "0": 52,
+            "1": 15,
+            "2": 5,
+            "3": 7,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f8071a72-6c90-51a3-8e4f-dce43c4e1213",
+          "person": {
+            "name": {
+              "given": "Archie",
+              "family": "Hannaford",
+              "as_printed": "Archie HANNAFORD"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Vertigo",
+        "capacity_cc": 125,
+        "as_printed": "VERTIGO 125"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            5,
+            1,
+            0,
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 17
+        },
+        {
+          "part": "d1l2",
+          "total": 5
+        },
+        {
+          "part": "d1l3",
+          "total": 4
+        },
+        {
+          "part": "d1l4",
+          "total": 3
+        },
+        {
+          "part": "d1",
+          "total": 29
+        },
+        {
+          "part": "d2l1",
+          "total": 7
+        },
+        {
+          "part": "d2l2",
+          "total": 4
+        },
+        {
+          "part": "d2l3",
+          "total": 5
+        },
+        {
+          "part": "d2l4",
+          "total": 6
+        },
+        {
+          "part": "d2",
+          "total": 22
+        },
+        {
+          "part": null,
+          "observation": 51,
+          "total": 51,
+          "unit": "marks",
+          "counts": {
+            "0": 51,
+            "1": 17,
+            "2": 8,
+            "3": 1,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "e18",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "56b7961b-4e7c-5fdc-b5f3-d8d796fe6254",
+          "person": {
+            "name": {
+              "given": "Tim",
+              "family": "Leed",
+              "as_printed": "Tim LEED"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "ARTIC LEOPARD"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            5,
+            0,
+            2,
+            0,
+            1,
+            0,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            5,
+            3,
+            0,
+            5,
+            0,
+            3,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            5,
+            0,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            2,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            3,
+            3,
+            2,
+            0,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            1,
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 15
+        },
+        {
+          "part": "d1l2",
+          "total": 23
+        },
+        {
+          "part": "d1l3",
+          "total": 12
+        },
+        {
+          "part": "d1l4",
+          "total": 12
+        },
+        {
+          "part": "d1",
+          "total": 62
+        },
+        {
+          "part": "d2l1",
+          "total": 20
+        },
+        {
+          "part": "d2l2",
+          "total": 9
+        },
+        {
+          "part": "d2l3",
+          "total": 8
+        },
+        {
+          "part": "d2l4",
+          "total": 8
+        },
+        {
+          "part": "d2",
+          "total": 45
+        },
+        {
+          "part": null,
+          "observation": 107,
+          "total": 107,
+          "unit": "marks",
+          "counts": {
+            "0": 35,
+            "1": 16,
+            "2": 8,
+            "3": 15,
+            "5": 6
+          },
+          "status": "classified",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "d56df95a-37be-4a6c-9565-d119b91c7e6c",
+          "person": {
+            "name": {
+              "given": "Matthew",
+              "family": "Aitken",
+              "as_printed": "Matthew AITKEN"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "GasGas",
+        "capacity_cc": 250,
+        "as_printed": "GAS GAS 250"
+      },
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 4
+        },
+        {
+          "part": "d1l2",
+          "total": 6
+        },
+        {
+          "part": "d1l3",
+          "total": 6
+        },
+        {
+          "part": "d1l4",
+          "total": 3
+        },
+        {
+          "part": "d1",
+          "total": 19
+        },
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 28,
+            "1": 9,
+            "2": 1,
+            "3": 1,
+            "5": 1
+          },
+          "status": "dnf",
+          "status_as_printed": "DNF",
+          "sections_ridden": 40
+        }
+      ],
+      "notes": "Saturday scored; Sunday cells blank."
+    },
+    {
+      "id": "e20",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6806abe9-b231-4509-be50-88eb713f88b1",
+          "person": {
+            "name": {
+              "given": "Jimmy",
+              "family": "Dunger",
+              "as_printed": "Jimmy DUNGER"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4p"
+      ],
+      "standing": {
+        "basis": "non-competitive",
+        "reason": "not-stated",
+        "as_printed": "NC",
+        "scores_public": false
+      },
+      "totals": [
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 47,
+            "1": 8,
+            "2": 7,
+            "3": 11,
+            "5": 7
+          }
+        }
+      ],
+      "x_hidden_text_layer": {
+        "marks": true,
+        "part_totals": true,
+        "score": true,
+        "copied": false
+      }
+    },
+    {
+      "id": "e21",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6b428356-c8c9-58e3-8ed1-c071cf3f806d",
+          "person": {
+            "name": {
+              "given": "Asha",
+              "family": "Nuttall",
+              "as_printed": "Asha NUTTALL"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "as_printed": "TRS"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 6
+        },
+        {
+          "part": "d1l3",
+          "total": 3
+        },
+        {
+          "part": "d1l4",
+          "total": 7
+        },
+        {
+          "part": "d1",
+          "total": 17
+        },
+        {
+          "part": "d2l1",
+          "total": 5
+        },
+        {
+          "part": "d2l2",
+          "total": 2
+        },
+        {
+          "part": "d2l3",
+          "total": 0
+        },
+        {
+          "part": "d2l4",
+          "total": 2
+        },
+        {
+          "part": "d2",
+          "total": 9
+        },
+        {
+          "part": null,
+          "observation": 26,
+          "total": 26,
+          "unit": "marks",
+          "counts": {
+            "0": 67,
+            "1": 9,
+            "2": 1,
+            "3": 0,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "7131ac55-a644-52c2-964e-dbcd56d3e24a",
+          "person": {
+            "name": {
+              "given": "Gary",
+              "family": "Siani",
+              "as_printed": "Gary SIANI"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "capacity_cc": 200,
+        "as_printed": "BETA 200 FACTORY"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 6
+        },
+        {
+          "part": "d1l2",
+          "total": 7
+        },
+        {
+          "part": "d1l3",
+          "total": 4
+        },
+        {
+          "part": "d1l4",
+          "total": 6
+        },
+        {
+          "part": "d1",
+          "total": 23
+        },
+        {
+          "part": "d2l1",
+          "total": 8
+        },
+        {
+          "part": "d2l2",
+          "total": 10
+        },
+        {
+          "part": "d2l3",
+          "total": 5
+        },
+        {
+          "part": "d2l4",
+          "total": 7
+        },
+        {
+          "part": "d2",
+          "total": 30
+        },
+        {
+          "part": null,
+          "observation": 53,
+          "total": 53,
+          "unit": "marks",
+          "counts": {
+            "0": 51,
+            "1": 15,
+            "2": 6,
+            "3": 7,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1e58468c-9c21-537e-8b20-10d610b983cc",
+          "person": {
+            "name": {
+              "given": "Liam",
+              "family": "Matthews",
+              "as_printed": "Liam MATTHEWS"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Sherco",
+        "capacity_cc": 250,
+        "year": 2004,
+        "as_printed": "2004 SHERCO 250"
+      },
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            5,
+            1,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            2,
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            2,
+            0,
+            2,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            2,
+            1,
+            3,
+            1,
+            3,
+            1,
+            1,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            3,
+            1,
+            5,
+            0,
+            5,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 16
+        },
+        {
+          "part": "d1l2",
+          "total": 9
+        },
+        {
+          "part": "d1l3",
+          "total": 12
+        },
+        {
+          "part": "d1l4",
+          "total": 7
+        },
+        {
+          "part": "d1",
+          "total": 44
+        },
+        {
+          "part": "d2l1",
+          "total": 21
+        },
+        {
+          "part": "d2l2",
+          "total": 17
+        },
+        {
+          "part": "d2l3",
+          "total": 12
+        },
+        {
+          "part": "d2l4",
+          "total": 7
+        },
+        {
+          "part": "d2",
+          "total": 57
+        },
+        {
+          "part": null,
+          "observation": 101,
+          "total": 101,
+          "unit": "marks",
+          "counts": {
+            "0": 35,
+            "1": 19,
+            "2": 8,
+            "3": 12,
+            "5": 6
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "db6333c7-a9d0-4522-bfed-1ac6b994edc1",
+          "person": {
+            "name": {
+              "given": "Andy",
+              "family": "Pilcher",
+              "as_printed": "Andy PILCHER"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "totals": [
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          },
+          "status": "dns",
+          "status_as_printed": "DNS"
+        }
+      ]
+    },
+    {
+      "id": "e25",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "d7d55e8c-ecd2-5a3d-af50-8cef88814202",
+          "person": {
+            "name": {
+              "given": "Quentin",
+              "family": "Cook",
+              "as_printed": "Quentin COOK"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Bultaco",
+        "as_printed": "BULTACO MATADOR"
+      },
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 0
+        },
+        {
+          "part": "d1l2",
+          "total": 3
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 3
+        },
+        {
+          "part": "d2l1",
+          "total": 0
+        },
+        {
+          "part": "d2l2",
+          "total": 5
+        },
+        {
+          "part": "d2l3",
+          "total": 0
+        },
+        {
+          "part": "d2l4",
+          "total": 1
+        },
+        {
+          "part": "d2",
+          "total": 6
+        },
+        {
+          "part": null,
+          "observation": 9,
+          "total": 9,
+          "unit": "marks",
+          "counts": {
+            "0": 77,
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e26",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a7f1c71b-1b46-5459-a711-83d064fd183e",
+          "person": {
+            "name": {
+              "given": "Andrew",
+              "family": "Stratton",
+              "as_printed": "Andrew STRATTON"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "capacity_cc": 250,
+        "as_printed": "BETA EVO 250"
+      },
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 7
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 7
+        },
+        {
+          "part": "d2l1",
+          "total": 2
+        },
+        {
+          "part": "d2l2",
+          "total": 2
+        },
+        {
+          "part": "d2l3",
+          "total": 5
+        },
+        {
+          "part": "d2l4",
+          "total": 1
+        },
+        {
+          "part": "d2",
+          "total": 10
+        },
+        {
+          "part": null,
+          "observation": 17,
+          "total": 17,
+          "unit": "marks",
+          "counts": {
+            "0": 71,
+            "1": 5,
+            "2": 2,
+            "3": 1,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e27",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f19e6621-37b5-5bd8-880d-90ca2ab39e6e",
+          "person": {
+            "name": {
+              "given": "Rachael",
+              "family": "Nuttall",
+              "as_printed": "Rachael NUTTALL"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "as_printed": "TRS"
+      },
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 2
+        },
+        {
+          "part": "d1l2",
+          "total": 2
+        },
+        {
+          "part": "d1l3",
+          "total": 5
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 9
+        },
+        {
+          "part": "d2l1",
+          "total": 5
+        },
+        {
+          "part": "d2l2",
+          "total": 6
+        },
+        {
+          "part": "d2l3",
+          "total": 8
+        },
+        {
+          "part": "d2l4",
+          "total": 8
+        },
+        {
+          "part": "d2",
+          "total": 27
+        },
+        {
+          "part": null,
+          "observation": 36,
+          "total": 36,
+          "unit": "marks",
+          "counts": {
+            "0": 67,
+            "1": 4,
+            "2": 1,
+            "3": 5,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e28",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "97845148-9e9b-4e2f-934a-4813860f889e",
+          "person": {
+            "name": {
+              "given": "Mark",
+              "family": "Ruff",
+              "as_printed": "Mark RUFF"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "EM"
+      },
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "non-competitive",
+        "reason": "not-stated",
+        "as_printed": "NC",
+        "scores_public": false
+      },
+      "totals": [
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 63,
+            "1": 9,
+            "2": 0,
+            "3": 1,
+            "5": 7
+          }
+        }
+      ],
+      "x_hidden_text_layer": {
+        "marks": true,
+        "part_totals": true,
+        "score": true,
+        "copied": false
+      }
+    },
+    {
+      "id": "e29",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "46410bee-7b10-440e-a1ba-27de919b92eb",
+          "person": {
+            "name": {
+              "given": "Les",
+              "family": "Pattinsen",
+              "as_printed": "Les PATTINSEN"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "non-competitive",
+        "reason": "not-stated",
+        "as_printed": "NC",
+        "scores_public": false
+      },
+      "totals": [
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 40,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "5": 0
+          }
+        }
+      ],
+      "x_hidden_text_layer": {
+        "marks": true,
+        "part_totals": true,
+        "score": true,
+        "copied": "the hidden status word only; marks and totals not copied",
+        "score_cell_as_hidden": "DNF"
+      }
+    },
+    {
+      "id": "e30",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "dc0536c7-2669-5418-9c9a-32b00c338dc8",
+          "person": {
+            "name": {
+              "given": "Dean",
+              "family": "Nuttall",
+              "as_printed": "Dean NUTTALL"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "as_printed": "TRS"
+      },
+      "classes": [
+        "masters"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 0
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 1
+        },
+        {
+          "part": "d2l1",
+          "total": 3
+        },
+        {
+          "part": "d2l2",
+          "total": 1
+        },
+        {
+          "part": "d2l3",
+          "total": 1
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 5
+        },
+        {
+          "part": null,
+          "observation": 6,
+          "total": 6,
+          "unit": "marks",
+          "counts": {
+            "0": 75,
+            "1": 4,
+            "2": 1,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e31",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "c07cceaf-783a-5c6d-843b-c9c1a142d0e8",
+          "person": {
+            "name": {
+              "given": "Brendan",
+              "family": "Johnson",
+              "as_printed": "Brendan JOHNSON"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "capacity_cc": 250,
+        "as_printed": "TRS250"
+      },
+      "classes": [
+        "masters"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 1
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 2
+        },
+        {
+          "part": "d2l1",
+          "total": 6
+        },
+        {
+          "part": "d2l2",
+          "total": 1
+        },
+        {
+          "part": "d2l3",
+          "total": 0
+        },
+        {
+          "part": "d2l4",
+          "total": 1
+        },
+        {
+          "part": "d2",
+          "total": 8
+        },
+        {
+          "part": null,
+          "observation": 10,
+          "total": 10,
+          "unit": "marks",
+          "counts": {
+            "0": 74,
+            "1": 5,
+            "2": 0,
+            "3": 0,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e32",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "62e4f743-ae8d-5dae-a526-8570380f4139",
+          "person": {
+            "name": {
+              "given": "Reece",
+              "family": "Chalmers",
+              "as_printed": "Reece CHALMERS"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRRS",
+        "as_printed": "TRRS"
+      },
+      "classes": [
+        "masters"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            3,
+            1,
+            3,
+            5,
+            1,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            2,
+            5,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            1,
+            0,
+            3,
+            1,
+            0,
+            5,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            5,
+            1,
+            5,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            0,
+            5,
+            1,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            5,
+            1,
+            5,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            5,
+            0,
+            5,
+            0,
+            5,
+            2
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            5,
+            1,
+            0,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 15
+        },
+        {
+          "part": "d1l2",
+          "total": 13
+        },
+        {
+          "part": "d1l3",
+          "total": 12
+        },
+        {
+          "part": "d1l4",
+          "total": 16
+        },
+        {
+          "part": "d1",
+          "total": 56
+        },
+        {
+          "part": "d2l1",
+          "total": 17
+        },
+        {
+          "part": "d2l2",
+          "total": 16
+        },
+        {
+          "part": "d2l3",
+          "total": 18
+        },
+        {
+          "part": "d2l4",
+          "total": 12
+        },
+        {
+          "part": "d2",
+          "total": 63
+        },
+        {
+          "part": null,
+          "observation": 119,
+          "total": 119,
+          "unit": "marks",
+          "counts": {
+            "0": 36,
+            "1": 17,
+            "2": 5,
+            "3": 9,
+            "5": 13
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e33",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "64905342-f8c2-5331-bfb2-7a5604a06d04",
+          "person": {
+            "name": {
+              "given": "Matt",
+              "family": "Kerr",
+              "as_printed": "Matt KERR"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "GasGas",
+        "as_printed": "GASGAS"
+      },
+      "classes": [
+        "v40"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            5,
+            5,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 5
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 5
+        },
+        {
+          "part": "d2l1",
+          "total": 13
+        },
+        {
+          "part": "d2l2",
+          "total": 2
+        },
+        {
+          "part": "d2l3",
+          "total": 2
+        },
+        {
+          "part": "d2l4",
+          "total": 1
+        },
+        {
+          "part": "d2",
+          "total": 18
+        },
+        {
+          "part": null,
+          "observation": 23,
+          "total": 23,
+          "unit": "marks",
+          "counts": {
+            "0": 69,
+            "1": 8,
+            "2": 0,
+            "3": 0,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e34",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "5a586d8f-ebad-5e3b-90d5-ad6b639eecbe",
+          "person": {
+            "name": {
+              "given": "Craig",
+              "family": "Genner",
+              "as_printed": "Craig GENNER"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "capacity_cc": 250,
+        "as_printed": "TRS 250"
+      },
+      "classes": [
+        "v40"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            5,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 6
+        },
+        {
+          "part": "d1l2",
+          "total": 1
+        },
+        {
+          "part": "d1l3",
+          "total": 4
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 12
+        },
+        {
+          "part": "d2l1",
+          "total": 5
+        },
+        {
+          "part": "d2l2",
+          "total": 9
+        },
+        {
+          "part": "d2l3",
+          "total": 4
+        },
+        {
+          "part": "d2l4",
+          "total": 4
+        },
+        {
+          "part": "d2",
+          "total": 22
+        },
+        {
+          "part": null,
+          "observation": 34,
+          "total": 34,
+          "unit": "marks",
+          "counts": {
+            "0": 62,
+            "1": 10,
+            "2": 2,
+            "3": 5,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e35",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "2645e099-901f-5712-9d9f-d3390dfb8822",
+          "person": {
+            "name": {
+              "given": "Colin",
+              "family": "Allen",
+              "as_printed": "Colin ALLEN"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Sherco",
+        "capacity_cc": 300,
+        "as_printed": "SHERCO ST300"
+      },
+      "classes": [
+        "v40"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            0,
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 9
+        },
+        {
+          "part": "d1l2",
+          "total": 6
+        },
+        {
+          "part": "d1l3",
+          "total": 7
+        },
+        {
+          "part": "d1l4",
+          "total": 2
+        },
+        {
+          "part": "d1",
+          "total": 24
+        },
+        {
+          "part": "d2l1",
+          "total": 5
+        },
+        {
+          "part": "d2l2",
+          "total": 4
+        },
+        {
+          "part": "d2l3",
+          "total": 2
+        },
+        {
+          "part": "d2l4",
+          "total": 4
+        },
+        {
+          "part": "d2",
+          "total": 15
+        },
+        {
+          "part": null,
+          "observation": 39,
+          "total": 39,
+          "unit": "marks",
+          "counts": {
+            "0": 58,
+            "1": 12,
+            "2": 5,
+            "3": 4,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e36",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "172c7d4a-72ab-5087-833e-2397feeef99c",
+          "person": {
+            "name": {
+              "given": "David",
+              "family": "Stanhope",
+              "as_printed": "David STANHOPE"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "capacity_cc": 300,
+        "as_printed": "BETA EVO 300"
+      },
+      "classes": [
+        "v40"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            2,
+            2,
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            1,
+            0,
+            0,
+            2,
+            1,
+            1,
+            0,
+            1,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            5,
+            0,
+            1,
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 15
+        },
+        {
+          "part": "d1l2",
+          "total": 12
+        },
+        {
+          "part": "d1l3",
+          "total": 10
+        },
+        {
+          "part": "d1l4",
+          "total": 6
+        },
+        {
+          "part": "d1",
+          "total": 43
+        },
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 20,
+            "1": 9,
+            "2": 5,
+            "3": 3,
+            "5": 3
+          },
+          "status": "dnf",
+          "status_as_printed": "DNF",
+          "sections_ridden": 40
+        }
+      ],
+      "notes": "Saturday scored; Sunday cells blank."
+    },
+    {
+      "id": "e37",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "521c63f4-efdf-552b-a5f7-25bc0df5e7a2",
+          "person": {
+            "name": {
+              "given": "Jamie",
+              "family": "Isherwood",
+              "as_printed": "Jamie ISHERWOOD"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 2
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 3
+        },
+        {
+          "part": "d2l1",
+          "total": 0
+        },
+        {
+          "part": "d2l2",
+          "total": 0
+        },
+        {
+          "part": "d2l3",
+          "total": 0
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 0
+        },
+        {
+          "part": null,
+          "observation": 3,
+          "total": 3,
+          "unit": "marks",
+          "counts": {
+            "0": 78,
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e38",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "33784a30-001b-52f8-a606-775d276076f8",
+          "person": {
+            "name": {
+              "given": "Steve",
+              "family": "Johnson",
+              "as_printed": "Steve JOHNSON"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "TRSS"
+      },
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 2
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 10
+        },
+        {
+          "part": "d1",
+          "total": 13
+        },
+        {
+          "part": "d2l1",
+          "total": 1
+        },
+        {
+          "part": "d2l2",
+          "total": 0
+        },
+        {
+          "part": "d2l3",
+          "total": 0
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 1
+        },
+        {
+          "part": null,
+          "observation": 14,
+          "total": 14,
+          "unit": "marks",
+          "counts": {
+            "0": 75,
+            "1": 2,
+            "2": 1,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e39",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6dcf642d-9c83-59ae-9258-74521f3b47a6",
+          "person": {
+            "name": {
+              "given": "John",
+              "family": "Wilson",
+              "as_printed": "John WILSON"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "capacity_cc": 250,
+        "as_printed": "TRS250"
+      },
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 5
+        },
+        {
+          "part": "d1l2",
+          "total": 3
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 3
+        },
+        {
+          "part": "d1",
+          "total": 11
+        },
+        {
+          "part": "d2l1",
+          "total": 3
+        },
+        {
+          "part": "d2l2",
+          "total": 1
+        },
+        {
+          "part": "d2l3",
+          "total": 1
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 5
+        },
+        {
+          "part": null,
+          "observation": 16,
+          "total": 16,
+          "unit": "marks",
+          "counts": {
+            "0": 72,
+            "1": 4,
+            "2": 2,
+            "3": 1,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e40",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "0816862e-d59b-5a4f-be49-4bde306045d9",
+          "person": {
+            "name": {
+              "given": "Ken",
+              "family": "Cook",
+              "as_printed": "Ken COOK"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "as_printed": "BETA"
+      },
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 10
+        },
+        {
+          "part": "d1l2",
+          "total": 2
+        },
+        {
+          "part": "d1l3",
+          "total": 2
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 15
+        },
+        {
+          "part": "d2l1",
+          "total": 3
+        },
+        {
+          "part": "d2l2",
+          "total": 1
+        },
+        {
+          "part": "d2l3",
+          "total": 0
+        },
+        {
+          "part": "d2l4",
+          "total": 2
+        },
+        {
+          "part": "d2",
+          "total": 6
+        },
+        {
+          "part": null,
+          "observation": 21,
+          "total": 21,
+          "unit": "marks",
+          "counts": {
+            "0": 71,
+            "1": 4,
+            "2": 2,
+            "3": 1,
+            "5": 2
+          },
+          "status": "classified",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "e41",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1ce41c92-9fab-554b-ba4a-fbb9d3d1e4bf",
+          "person": {
+            "name": {
+              "given": "Paul",
+              "family": "Dorrity",
+              "as_printed": "Paul DORRITY"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "TRS",
+        "capacity_cc": 300,
+        "as_printed": "TRS 300"
+      },
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            5
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 8
+        },
+        {
+          "part": "d1l2",
+          "total": 2
+        },
+        {
+          "part": "d1l3",
+          "total": 1
+        },
+        {
+          "part": "d1l4",
+          "total": 0
+        },
+        {
+          "part": "d1",
+          "total": 11
+        },
+        {
+          "part": "d2l1",
+          "total": 3
+        },
+        {
+          "part": "d2l2",
+          "total": 3
+        },
+        {
+          "part": "d2l3",
+          "total": 5
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 11
+        },
+        {
+          "part": null,
+          "observation": 22,
+          "total": 22,
+          "unit": "marks",
+          "counts": {
+            "0": 69,
+            "1": 6,
+            "2": 3,
+            "3": 0,
+            "5": 2
+          },
+          "status": "classified",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "e42",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "66a044f5-1847-5ca8-b210-7f14dd1fabc7",
+          "person": {
+            "name": {
+              "given": "Tony",
+              "family": "Bax",
+              "as_printed": "Tony BAX"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Honda",
+        "as_printed": "HONDA"
+      },
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            5,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 0
+        },
+        {
+          "part": "d1l2",
+          "total": 5
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 5
+        },
+        {
+          "part": "d1",
+          "total": 10
+        },
+        {
+          "part": "d2l1",
+          "total": 9
+        },
+        {
+          "part": "d2l2",
+          "total": 2
+        },
+        {
+          "part": "d2l3",
+          "total": 6
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 17
+        },
+        {
+          "part": null,
+          "observation": 27,
+          "total": 27,
+          "unit": "marks",
+          "counts": {
+            "0": 71,
+            "1": 3,
+            "2": 2,
+            "3": 0,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "e43",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a244d90b-786e-5ee1-bc71-1c1af32e3d7b",
+          "person": {
+            "name": {
+              "given": "Scott",
+              "family": "Fleming",
+              "as_printed": "Scott FLEMING"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "as_printed": "EM SPARKY"
+      },
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            5,
+            0,
+            0,
+            1,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 4
+        },
+        {
+          "part": "d1l2",
+          "total": 2
+        },
+        {
+          "part": "d1l3",
+          "total": 11
+        },
+        {
+          "part": "d1l4",
+          "total": 15
+        },
+        {
+          "part": "d1",
+          "total": 32
+        },
+        {
+          "part": "d2l1",
+          "total": 3
+        },
+        {
+          "part": "d2l2",
+          "total": 3
+        },
+        {
+          "part": "d2l3",
+          "total": 1
+        },
+        {
+          "part": "d2l4",
+          "total": 1
+        },
+        {
+          "part": "d2",
+          "total": 8
+        },
+        {
+          "part": null,
+          "observation": 40,
+          "total": 40,
+          "unit": "marks",
+          "counts": {
+            "0": 61,
+            "1": 11,
+            "2": 3,
+            "3": 1,
+            "5": 4
+          },
+          "status": "classified",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "e44",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "7e28ac99-8837-5d21-a067-35f5cc746d52",
+          "person": {
+            "name": {
+              "given": "Colin",
+              "family": "Ford",
+              "as_printed": "Colin FORD"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Beta",
+        "as_printed": "BETA EVO"
+      },
+      "classes": [
+        "v55"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            5,
+            5,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            5,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            2,
+            1,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 15
+        },
+        {
+          "part": "d1l2",
+          "total": 4
+        },
+        {
+          "part": "d1l3",
+          "total": 5
+        },
+        {
+          "part": "d1l4",
+          "total": 10
+        },
+        {
+          "part": "d1",
+          "total": 34
+        },
+        {
+          "part": "d2l1",
+          "total": 7
+        },
+        {
+          "part": "d2l2",
+          "total": 7
+        },
+        {
+          "part": "d2l3",
+          "total": 4
+        },
+        {
+          "part": "d2l4",
+          "total": 6
+        },
+        {
+          "part": "d2",
+          "total": 24
+        },
+        {
+          "part": null,
+          "observation": 58,
+          "total": 58,
+          "unit": "marks",
+          "counts": {
+            "0": 50,
+            "1": 14,
+            "2": 10,
+            "3": 3,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "e45",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "09d882f2-20f9-50e7-a326-b83f42289a71",
+          "person": {
+            "name": {
+              "given": "Jacob",
+              "family": "Whittle",
+              "as_printed": "Jacob WHITTLE"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Honda",
+        "capacity_cc": 250,
+        "as_printed": "HONDA TLR 250"
+      },
+      "classes": [
+        "twinshock"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 0
+        },
+        {
+          "part": "d1l3",
+          "total": 0
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 2
+        },
+        {
+          "part": "d2l1",
+          "total": 2
+        },
+        {
+          "part": "d2l2",
+          "total": 0
+        },
+        {
+          "part": "d2l3",
+          "total": 2
+        },
+        {
+          "part": "d2l4",
+          "total": 0
+        },
+        {
+          "part": "d2",
+          "total": 4
+        },
+        {
+          "part": null,
+          "observation": 6,
+          "total": 6,
+          "unit": "marks",
+          "counts": {
+            "0": 75,
+            "1": 4,
+            "2": 1,
+            "3": 0,
+            "5": 0
+          },
+          "status": "classified",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "e46",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6c415b94-84cb-56e5-8a77-73f5d5869717",
+          "person": {
+            "name": {
+              "given": "Josh",
+              "family": "Pilcher",
+              "as_printed": "Josh PILCHER"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "CZ",
+        "capacity_cc": 175,
+        "as_printed": "CZ 175"
+      },
+      "classes": [
+        "twinshock"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 5
+        },
+        {
+          "part": "d1l2",
+          "total": 3
+        },
+        {
+          "part": "d1l3",
+          "total": 1
+        },
+        {
+          "part": "d1l4",
+          "total": 1
+        },
+        {
+          "part": "d1",
+          "total": 10
+        },
+        {
+          "part": "d2l1",
+          "total": 1
+        },
+        {
+          "part": "d2l2",
+          "total": 0
+        },
+        {
+          "part": "d2l3",
+          "total": 5
+        },
+        {
+          "part": "d2l4",
+          "total": 1
+        },
+        {
+          "part": "d2",
+          "total": 7
+        },
+        {
+          "part": null,
+          "observation": 17,
+          "total": 17,
+          "unit": "marks",
+          "counts": {
+            "0": 71,
+            "1": 6,
+            "2": 0,
+            "3": 2,
+            "5": 1
+          },
+          "status": "classified",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "e47",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "48e5edde-558c-51b9-88d9-d267d6fc5b5b",
+          "person": {
+            "name": {
+              "given": "Peter",
+              "family": "Specner",
+              "as_printed": "Peter SPECNER"
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "Honda",
+        "capacity_cc": 250,
+        "as_printed": "HONDA TLR 250"
+      },
+      "classes": [
+        "twinshock"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "grids": [
+        {
+          "part": "d1l1",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "part": "d1l2",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "part": "d1l3",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "part": "d1l4",
+          "values": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "part": "d2l1",
+          "values": [
+            0,
+            5,
+            1,
+            5,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "part": "d2l2",
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            2,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "part": "d2l3",
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "part": "d2l4",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "part": "d1l1",
+          "total": 1
+        },
+        {
+          "part": "d1l2",
+          "total": 5
+        },
+        {
+          "part": "d1l3",
+          "total": 2
+        },
+        {
+          "part": "d1l4",
+          "total": 6
+        },
+        {
+          "part": "d1",
+          "total": 14
+        },
+        {
+          "part": "d2l1",
+          "total": 15
+        },
+        {
+          "part": "d2l2",
+          "total": 7
+        },
+        {
+          "part": "d2l3",
+          "total": 1
+        },
+        {
+          "part": "d2l4",
+          "total": 2
+        },
+        {
+          "part": "d2",
+          "total": 25
+        },
+        {
+          "part": null,
+          "observation": 39,
+          "total": 39,
+          "unit": "marks",
+          "counts": {
+            "0": 61,
+            "1": 11,
+            "2": 2,
+            "3": 3,
+            "5": 3
+          },
+          "status": "classified",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "e48",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "f8e27f44-5135-46ed-bc8b-942b95ade264",
+          "person": {
+            "name": {
+              "given": "Teddy",
+              "family": "D.",
+              "as_printed": "Teddy D."
+            }
+          }
+        }
+      ],
+      "classes": [
+        "subjunior"
+      ],
+      "standing": {
+        "basis": "non-competitive",
+        "reason": "not-stated",
+        "as_printed": "NC",
+        "scores_public": false
+      },
+      "totals": [
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 31,
+            "1": 6,
+            "2": 3,
+            "3": 0,
+            "5": 0
+          }
+        }
+      ],
+      "x_hidden_text_layer": {
+        "marks": true,
+        "part_totals": true,
+        "score": true,
+        "copied": false
+      }
+    },
+    {
+      "id": "e49",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a6be3b67-5132-5993-8324-9581f040f161",
+          "person": {
+            "name": {
+              "given": "Jett",
+              "family": "J.",
+              "as_printed": "Jett J."
+            }
+          }
+        }
+      ],
+      "machine": {
+        "make": "GasGas",
+        "capacity_cc": 80,
+        "as_printed": "GAS GAS 80"
+      },
+      "classes": [
+        "subjunior"
+      ],
+      "standing": {
+        "basis": "non-competitive",
+        "reason": "not-stated",
+        "as_printed": "NC",
+        "scores_public": false
+      },
+      "totals": [
+        {
+          "part": null,
+          "total": null,
+          "unit": "marks",
+          "counts": {
+            "0": 21,
+            "1": 8,
+            "2": 2,
+            "3": 1,
+            "5": 8
+          }
+        }
+      ],
+      "x_hidden_text_layer": {
+        "marks": true,
+        "part_totals": true,
+        "score": true,
+        "copied": false
+      }
+    }
+  ],
+  "classifications": [
+    {
+      "id": "c-t2",
+      "name": "Trial 2",
+      "kind": "class",
+      "classes": [
+        "t2"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 29,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "value": 36,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e3",
+          "rank": 3,
+          "value": 57,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "c-t3",
+      "name": "Trial 3",
+      "kind": "class",
+      "classes": [
+        "t3"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e4",
+          "rank": 1,
+          "value": 13,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e5",
+          "rank": 2,
+          "value": 36,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e6",
+          "rank": 3,
+          "value": 46,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e7",
+          "rank": 4,
+          "value": 66,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e8",
+          "rank": 5,
+          "value": 121,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e9",
+          "rank": 6,
+          "value": 185,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "c-t4p",
+      "name": "Trial 4 Plus",
+      "kind": "class",
+      "classes": [
+        "t4p"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e10",
+          "rank": 1,
+          "value": 13,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "73 cleans",
+            "inferred": true,
+            "detail": "Equal on 13 with Peter WINES (72 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e11",
+          "rank": 2,
+          "value": 13,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "72 cleans",
+            "inferred": true,
+            "detail": "Equal on 13 with Matthew HANNAFORD (73 cleans). The sheet prints no reason; the printed mark counts give this order."
+          }
+        },
+        {
+          "entry": "e12",
+          "rank": 3,
+          "value": 16,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e13",
+          "rank": 4,
+          "value": 17,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e14",
+          "rank": 5,
+          "value": 35,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e15",
+          "rank": 6,
+          "value": 50,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e16",
+          "rank": 7,
+          "value": 51,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "52 cleans",
+            "inferred": true,
+            "detail": "Equal on 51 with Archie HANNAFORD (51 cleans). The sheet prints no reason; the printed mark counts give this order. The final-leg rule (MoMS 15.12.1.5) would have put Archie HANNAFORD ahead: 22 to 36 on day 2."
+          }
+        },
+        {
+          "entry": "e17",
+          "rank": 8,
+          "value": 51,
+          "unit": "marks",
+          "status": "classified",
+          "tie_break": {
+            "rule": "most-cleans",
+            "label": "51 cleans",
+            "inferred": true,
+            "detail": "Equal on 51 with Zach BORGAS (52 cleans). The sheet prints no reason; the printed mark counts give this order. The final-leg rule (MoMS 15.12.1.5) would have put Archie HANNAFORD ahead: 22 to 36 on day 2."
+          }
+        },
+        {
+          "entry": "e18",
+          "rank": 9,
+          "value": 107,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e19",
+          "rank": null,
+          "rank_as_printed": "DNF",
+          "value": null,
+          "unit": "marks",
+          "status": "dnf",
+          "status_as_printed": "DNF"
+        },
+        {
+          "entry": "e20",
+          "rank": null,
+          "rank_as_printed": "NC",
+          "value": null,
+          "unit": "marks",
+          "eligible": false
+        }
+      ]
+    },
+    {
+      "id": "c-t4",
+      "name": "Trial 4",
+      "kind": "class",
+      "classes": [
+        "t4"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e21",
+          "rank": 1,
+          "value": 26,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e22",
+          "rank": 2,
+          "value": 53,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e23",
+          "rank": 3,
+          "value": 101,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e24",
+          "rank": null,
+          "rank_as_printed": "DNS",
+          "value": null,
+          "unit": "marks",
+          "status": "dns",
+          "status_as_printed": "DNS"
+        }
+      ]
+    },
+    {
+      "id": "c-t5",
+      "name": "Trial 5",
+      "kind": "class",
+      "classes": [
+        "t5"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e25",
+          "rank": 1,
+          "value": 9,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e26",
+          "rank": 2,
+          "value": 17,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e27",
+          "rank": 3,
+          "value": 36,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e28",
+          "rank": null,
+          "rank_as_printed": "NC",
+          "value": null,
+          "unit": "marks",
+          "eligible": false
+        },
+        {
+          "entry": "e29",
+          "rank": null,
+          "rank_as_printed": "NC",
+          "value": null,
+          "unit": "marks",
+          "eligible": false
+        }
+      ]
+    },
+    {
+      "id": "c-masters",
+      "name": "Masters",
+      "kind": "class",
+      "classes": [
+        "masters"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e30",
+          "rank": 1,
+          "value": 6,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e31",
+          "rank": 2,
+          "value": 10,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e32",
+          "rank": 3,
+          "value": 119,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "c-v40",
+      "name": "Veterans 40 to 55",
+      "kind": "class",
+      "classes": [
+        "v40"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e33",
+          "rank": 1,
+          "value": 23,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e34",
+          "rank": 2,
+          "value": 34,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e35",
+          "rank": 3,
+          "value": 39,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e36",
+          "rank": null,
+          "rank_as_printed": "DNF",
+          "value": null,
+          "unit": "marks",
+          "status": "dnf",
+          "status_as_printed": "DNF"
+        }
+      ]
+    },
+    {
+      "id": "c-v55",
+      "name": "Veterans 55 Plus",
+      "kind": "class",
+      "classes": [
+        "v55"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e37",
+          "rank": 1,
+          "value": 3,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e38",
+          "rank": 2,
+          "value": 14,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e39",
+          "rank": 3,
+          "value": 16,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e40",
+          "rank": 4,
+          "value": 21,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e41",
+          "rank": 5,
+          "value": 22,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e42",
+          "rank": 6,
+          "value": 27,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e43",
+          "rank": 7,
+          "value": 40,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e44",
+          "rank": 8,
+          "value": 58,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "c-twinshock",
+      "name": "Twinshock",
+      "kind": "class",
+      "classes": [
+        "twinshock"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e45",
+          "rank": 1,
+          "value": 6,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e46",
+          "rank": 2,
+          "value": 17,
+          "unit": "marks",
+          "status": "classified"
+        },
+        {
+          "entry": "e47",
+          "rank": 3,
+          "value": 39,
+          "unit": "marks",
+          "status": "classified"
+        }
+      ]
+    },
+    {
+      "id": "c-subjunior",
+      "name": "Sub Junior",
+      "kind": "class",
+      "classes": [
+        "subjunior"
+      ],
+      "rule_set": "ma-trial",
+      "metric": "total",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e48",
+          "rank": null,
+          "rank_as_printed": "NC",
+          "value": null,
+          "unit": "marks",
+          "eligible": false
+        },
+        {
+          "entry": "e49",
+          "rank": null,
+          "rank_as_printed": "NC",
+          "value": null,
+          "unit": "marks",
+          "eligible": false
+        }
+      ]
+    }
+  ],
+  "mapping": {
+    "source_file": "2026-09-19_motorcycling-victoria_victorian-trials-championships_results.pdf",
+    "trove": "au",
+    "sampled": false,
+    "entries_in_document": 49,
+    "entries_encoded": 49,
+    "features": [
+      "dnf",
+      "dns",
+      "laps",
+      "machine-capacity",
+      "machine-make",
+      "machine-year",
+      "mark-counts",
+      "multi-day",
+      "name-single-field",
+      "non-competitive-flag",
+      "noncomp-scores-hidden",
+      "other-penalty-column",
+      "part-totals",
+      "partial-scores-kept",
+      "per-class-lap-counts",
+      "scale-01235",
+      "section-marks"
+    ],
+    "misfits": [
+      {
+        "what": "NC rows show only the place, name, machine and 0/1/2/3/5 counts; their marks, lap totals, day totals and Score are blank on the page but still in the PDF text layer as white text. standing.scores_public=false records that scores are withheld, but cannot say that the counts were published, nor that the file still carries the withheld values.",
+        "where": "entries[].standing, entries[].x_hidden_text_layer",
+        "severity": "lossy",
+        "suggestion": "Replace scores_public with a list of published fields (e.g. standing.published: ['counts']) and add document.hidden_content (boolean plus a note) so mappers can flag withheld-but-present data without copying it."
+      },
+      {
+        "what": "For some NC riders the only status (DNF or DNS) is in the hidden text layer; on the page the Score cell is blank. The protocol has no visibility qualifier on a status, so the hidden word can only go in an x_ key.",
+        "where": "entries[].x_hidden_text_layer.score_cell_as_hidden",
+        "severity": "awkward",
+        "suggestion": "Add an optional 'visibility' (shown | hidden-in-file) on totals and rows, or forbid hidden values outright in the guide."
+      },
+      {
+        "what": "Equal totals are separated with no printed reason; the countback is read off the printed mark counts. row.tie_break has no flag to say the rule was inferred.",
+        "where": "classifications[].rows[].tie_break",
+        "severity": "cosmetic",
+        "suggestion": "Add tie_break.inferred (or evidence: printed | derived)."
+      },
+      {
+        "what": "Line colour is shown only as the fill of each class table header. class.colour holds the fill, but nothing on the sheet says it is the line ridden; no routes are encoded.",
+        "where": "classes[].colour",
+        "severity": "cosmetic",
+        "suggestion": "Document whether class.colour means plate, line or display colour."
+      }
+    ],
+    "confidence": "high",
+    "unread": "Nothing unread. Values were read from the PDF text layer by position, using visible (black) text only. For every rider with visible marks, each lap's marks were checked against the printed lap total, the lap totals against the day total, the day totals plus Pen. against the Score, and the marks against the printed 0/1/2/3/5 counts; all agree. White text in rider rows (NC riders) was treated as hidden and not copied, except hidden status words noted in x_hidden_text_layer."
+  }
+}

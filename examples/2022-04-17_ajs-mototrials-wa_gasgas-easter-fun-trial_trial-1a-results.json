@@ -1,0 +1,2762 @@
+{
+  "protocol": "trials-result/0.1",
+  "document": {
+    "title": "GasGas Easter Fun Trial SCORE SHEET, Test No. 1 Lap 1 and Test No. 2 Lap 1",
+    "status": "unknown",
+    "detail_level": "attempts",
+    "publisher": "AJS Moto Trials Club of WA",
+    "software": "Excel 'SCORE SHEET' (printed to PDF)",
+    "format": "pdf",
+    "language": "en",
+    "source_file": "2022-04-17_ajs-mototrials-wa_gasgas-easter-fun-trial_trial-1a-results.pdf",
+    "retrieved": "2026-11-19",
+    "notes": "One page covering two of the event's test runs (tests 1 and 2 of lap 1). Per test: Orig Time (min.secs), Dabs, Fives, Tape Breaks (test 1) or Tape Penalty (test 2, still a count), Penalty Time (min.secs, printed mm:ss), Rank. 'Enter Time, Dabs, # Fives & # Tape Breaks in Coloured Cells' is printed above each block: the sheet is a data-entry template. The text layer misplaces some counts by one column; values were taken from the rendered page and checked against Penalty Time. Rows are in final-place order, not test order.",
+    "source_url": "https://www.ajsmototrials.com.au//results//2022/Easter%20Fun%20Trial/2022%20GasGas%20Easter%20Fun%20Trial%20Results%20-%201a.pdf"
+  },
+  "event": {
+    "name": "GasGas Easter Fun Trial",
+    "organiser": "AJS Moto Trials Club of WA",
+    "governing_bodies": [
+      {
+        "name": "Motorcycling Australia",
+        "level": "national"
+      },
+      {
+        "name": "Motorcycling WA",
+        "level": "state"
+      }
+    ],
+    "permit": "22/62965/I",
+    "country": "AU",
+    "region": "WA",
+    "venue": "Dave & Georgie Thomas's Property, Morangup",
+    "start_date": "2022-04-17",
+    "discipline": "moto-trial",
+    "notes": "Sponsors printed on the sheet: GasGas, MotoDynamics."
+  },
+  "rule_sets": [
+    {
+      "id": "eft",
+      "name": "GasGas Easter Fun Trial timed tests",
+      "format": "timed-test",
+      "basis": "time",
+      "direction": "low",
+      "unit": "seconds",
+      "stop_rule": "other",
+      "penalties": [
+        {
+          "code": "tape-break",
+          "value": 10,
+          "unit": "seconds",
+          "per": "occurrence",
+          "then": "none",
+          "as_printed": "if you cross the tape or break the tape you will be “rewarded” with a 10 sec time penalty"
+        },
+        {
+          "code": "dab",
+          "value": 2,
+          "unit": "seconds",
+          "per": "occurrence",
+          "as_printed": "for every dab you take, you will be awarded a 2 sec penalty"
+        },
+        {
+          "code": "five",
+          "value": 5,
+          "unit": "seconds",
+          "per": "occurrence",
+          "then": "none",
+          "as_printed": "If you fall off, stall the bike, go backwards, miss a marker etc. you will receive a 5 sec penalty but ... you can re-mount, re-start and carry on"
+        }
+      ],
+      "time": {
+        "scored": true,
+        "standard_time": "none",
+        "conversion": "Test score = time from start gate to end gate + 2 s per dab + 5 s per five + 10 s per tape break; event score = sum of test scores, lowest wins.",
+        "notes": "Times are keyed as min.secs: '1.5' means 1 min 50 s and '1.05' means 1 min 5 s."
+      },
+      "recorded_by": "observer",
+      "source": {
+        "title": "2022 GasGas Easter Fun Trial rules",
+        "clause": "Intro 1-3; The Rules 1-4; note to observers and timers",
+        "file": "rules/2022_ajs-mototrials-wa_gasgas-easter-fun-trial_rules.pdf"
+      },
+      "inferred": false,
+      "notes": "Dabs and fives count only inside the observed part at the end of each test, ridden on the rider's normal grade markers; before it a rider may foot, fall or stall without penalty. Tie-breaks are not stated. Trophies to the top 5 overall and a Most Memorable Ride Trophy (recipients not printed). 'Not suitable for Intro, Black Plate or Sidecars.'"
+    }
+  ],
+  "sections": [
+    {
+      "id": "t1",
+      "number": 1,
+      "name": "Test No. 1",
+      "kind": "timed-test",
+      "x_observed_part": "Each test ends in an observed part (from a section start board) ridden on the rider's grade markers."
+    },
+    {
+      "id": "t2",
+      "number": 2,
+      "name": "Test No. 2",
+      "kind": "timed-test",
+      "x_observed_part": "Each test ends in an observed part (from a section start board) ridden on the rider's grade markers."
+    },
+    {
+      "id": "t3",
+      "number": 3,
+      "name": "Test No. 3",
+      "kind": "timed-test",
+      "x_observed_part": "Each test ends in an observed part (from a section start board) ridden on the rider's grade markers."
+    },
+    {
+      "id": "t4",
+      "number": 4,
+      "name": "Test No. 4",
+      "kind": "timed-test",
+      "x_observed_part": "Each test ends in an observed part (from a section start board) ridden on the rider's grade markers."
+    }
+  ],
+  "parts": [
+    {
+      "id": "l1",
+      "kind": "lap",
+      "order": 1,
+      "label": "Lap 1",
+      "sections": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ]
+    },
+    {
+      "id": "l1t1",
+      "parent": "l1",
+      "kind": "test",
+      "order": 1,
+      "label": "Test No. 1 Lap 1",
+      "sections": [
+        "t1"
+      ],
+      "ranked": true
+    },
+    {
+      "id": "l1t2",
+      "parent": "l1",
+      "kind": "test",
+      "order": 2,
+      "label": "Test No. 2 Lap 1",
+      "sections": [
+        "t2"
+      ],
+      "ranked": true
+    }
+  ],
+  "classes": [
+    {
+      "id": "t2",
+      "name": "T2",
+      "as_printed": "T2",
+      "rule_set": "eft",
+      "notes": "Grade as printed. The observed part of each test is ridden on the grade's normal markers; the marker colour is not printed."
+    },
+    {
+      "id": "t3",
+      "name": "T3",
+      "as_printed": "T3",
+      "rule_set": "eft",
+      "notes": "Grade as printed. The observed part of each test is ridden on the grade's normal markers; the marker colour is not printed."
+    },
+    {
+      "id": "t4",
+      "name": "T4",
+      "as_printed": "T4",
+      "rule_set": "eft",
+      "notes": "Grade as printed. The observed part of each test is ridden on the grade's normal markers; the marker colour is not printed."
+    },
+    {
+      "id": "t5",
+      "name": "T5",
+      "as_printed": "T5",
+      "rule_set": "eft",
+      "notes": "Grade as printed. The observed part of each test is ridden on the grade's normal markers; the marker colour is not printed."
+    },
+    {
+      "id": "vets",
+      "name": "Vets",
+      "as_printed": "Vets",
+      "rule_set": "eft",
+      "notes": "Grade as printed. The observed part of each test is ridden on the grade's normal markers; the marker colour is not printed.",
+      "dimensions": {
+        "age": "veterans"
+      }
+    },
+    {
+      "id": "jun",
+      "name": "Jun",
+      "as_printed": "Jun",
+      "rule_set": "eft",
+      "notes": "Grade as printed. The observed part of each test is ridden on the grade's normal markers; the marker colour is not printed.",
+      "dimensions": {
+        "age": "junior"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "0fff2370-7c64-4bcd-954c-cc38b5272e84",
+          "person": {
+            "name": {
+              "given": "Simon",
+              "family": "Price",
+              "as_printed": "Simon Price"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "vets"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 53,
+          "penalty_s": 4,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 53
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 4
+            }
+          ],
+          "as_printed": "0.53 | 2 |  |  | 00:57",
+          "x_counts": {
+            "dabs": 2,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 57,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 44,
+          "penalty_s": 7,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 44
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 5
+            }
+          ],
+          "as_printed": "0.44 | 1 | 1 |  | 00:51",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 1,
+            "tape_breaks": 0
+          },
+          "value": 51,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "fe05354c-d1be-4351-a84f-249340976a46",
+          "person": {
+            "name": {
+              "given": "Darron",
+              "family": "Newton",
+              "as_printed": "Darron Newton"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 55,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 55
+            }
+          ],
+          "as_printed": "0.55 |  |  |  | 00:55",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 55,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 50,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 50
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "0.50 | 1 |  |  | 00:52",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 52,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "096195e1-18fe-47e6-8680-e6231e1220f2",
+          "person": {
+            "name": {
+              "given": "Massimo",
+              "family": "Pinto",
+              "as_printed": "Massimo Pinto"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 68,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 68
+            }
+          ],
+          "as_printed": "1.08 |  |  |  | 01:08",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 68,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 55,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 55
+            }
+          ],
+          "as_printed": "0.55 |  |  |  | 00:55",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 55,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "4501d70d-226e-4305-8412-aaa1af3c9a03",
+          "person": {
+            "name": {
+              "given": "Robin",
+              "family": "Ferguson",
+              "as_printed": "Robin Ferguson"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 67,
+          "penalty_s": 8,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 67
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 8
+            }
+          ],
+          "as_printed": "1.07 | 4 |  |  | 01:15",
+          "x_counts": {
+            "dabs": 4,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 75,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 55,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 55
+            }
+          ],
+          "as_printed": "0.55 |  |  |  | 00:55",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 55,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "90a883e2-d9a5-4f7b-b541-be8cfd05dcb0",
+          "person": {
+            "name": {
+              "given": "Matthew",
+              "family": "Packer",
+              "as_printed": "Matthew Packer"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 72,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 72
+            }
+          ],
+          "as_printed": "1.12 |  |  |  | 01:12",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 72,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 52,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 52
+            }
+          ],
+          "as_printed": "0.52 |  |  |  | 00:52",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 52,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "2ca7cd43-cbf5-4de3-9ba3-f72ff4d2a553",
+          "person": {
+            "name": {
+              "given": "Philip",
+              "family": "Drew",
+              "as_printed": "Philip Drew"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 71,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 71
+            }
+          ],
+          "as_printed": "1.11 |  |  |  | 01:11",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 71,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 57,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 57
+            }
+          ],
+          "as_printed": "0.57 |  |  |  | 00:57",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 57,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "beb763c5-5a73-4101-9317-821d45fb7b56",
+          "person": {
+            "name": {
+              "given": "Mitchell",
+              "family": "Whitehurst",
+              "as_printed": "Mitchell Whitehurst"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 60,
+          "penalty_s": 5,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 60
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 5
+            }
+          ],
+          "as_printed": "1.00 |  | 1 |  | 01:05",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 1,
+            "tape_breaks": 0
+          },
+          "value": 65,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 59,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 59
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "0.59 | 1 |  |  | 01:01",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 61,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "d6f75a57-ae05-4bdf-923d-ebf302d8f748",
+          "person": {
+            "name": {
+              "given": "Robert",
+              "family": "Frost",
+              "as_printed": "Robert Frost"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 60,
+          "penalty_s": 4,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 60
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 4
+            }
+          ],
+          "as_printed": "1.00 | 2 |  |  | 01:04",
+          "x_counts": {
+            "dabs": 2,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 64,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 55,
+          "penalty_s": 6,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 55
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 6
+            }
+          ],
+          "as_printed": "0.55 | 3 |  |  | 01:01",
+          "x_counts": {
+            "dabs": 3,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 61,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "d7f8fa02-bd46-4dfd-9ffc-60ac5ba3f260",
+          "person": {
+            "name": {
+              "given": "John",
+              "family": "Stafford",
+              "as_printed": "John Stafford"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 68,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 68
+            }
+          ],
+          "as_printed": "1.08 |  |  |  | 01:08",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 68,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 62,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 62
+            }
+          ],
+          "as_printed": "1.02 |  |  |  | 01:02",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 62,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "2e7edb6d-a657-4e34-af72-70693970aceb",
+          "person": {
+            "name": {
+              "given": "Kevin",
+              "family": "Reynolds",
+              "as_printed": "Kevin Reynolds"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 74,
+          "penalty_s": 4,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 74
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 4
+            }
+          ],
+          "as_printed": "1.14 | 2 |  |  | 01:18",
+          "x_counts": {
+            "dabs": 2,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 78,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 60,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 60
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "1.00 | 1 |  |  | 01:02",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 62,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a4bf5dee-afa4-4ad1-9b70-118f3420332f",
+          "person": {
+            "name": {
+              "given": "Kieran",
+              "family": "Castelli",
+              "as_printed": "Kieran Castelli"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 64,
+          "penalty_s": 4,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 64
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 4
+            }
+          ],
+          "as_printed": "1.04 | 2 |  |  | 01:08",
+          "x_counts": {
+            "dabs": 2,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 68,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 56,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 56
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "0.56 | 1 |  |  | 00:58",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 58,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "8c32d332-a239-4108-b2f1-7347fd6ab170",
+          "person": {
+            "name": {
+              "given": "Ian",
+              "family": "Coates",
+              "as_printed": "Ian Coates"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 78,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 78
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "1.18 | 1 |  |  | 01:20",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 80,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 64,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 64
+            }
+          ],
+          "as_printed": "1.04 |  |  |  | 01:04",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 64,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "4b836807-974c-4dd8-9d51-a2fd92e16cce",
+          "person": {
+            "name": {
+              "given": "Rhys",
+              "family": "Dundon",
+              "as_printed": "Rhys Dundon"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t2"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 72,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 72
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "1.12 | 1 |  |  | 01:14",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 74,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 79,
+          "penalty_s": 10,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 79
+            },
+            {
+              "type": "penalty",
+              "code": "tape-break",
+              "value": 10
+            }
+          ],
+          "as_printed": "1.19 |  |  | 1 | 01:29",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 1
+          },
+          "value": 89,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1a89be27-798a-4546-94e1-768c92e98969",
+          "person": {
+            "name": {
+              "given": "Philip",
+              "family": "Barlass",
+              "as_printed": "Philip Barlass"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "vets"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 66,
+          "penalty_s": 6,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 66
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 6
+            }
+          ],
+          "as_printed": "1.06 | 3 |  |  | 01:12",
+          "x_counts": {
+            "dabs": 3,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 72,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 61,
+          "penalty_s": 8,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 61
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 8
+            }
+          ],
+          "as_printed": "1.01 | 4 |  |  | 01:09",
+          "x_counts": {
+            "dabs": 4,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 69,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "47aabd18-8f2b-423d-aa49-e48391f94725",
+          "person": {
+            "name": {
+              "given": "Vincent",
+              "family": "Thomasson",
+              "as_printed": "Vincent Thomasson"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 76,
+          "penalty_s": 6,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 76
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 6
+            }
+          ],
+          "as_printed": "1.16 | 3 |  |  | 01:22",
+          "x_counts": {
+            "dabs": 3,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 82,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 65,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 65
+            }
+          ],
+          "as_printed": "1.05 |  |  |  | 01:05",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 65,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "cdc1e04f-0eb2-425e-b040-ce962261bcd9",
+          "person": {
+            "name": {
+              "given": "Jeremy",
+              "family": "Letton",
+              "as_printed": "Jeremy Letton"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 63,
+          "penalty_s": 6,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 63
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 6
+            }
+          ],
+          "as_printed": "1.03 | 3 |  |  | 01:09",
+          "x_counts": {
+            "dabs": 3,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 69,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 73,
+          "penalty_s": 15,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 73
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 10
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 5
+            }
+          ],
+          "as_printed": "1.13 | 5 | 1 |  | 01:28",
+          "x_counts": {
+            "dabs": 5,
+            "fives": 1,
+            "tape_breaks": 0
+          },
+          "value": 88,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6b706d46-b374-46bd-90b9-1ac1341e7e7d",
+          "person": {
+            "name": {
+              "given": "Sean",
+              "family": "Steffanoni",
+              "as_printed": "Sean Steffanoni"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 110,
+          "penalty_s": 45,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 110
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 20
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 25
+            }
+          ],
+          "as_printed": "1.50 | 10 | 5 |  | 02:35",
+          "x_counts": {
+            "dabs": 10,
+            "fives": 5,
+            "tape_breaks": 0
+          },
+          "value": 155,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 52,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 52
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "0.52 | 1 |  |  | 00:54",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 54,
+          "state": "ridden"
+        }
+      ],
+      "notes": "Test 1 time keyed '1.50' (1 min 50 s under the min.secs rule): 110 s + 10 dabs (20 s) + 5 fives (25 s) = 02:35."
+    },
+    {
+      "id": "e18",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "1b7b5ff9-c9e9-4ac3-927f-222af94ea5a9",
+          "person": {
+            "name": {
+              "given": "Roland",
+              "family": "Ferguson",
+              "as_printed": "Roland Ferguson"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 85,
+          "penalty_s": 10,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 85
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 10
+            }
+          ],
+          "as_printed": "1.25 | 5 |  |  | 01:35",
+          "x_counts": {
+            "dabs": 5,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 95,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 70,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 70
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "1.10 | 1 |  |  | 01:12",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 72,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "70a829ee-0379-4aa5-a337-9b41b310841f",
+          "person": {
+            "name": {
+              "given": "David",
+              "family": "Thomas",
+              "as_printed": "David Thomas"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 60,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 60
+            }
+          ],
+          "as_printed": "1.00 |  |  |  | 01:00",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 60,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 55,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 55
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "0.55 | 1 |  |  | 00:57",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 57,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "88391b66-0af9-48ef-9a14-db8b19a1c0e0",
+          "person": {
+            "name": {
+              "given": "Mitchell",
+              "family": "O'Keefe",
+              "as_printed": "Mitchell O'Keefe"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 54,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 54
+            }
+          ],
+          "as_printed": "0.54 |  |  |  | 00:54",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 54,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 53,
+          "penalty_s": 6,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 53
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 6
+            }
+          ],
+          "as_printed": "0.53 | 3 |  |  | 00:59",
+          "x_counts": {
+            "dabs": 3,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 59,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "12efd868-4fc6-48f8-b264-75295fbe4f42",
+          "person": {
+            "name": {
+              "given": "Stuart",
+              "family": "McNaught",
+              "as_printed": "Stuart McNaught"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t3"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 59,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 59
+            }
+          ],
+          "as_printed": "0.59 |  |  |  | 00:59",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 59,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 58,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 58
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "0.58 | 1 |  |  | 01:00",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 60,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "6443a5cd-dcf4-4375-809e-e8945851b209",
+          "person": {
+            "name": {
+              "given": "Peter",
+              "family": "Stafford",
+              "as_printed": "Peter Stafford"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 74,
+          "penalty_s": 10,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 74
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 10
+            }
+          ],
+          "as_printed": "1.14 | 5 |  |  | 01:24",
+          "x_counts": {
+            "dabs": 5,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 84,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 63,
+          "penalty_s": 4,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 63
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 4
+            }
+          ],
+          "as_printed": "1.03 | 2 |  |  | 01:07",
+          "x_counts": {
+            "dabs": 2,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 67,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "0e081e48-8c67-4139-9a56-717ebabbefb5",
+          "person": {
+            "name": {
+              "given": "Tony",
+              "family": "Hollander",
+              "as_printed": "Tony Hollander"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 90,
+          "penalty_s": 2,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 90
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 2
+            }
+          ],
+          "as_printed": "1.30 | 1 |  |  | 01:32",
+          "x_counts": {
+            "dabs": 1,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 92,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 79,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 79
+            }
+          ],
+          "as_printed": "1.19 |  |  |  | 01:19",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 79,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "a547fde7-7239-438d-8ee5-36a071ed87a1",
+          "person": {
+            "name": {
+              "given": "Sean",
+              "family": "Austin",
+              "as_printed": "Sean Austin"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t4"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 90,
+          "penalty_s": 17,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 90
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 12
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 5
+            }
+          ],
+          "as_printed": "1.30 | 6 | 1 |  | 01:47",
+          "x_counts": {
+            "dabs": 6,
+            "fives": 1,
+            "tape_breaks": 0
+          },
+          "value": 107,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 68,
+          "penalty_s": 10,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 68
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 10
+            }
+          ],
+          "as_printed": "1.08 | 5 |  |  | 01:18",
+          "x_counts": {
+            "dabs": 5,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": 78,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e25",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "99098a40-aa0b-461d-8456-b1877cdcd6e9",
+          "person": {
+            "name": {
+              "given": "Hector",
+              "family": "P.",
+              "as_printed": "Hector P."
+            }
+          }
+        }
+      ],
+      "classes": [
+        "jun"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 66,
+          "penalty_s": 10,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 66
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 10
+            }
+          ],
+          "as_printed": "1.06 |  | 2 |  | 01:16",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 2,
+            "tape_breaks": 0
+          },
+          "value": 76,
+          "state": "ridden"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 80,
+          "penalty_s": 5,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 80
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 5
+            }
+          ],
+          "as_printed": "1.20 |  | 1 |  | 01:25",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 1,
+            "tape_breaks": 0
+          },
+          "value": 85,
+          "state": "ridden"
+        }
+      ]
+    },
+    {
+      "id": "e26",
+      "kind": "solo",
+      "people": [
+        {
+          "role": "rider",
+          "rider_ride_uuid": "ddb4f2ba-5577-4ae3-a2e8-3e4873adc8e5",
+          "person": {
+            "name": {
+              "given": "Odin",
+              "family": "Cann",
+              "as_printed": "Odin Cann"
+            }
+          }
+        }
+      ],
+      "classes": [
+        "t5"
+      ],
+      "standing": {
+        "basis": "competition",
+        "inferred": true
+      },
+      "rides": [
+        {
+          "part": "l1t1",
+          "section": "t1",
+          "time_s": 84,
+          "penalty_s": 41,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 84
+            },
+            {
+              "type": "penalty",
+              "code": "dab",
+              "value": 16
+            },
+            {
+              "type": "penalty",
+              "code": "five",
+              "value": 25
+            }
+          ],
+          "as_printed": "1.24 | 8 | 5 |  | RET",
+          "x_counts": {
+            "dabs": 8,
+            "fives": 5,
+            "tape_breaks": 0
+          },
+          "value": null,
+          "state": "unknown",
+          "x_status_as_printed": "RET"
+        },
+        {
+          "part": "l1t2",
+          "section": "t2",
+          "time_s": 57,
+          "penalty_s": 0,
+          "unit": "seconds",
+          "components": [
+            {
+              "type": "time",
+              "value": 57
+            }
+          ],
+          "as_printed": "0.57 |  |  |  | RET",
+          "x_counts": {
+            "dabs": 0,
+            "fives": 0,
+            "tape_breaks": 0
+          },
+          "value": null,
+          "state": "unknown",
+          "x_status_as_printed": "RET"
+        }
+      ],
+      "notes": "Both test results read 'RET' in the Penalty Time cell with no rank, yet the original time, dabs and fives of test 1 and the time of test 2 are still entered."
+    }
+  ],
+  "classifications": [
+    {
+      "id": "c-l1t1",
+      "name": "Test No. 1 Lap 1",
+      "kind": "part",
+      "part": "l1t1",
+      "rule_set": "eft",
+      "metric": "time",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 3,
+          "value": 57,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:57"
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "value": 55,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:55"
+        },
+        {
+          "entry": "e3",
+          "rank": 8,
+          "value": 68,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:08",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 8 with John Stafford, Kieran Castelli (01:08)."
+          }
+        },
+        {
+          "entry": "e4",
+          "rank": 16,
+          "value": 75,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:15"
+        },
+        {
+          "entry": "e5",
+          "rank": 13,
+          "value": 72,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:12",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 13 with Philip Barlass (01:12)."
+          }
+        },
+        {
+          "entry": "e6",
+          "rank": 12,
+          "value": 71,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:11"
+        },
+        {
+          "entry": "e7",
+          "rank": 7,
+          "value": 65,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:05"
+        },
+        {
+          "entry": "e8",
+          "rank": 6,
+          "value": 64,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:04"
+        },
+        {
+          "entry": "e9",
+          "rank": 8,
+          "value": 68,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:08",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 8 with two other riders on 01:08 (Massimo Pinto, Kieran Castelli); next rank printed is 11."
+          }
+        },
+        {
+          "entry": "e10",
+          "rank": 18,
+          "value": 78,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:18"
+        },
+        {
+          "entry": "e11",
+          "rank": 8,
+          "value": 68,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:08",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 8 with Massimo Pinto, John Stafford (01:08)."
+          }
+        },
+        {
+          "entry": "e12",
+          "rank": 19,
+          "value": 80,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:20"
+        },
+        {
+          "entry": "e13",
+          "rank": 15,
+          "value": 74,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:14"
+        },
+        {
+          "entry": "e14",
+          "rank": 13,
+          "value": 72,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:12",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 13 with Matthew Packer (01:12)."
+          }
+        },
+        {
+          "entry": "e15",
+          "rank": 20,
+          "value": 82,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:22"
+        },
+        {
+          "entry": "e16",
+          "rank": 11,
+          "value": 69,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:09"
+        },
+        {
+          "entry": "e17",
+          "rank": 25,
+          "value": 155,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "02:35"
+        },
+        {
+          "entry": "e18",
+          "rank": 23,
+          "value": 95,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:35"
+        },
+        {
+          "entry": "e19",
+          "rank": 5,
+          "value": 60,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:00"
+        },
+        {
+          "entry": "e20",
+          "rank": 1,
+          "value": 54,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:54"
+        },
+        {
+          "entry": "e21",
+          "rank": 4,
+          "value": 59,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:59"
+        },
+        {
+          "entry": "e22",
+          "rank": 21,
+          "value": 84,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:24"
+        },
+        {
+          "entry": "e23",
+          "rank": 22,
+          "value": 92,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:32"
+        },
+        {
+          "entry": "e24",
+          "rank": 24,
+          "value": 107,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:47"
+        },
+        {
+          "entry": "e25",
+          "rank": 17,
+          "value": 76,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:16"
+        },
+        {
+          "entry": "e26",
+          "rank": null,
+          "value": null,
+          "status": "retired",
+          "status_as_printed": "RET",
+          "note": "Rank cell blank."
+        }
+      ],
+      "notes": "Rank across all grades for this test run."
+    },
+    {
+      "id": "c-l1t2",
+      "name": "Test No. 2 Lap 1",
+      "kind": "part",
+      "part": "l1t2",
+      "rule_set": "eft",
+      "metric": "time",
+      "direction": "low",
+      "rows": [
+        {
+          "entry": "e1",
+          "rank": 1,
+          "value": 51,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:51"
+        },
+        {
+          "entry": "e2",
+          "rank": 2,
+          "value": 52,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:52",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 2 with Matthew Packer (00:52)."
+          }
+        },
+        {
+          "entry": "e3",
+          "rank": 5,
+          "value": 55,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:55",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 5 with Robin Ferguson (00:55)."
+          }
+        },
+        {
+          "entry": "e4",
+          "rank": 5,
+          "value": 55,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:55",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 5 with Massimo Pinto (00:55)."
+          }
+        },
+        {
+          "entry": "e5",
+          "rank": 2,
+          "value": 52,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:52",
+          "tied": true,
+          "tie_break": {
+            "rule": "shared-position",
+            "detail": "Shared rank 2 with Darron Newton (00:52)."
+          }
+        },
+        {
+          "entry": "e6",
+          "rank": 7,
+          "value": 57,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:57",
+          "tie_break": {
+            "rule": "other",
+            "label": "no penalty",
+            "inferred": true,
+            "detail": "Equal on 00:57 with David Thomas: 1 dab (2 s). The sheet prints no reason. In all three split ties on this run the rider with fewer penalty seconds is ahead, but at 00:52 Darron Newton (1 dab) and Matthew Packer (no penalty) share 2nd, so the sheet does not apply it every time."
+          }
+        },
+        {
+          "entry": "e7",
+          "rank": 12,
+          "value": 61,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:01",
+          "tie_break": {
+            "rule": "other",
+            "label": "1 dab (2 s)",
+            "inferred": true,
+            "detail": "Equal on 01:01 with Robert Frost: 3 dabs (6 s). The sheet prints no reason. In all three split ties on this run the rider with fewer penalty seconds is ahead, but at 00:52 Darron Newton (1 dab) and Matthew Packer (no penalty) share 2nd, so the sheet does not apply it every time."
+          }
+        },
+        {
+          "entry": "e8",
+          "rank": 13,
+          "value": 61,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:01",
+          "tie_break": {
+            "rule": "other",
+            "label": "3 dabs (6 s)",
+            "inferred": true,
+            "detail": "Equal on 01:01 with Mitchell Whitehurst: 1 dab (2 s). The sheet prints no reason. In all three split ties on this run the rider with fewer penalty seconds is ahead, but at 00:52 Darron Newton (1 dab) and Matthew Packer (no penalty) share 2nd, so the sheet does not apply it every time."
+          }
+        },
+        {
+          "entry": "e9",
+          "rank": 14,
+          "value": 62,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:02",
+          "tie_break": {
+            "rule": "other",
+            "label": "no penalty",
+            "inferred": true,
+            "detail": "Equal on 01:02 with Kevin Reynolds: 1 dab (2 s). The sheet prints no reason. In all three split ties on this run the rider with fewer penalty seconds is ahead, but at 00:52 Darron Newton (1 dab) and Matthew Packer (no penalty) share 2nd, so the sheet does not apply it every time."
+          }
+        },
+        {
+          "entry": "e10",
+          "rank": 15,
+          "value": 62,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:02",
+          "tie_break": {
+            "rule": "other",
+            "label": "1 dab (2 s)",
+            "inferred": true,
+            "detail": "Equal on 01:02 with John Stafford: no penalty. The sheet prints no reason. In all three split ties on this run the rider with fewer penalty seconds is ahead, but at 00:52 Darron Newton (1 dab) and Matthew Packer (no penalty) share 2nd, so the sheet does not apply it every time."
+          }
+        },
+        {
+          "entry": "e11",
+          "rank": 9,
+          "value": 58,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:58"
+        },
+        {
+          "entry": "e12",
+          "rank": 16,
+          "value": 64,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:04"
+        },
+        {
+          "entry": "e13",
+          "rank": 25,
+          "value": 89,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:29"
+        },
+        {
+          "entry": "e14",
+          "rank": 19,
+          "value": 69,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:09"
+        },
+        {
+          "entry": "e15",
+          "rank": 17,
+          "value": 65,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:05"
+        },
+        {
+          "entry": "e16",
+          "rank": 24,
+          "value": 88,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:28"
+        },
+        {
+          "entry": "e17",
+          "rank": 4,
+          "value": 54,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:54"
+        },
+        {
+          "entry": "e18",
+          "rank": 20,
+          "value": 72,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:12"
+        },
+        {
+          "entry": "e19",
+          "rank": 8,
+          "value": 57,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:57",
+          "tie_break": {
+            "rule": "other",
+            "label": "1 dab (2 s)",
+            "inferred": true,
+            "detail": "Equal on 00:57 with Philip Drew: no penalty. The sheet prints no reason. In all three split ties on this run the rider with fewer penalty seconds is ahead, but at 00:52 Darron Newton (1 dab) and Matthew Packer (no penalty) share 2nd, so the sheet does not apply it every time."
+          }
+        },
+        {
+          "entry": "e20",
+          "rank": 10,
+          "value": 59,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "00:59"
+        },
+        {
+          "entry": "e21",
+          "rank": 11,
+          "value": 60,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:00"
+        },
+        {
+          "entry": "e22",
+          "rank": 18,
+          "value": 67,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:07"
+        },
+        {
+          "entry": "e23",
+          "rank": 22,
+          "value": 79,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:19"
+        },
+        {
+          "entry": "e24",
+          "rank": 21,
+          "value": 78,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:18"
+        },
+        {
+          "entry": "e25",
+          "rank": 23,
+          "value": 85,
+          "unit": "seconds",
+          "status": "classified",
+          "x_value_as_printed": "01:25"
+        },
+        {
+          "entry": "e26",
+          "rank": null,
+          "value": null,
+          "status": "retired",
+          "status_as_printed": "RET",
+          "note": "Rank cell blank."
+        }
+      ],
+      "notes": "Rank across all grades for this test run."
+    }
+  ],
+  "mapping": {
+    "source_file": "2022-04-17_ajs-mototrials-wa_gasgas-easter-fun-trial_trial-1a-results.pdf",
+    "trove": "au",
+    "sampled": false,
+    "entries_in_document": 26,
+    "entries_encoded": 26,
+    "features": [
+      "laps",
+      "timed-tests",
+      "time-scored",
+      "time-penalty-column",
+      "attempt-detail",
+      "lap-or-race-time",
+      "vertical-ranking",
+      "name-single-field",
+      "retired",
+      "partial-scores-kept",
+      "ties-shared",
+      "permit-number",
+      "data-inconsistency"
+    ],
+    "misfits": [
+      {
+        "what": "Each run records counted infringements of three kinds (dabs, fives, tape breaks) that convert to seconds at different rates. ride.components can hold the seconds per kind, and ride.faults one integer, but there is no place for the counts themselves, which is what the sheet prints. penalty_s and the component values here are derived from the printed counts and the rule-sheet rates; the sheet itself prints only the counts and the resulting Penalty Time.",
+        "where": "entries[].rides[].x_counts",
+        "severity": "awkward",
+        "suggestion": "Add ride.infringements[] {code, count, value_each, unit} (or let components carry a count)."
+      },
+      {
+        "what": "A run's result cell reads 'RET' while its time, dabs and fives are still entered. ride.state has no 'retired' or 'did not finish' value and a ride has no status field, so the code went into x_status_as_printed with state 'unknown'.",
+        "where": "entries[e26].rides",
+        "severity": "lossy",
+        "suggestion": "Add ride.status and ride.status_as_printed (same enum as totals), or add 'retired' to ride.state."
+      },
+      {
+        "what": "Equal Penalty Times are sometimes shared ranks (00:52, 00:55, 01:08, 01:12) and sometimes split (01:01 ranked 12 and 13; 01:02 ranked 14 and 15) with no printed reason. tie_break.rule has no 'not-stated' value, so 'other' with a note was used.",
+        "where": "classifications[c-l1t2].rows[e7,e8,e9]",
+        "severity": "cosmetic",
+        "suggestion": "Add tie_break.rule 'not-stated'."
+      },
+      {
+        "what": "The score is a time printed as mm:ss; rows hold seconds and the printed string sits in x_value_as_printed because row has no value_as_printed. The raw entry format ('1.50' = 1:50) is kept in ride.as_printed only.",
+        "where": "classifications[].rows, entries[].rides",
+        "severity": "awkward",
+        "suggestion": "Add row.value_as_printed and total.as_printed."
+      },
+      {
+        "what": "This file covers only two of the event's eight test runs (tests 1 and 2 of lap 1). The protocol cannot say a document is a partial view of an event, so a reader cannot tell missing tests from tests not ridden.",
+        "where": "document, parts",
+        "severity": "lossy",
+        "suggestion": "Add document.covers (list of part ids) and document.related[] for the other files of the same event."
+      },
+      {
+        "what": "Each test is a timed run ending in an observed part ridden on grade markers; section.kind takes one value, so the observed part and its grade-dependent route sit in an x_ key.",
+        "where": "sections[]",
+        "severity": "awkward",
+        "suggestion": "Allow sub-parts on a section (timed run + observed part with its own route rule)."
+      }
+    ],
+    "confidence": "high",
+    "unread": "Nothing unread. Values were read from the rendered page (90 dpi) because the text layer shifts some counts by a column; every sampled run satisfies Orig Time + 2 s x dabs + 5 s x fives + 10 s x tape = Penalty Time. The 18 riders outside the original sample were added later from the text layer, with each run's counts assigned to dabs, fives and tape breaks by solving against Penalty Time; the parser's output matched every hand-mapped run that has a time."
+  }
+}
