@@ -60,6 +60,17 @@ One rider from the Tasmanian Classic Trial, trimmed:
 }
 ```
 
+## Public Rider Identification Number
+
+A result names each rider the way the sheet prints them, and that name is not linked to anyone. By default your results are not associated with you: two riders with the same name look alike, and your results from different events are not joined up.
+
+To change that, you sign up for a Public Rider Identification Number (PRIN) and claim your name on the results you rode. Each result you claim then carries your PRIN, so every result with your PRIN is yours. Results nobody has claimed stay as printed names.
+
+- `person.prin` holds the PRIN: one id for one rider across every event. Its format is not fixed yet.
+- `entry.number` is the riding number worn on the day. It is not an identity.
+- `rider_ride_uuid` identifies one person's ride at one event, claimed or not.
+- `person.identifiers` holds federation licence ids. A document may carry them only when `document.distribution` is `internal`.
+
 ## Encoding rules
 
 - **Standing and status are separate.** `standing` is the basis the rider rode on: competition, non-competitive, no award or recreation. `status` is how the ride ended: classified, DNF, DNS, retired, over time, missed section and so on. A non-competitive rider can be classified, and a competitive rider can DNF.
@@ -68,13 +79,6 @@ One rider from the Tasmanian Classic Trial, trimmed:
 - **Keep the printed text.** When a value is normalised, the original goes in the nearest `as_printed`. Names always have `as_printed`. `given` and `family` are filled only when the split is certain.
 - **Leave out what isn't printed.** A missing field means the source didn't give it.
 - **Use `x_` keys for gaps.** Every object accepts keys starting with `x_` for anything the protocol has no place for yet.
-
-## Rider identity
-
-- `entry.number` is the riding number worn on the day. It is not an identity.
-- `person.prin` is the Public Rider Identification Number: one id for one rider across every event. Its format is not fixed yet.
-- `person.identifiers` holds federation licence ids. A document may carry them only when `document.distribution` is `internal`.
-- `rider_ride_uuid` identifies one person's ride at one event.
 
 The schema checks structure only. It does not check that a referenced `id` exists, or the `identifiers` rule.
 
