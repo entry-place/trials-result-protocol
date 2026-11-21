@@ -1,9 +1,11 @@
 # Trials Result Protocol
 
-Draft 0.1. A JSON format for trials results, from a list of placings to every mark on every section. One document holds one published result.
+Draft 0.1 of a JSON format for trials results. Each document holds one published result, in as much detail as the source gives: placings, totals or every section mark.
 
 - `trials-result.schema.json` is the schema (JSON Schema 2020-12).
 - `examples/` holds nine real results from Australia, Germany, Norway, the UK and the USA.
+
+The examples are real result sheets typed in by hand, to check the format against how clubs actually publish results. Anything that didn't fit is listed in each file's `mapping.misfits`.
 
 ## A document
 
